@@ -6,6 +6,81 @@ log-level: info
 external-controller: 127.0.0.1:9090
 
 proxies:
+  - name: "@Hddify | چنل هدیفای 🥝"
+    server: 104.18.26.90
+    port: 80
+    type: vless
+    uuid: 6f690965-3be3-43bb-9331-3ead6efb20aa
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sib.sibzamini.dpdns.org
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sib.sibzamini.dpdns.org
+    udp: true
+  - name: "@Hddify | چنل هدیفای 🥝 2"
+    server: 104.18.26.90
+    port: 80
+    type: vless
+    uuid: 6f690965-3be3-43bb-9331-3ead6efb20aa
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sib.sibzamini.dpdns.org
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sib.sibzamini.dpdns.org
+    udp: true
+  - name: "@Hddify | چنل هدیفای 🏔️"
+    server: 104.18.26.90
+    port: 80
+    type: vless
+    uuid: 6f690965-3be3-43bb-9331-3ead6efb20aa
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sib.sibzamini.dpdns.org
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sib.sibzamini.dpdns.org
+    udp: true
+  - name: "@Hddify | چنل هدیفای 🙏🏻"
+    server: 104.18.26.90
+    port: 80
+    type: vless
+    uuid: 6f690965-3be3-43bb-9331-3ead6efb20aa
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sib.sibzamini.dpdns.org
+    network: ws
+    ws-opts:
+      path: /?ed=2560/?JOKERRVPNBIA_CHANEL@JOKERRVPN
+      headers:
+        Host: sib.sibzamini.dpdns.org
+    udp: true
+  - name: "@Hddify | چنل هدیفای 🦠"
+    server: 104.18.26.90
+    port: 80
+    type: vless
+    uuid: 6f690965-3be3-43bb-9331-3ead6efb20aa
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sib.sibzamini.dpdns.org
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sib.sibzamini.dpdns.org
+    udp: true
   - name: "@Hddify | چنل هدیفای 💘"
     server: 104.18.26.90
     port: 80
@@ -21,355 +96,65 @@ proxies:
       headers:
         Host: sib.sibzamini.dpdns.org
     udp: true
-  - name: "Telegram: @Hddify ❣️"
-    server: 91.99.231.102
-    port: 443
+  - name: "@Hddify | چنل هدیفای 💤"
+    server: 104.18.26.90
+    port: 80
     type: vless
-    uuid: 8657fada-f21d-422b-9a2d-3c47d93c11bd
+    uuid: 6f690965-3be3-43bb-9331-3ead6efb20aa
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: zula.ir
+    servername: sib.sibzamini.dpdns.org
+    network: ws
+    ws-opts:
+      path: /?ed=2560/
+      headers:
+        Host: sib.sibzamini.dpdns.org
     udp: true
-  - name: "@Hddify | چنل هدیفای 🥶"
-    server: 91.99.160.145
-    port: 443
+  - name: "@Hddify | چنل هدیفای 💤 2"
+    server: 104.18.26.90
+    port: 80
     type: vless
-    uuid: 153ee04c-dcc1-4ef8-a146-8fb31cec1f48
+    uuid: 6f690965-3be3-43bb-9331-3ead6efb20aa
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: zula.ir%2F%3FTELEGRAM%40JOKERRVPN
-    udp: true
-  - name: "@Hddify | چنل هدیفای 💖"
-    server: 91.99.203.70
-    port: 51615
-    type: vless
-    uuid: 2eaef053-5fd6-4def-b234-d760690355ff
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: zula.ir
-    udp: true
-  - name: "@Hddify | چنل هدیفای ⚫"
-    server: 91.99.139.18
-    port: 443
-    type: vless
-    uuid: 36ee3f5a-3816-4c03-a324-47531167e53b
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: zula.ir
-    udp: true
-  - name: "@Hddify | چنل هدیفای ❄️"
-    server: 91.99.130.239
-    port: 443
-    type: vless
-    uuid: 7a66b8ef-9713-4b69-b839-6bb45070af35
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: zula.ir
-    udp: true
-  - name: "@Hddify | چنل هدیفای 🚨"
-    server: 91.99.205.56
-    port: 443
-    type: vless
-    uuid: 153ee04c-dcc1-4ef8-a146-8fb31cec1f48
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: zula.ir
-    udp: true
-  - name: "@Hddify | چنل هدیفای 🛟"
-    server: 91.99.205.10
-    port: 443
-    type: vless
-    uuid: 153ee04c-dcc1-4ef8-a146-8fb31cec1f48
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: zula.ir%2F%3FTELEGRAM%40JOKERRVPN
-    udp: true
-  - name: "@Hddify | چنل هدیفای 🛍️"
-    server: 91.99.54.106
-    port: 443
-    type: vless
-    uuid: 15398933-070d-4ea2-9697-5fcd79793c97
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: zula.ir
-    udp: true
-  - name: "@Hddify | چنل هدیفای 💦"
-    server: 91.99.160.210
-    port: 443
-    type: vless
-    uuid: 2eaef053-5fd6-4def-b234-d760690355ff
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: zula.ir
-    udp: true
-  - name: "@Hddify | چنل هدیفای 📀"
-    server: 91.99.207.21
-    port: 443
-    type: vless
-    uuid: 153ee04c-dcc1-4ef8-a146-8fb31cec1f48
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: zula.ir
-    udp: true
-  - name: "@Hddify | چنل هدیفای 🧸"
-    server: 91.99.205.10
-    port: 443
-    type: vless
-    uuid: 153ee04c-dcc1-4ef8-a146-8fb31cec1f48
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: zula.ir%2F%3FTELEGRAM%40VPN66
-    udp: true
-  - name: "@Hddify | چنل هدیفای 🍍"
-    server: 91.99.160.90
-    port: 443
-    type: vless
-    uuid: 7a66b8ef-9713-4b69-b839-6bb45070af35
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: zula.ir%2F%3FTELEGRAM%40JOKERRVPN
-    udp: true
-  - name: "@Hddify | چنل هدیفای 🫡"
-    server: 91.99.195.73
-    port: 443
-    type: vless
-    uuid: 36ee3f5a-3816-4c03-a324-47531167e53b
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: zula.ir
-    udp: true
-  - name: "@Hddify | چنل هدیفای 🗿"
-    server: 91.99.192.155
-    port: 443
-    type: vless
-    uuid: 153ee04c-dcc1-4ef8-a146-8fb31cec1f48
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: zula.ir
-    udp: true
-  - name: "@Hddify | چنل هدیفای ⚪"
-    server: 91.99.169.206
-    port: 443
-    type: vless
-    uuid: 7b6eca4c-44ae-40c6-973a-4e3b29d30803
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: zula.ir
-    udp: true
-  - name: "@Hddify |%2https://5586c2a9-c92c-4974-9b70-ca44622c6c8c@151.101.3.8:80?path=/containers/fi&security=none&encryption=none&host=tsvCY5W4AP61qVbo.net&type=ws#@Hddify | چنل هدیفای 🧨0چنل هدیفای 🎆"
-    server: 91.99.170.191
-    port: 443
-    type: vless
-    uuid: 36ee3f5a-3816-4c03-a324-47531167e53b
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: zula.ir
-    udp: true
-  - name: "@Hddify | چنل هدیفای 🥸"
-    server: 91.99.160.151
-    port: 443
-    type: vless
-    uuid: 153ee04c-dcc1-4ef8-a146-8fb31cec1f48
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: zula.ir%2F%3FTELEGRAM%40JOKERRVPN
-    udp: true
-  - name: "@Hddify | چنل هدیفای 🫴🏻"
-    server: 91.99.162.239
-    port: 443
-    type: vless
-    uuid: 2eaef053-5fd6-4def-b234-d760690355ff
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: zula.ir
-    udp: true
-  - name: "@Hddify | چنل هدیفای 💫"
-    server: 91.99.203.69
-    port: 51615
-    type: vless
-    uuid: 2eaef053-5fd6-4def-b234-d760690355ff
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: zula.ir
-    udp: true
-  - name: "@Hddify | چنل هدیفای 🌽"
-    server: 91.99.160.13
-    port: 443
-    type: vless
-    uuid: 2eaef053-5fd6-4def-b234-d760690355ff
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: zula.ir
-    udp: true
-  - name: "@Hddify | چنل هدیفای 💯"
-    server: 91.99.205.121
-    port: 443
-    type: vless
-    uuid: 153ee04c-dcc1-4ef8-a146-8fb31cec1f48
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: zula.ir
-    udp: true
-  - name: "@Hddify | چنل هدیفای 👅"
-    server: 91.99.182.117
-    port: 443
-    type: vless
-    uuid: 36ee3f5a-3816-4c03-a324-47531167e53b
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: zula.ir
-    udp: true
-  - name: "@Hddify | چنل هدیفای 🫀"
-    server: 91.99.122.102
-    port: 443
-    type: vless
-    uuid: 7b6eca4c-44ae-40c6-973a-4e3b29d30803
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: zula.ir
-    udp: true
-  - name: "@Hddify | چنل هدیفای 😁"
-    server: 91.99.145.219
-    port: 443
-    type: vless
-    uuid: 2eaef053-5fd6-4def-b234-d760690355ff
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: zula.ir
-    udp: true
-  - name: "@Hddify | چنل هدیفای 🧨"
-    server: 91.99.160.217
-    port: 443
-    type: vless
-    uuid: 7a66b8ef-9713-4b69-b839-6bb45070af35
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: zula.ir
-    udp: true
-  - name: "@Hddify | چنل هدیفای 💊"
-    server: 91.99.199.137
-    port: 443
-    type: vless
-    uuid: 7b6eca4c-44ae-40c6-973a-4e3b29d30803
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: zula.ir%2F%3F
+    servername: sib.sibzamini.dpdns.org
+    network: ws
+    ws-opts:
+      path: /?ed=2560/
+      headers:
+        Host: sib.sibzamini.dpdns.org
     udp: true
   - name: "@Hddify | چنل هدیفای 🤼"
-    server: 91.99.190.38
-    port: 51615
+    server: 104.18.26.90
+    port: 80
     type: vless
-    uuid: 2eaef053-5fd6-4def-b234-d760690355ff
+    uuid: 148709e4-402b-48dd-8892-ed39b55ea45c
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: zula.ir
+    servername: barayeiranmahsang.loseyourself.dpdns.org
+    network: ws
+    ws-opts:
+      path: /?ed=2560/?CHANEL@RK_VPS@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps
+      headers:
+        Host: barayeiranmahsang.loseyourself.dpdns.org
     udp: true
-  - name: "@Hddify | چنل هدیفای 📟"
-    server: 91.99.202.155
-    port: 443
+  - name: "@Hddify | چنل هدیفای  🙅"
+    server: 104.18.26.90
+    port: 80
     type: vless
-    uuid: 2eaef053-5fd6-4def-b234-d760690355ff
+    uuid: 6f690965-3be3-43bb-9331-3ead6efb20aa
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: zula.ir
-    udp: true
-  - name: "@Hddify | چنل هدیفای ♥️"
-    server: 91.99.14.202
-    port: 443
-    type: vless
-    uuid: 7b6eca4c-44ae-40c6-973a-4e3b29d30803
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: zula.ir
-    udp: true
-  - name: "@Hddify | چنل هدیفای 🌪️"
-    server: 91.99.159.125
-    port: 443
-    type: vless
-    uuid: 2eaef053-5fd6-4def-b234-d760690355ff
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: zula.ir
-    udp: true
-  - name: "@Hddify | چنل هدیفای 🎀"
-    server: 91.99.14.202
-    port: 443
-    type: vless
-    uuid: 7b6eca4c-44ae-40c6-973a-4e3b29d30803
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: zula.ir%2F%3FTELEGRAM%40JOKERRVPN
-    udp: true
-  - name: "@Hddify | چنل هدیفای 🌜"
-    server: 91.99.159.125
-    port: 443
-    type: vless
-    uuid: 2eaef053-5fd6-4def-b234-d760690355ff
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: zula.ir%2F%3FTELEGRAM%40JOKERRVPN
-    udp: true
-  - name: "@Hddify | چنل هدیفای ☃️"
-    server: 91.99.203.65
-    port: 443
-    type: vless
-    uuid: 2eaef053-5fd6-4def-b234-d760690355ff
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: account.zula.ir
-    udp: true
-  - name: "@Hddify | چنل هدیفای 🍋‍🟩"
-    server: 91.99.151.199
-    port: 443
-    type: vless
-    uuid: 2eaef053-5fd6-4def-b234-d760690355ff
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: zula.ir
-    udp: true
-  - name: "@Hddify | چنل هدیفای 🤹🏻"
-    server: 91.99.205.130
-    port: 443
-    type: vless
-    uuid: 7b6eca4c-44ae-40c6-973a-4e3b29d30803
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: zula.ir
+    servername: sib.sibzamini.dpdns.org
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sib.sibzamini.dpdns.org
     udp: true
   - name: "Telegram: @Hddify ❤️"
     server: 104.18.26.90
@@ -386,6 +171,66 @@ proxies:
       headers:
         Host: sib.sibzamini.dpdns.org
     udp: true
+  - name: "@Hddify | چنل هدیفای 🙏🏻 2"
+    server: 104.18.26.90
+    port: 80
+    type: vless
+    uuid: 6f690965-3be3-43bb-9331-3ead6efb20aa
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sib.sibzamini.dpdns.org
+    network: ws
+    ws-opts:
+      path: /?ed=2560/?JOKERRVPNBIA_CHANEL@JOKERRVPN
+      headers:
+        Host: sib.sibzamini.dpdns.org
+    udp: true
+  - name: "@Hddify | چنل هدیفای 💤 3"
+    server: 104.18.26.90
+    port: 80
+    type: vless
+    uuid: 6f690965-3be3-43bb-9331-3ead6efb20aa
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sib.sibzamini.dpdns.org
+    network: ws
+    ws-opts:
+      path: /?ed=2560/
+      headers:
+        Host: sib.sibzamini.dpdns.org
+    udp: true
+  - name: "@Hddify | چنل هدیفای 🙏🏻 3"
+    server: 104.18.26.90
+    port: 80
+    type: vless
+    uuid: 6f690965-3be3-43bb-9331-3ead6efb20aa
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sib.sibzamini.dpdns.org
+    network: ws
+    ws-opts:
+      path: /?ed=2560/?JOKERRVPNBIA_CHANEL@JOKERRVPN
+      headers:
+        Host: sib.sibzamini.dpdns.org
+    udp: true
+  - name: "@Hddify 🇩🇪"
+    server: 5.10.214.116
+    port: 8880
+    type: vless
+    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: reedfree8mahsang2.redorg.ir
+    network: ws
+    ws-opts:
+      path: /TelegramU0001F1E8U0001F1F3
+      headers:
+        Host: reedfree8mahsang2.redorg.ir
+    udp: true
   - name: "@Hddify | چنل هدیفای 🤼 2"
     server: 104.18.26.90
     port: 80
@@ -401,20 +246,7 @@ proxies:
       headers:
         Host: barayeiranmahsang.loseyourself.dpdns.org
     udp: true
-  - name: "Telegram: @Hddify 💖"
-    server: 212.86.94.176
-    port: 31388
-    type: vless
-    uuid: e3ad2103-0f2d-4926-bc46-562dd3fbd3ba
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: ""
-    network: grpc
-    grpc-opts:
-      grpc-service-name: /
-    udp: true
-  - name: "@Hddify | چنل هدیفای 🧑🏻‍💻"
+  - name: "@Hddify | چنل هدیفای 🤹🏻"
     server: 104.18.26.90
     port: 80
     type: vless
@@ -425,11 +257,11 @@ proxies:
     servername: sib.sibzamini.dpdns.org
     network: ws
     ws-opts:
-      path: /?ed=2560/?Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps
+      path: /?ed=2560/?JOKERRVPNBIA_CHANEL@JOKERRVPN
       headers:
         Host: sib.sibzamini.dpdns.org
     udp: true
-  - name: "@Hddify | چنل هدیفای 🌕"
+  - name: "@Hddify | چنل هدیفای 🏔️ 2"
     server: 104.18.26.90
     port: 80
     type: vless
@@ -440,7 +272,7 @@ proxies:
     servername: sib.sibzamini.dpdns.org
     network: ws
     ws-opts:
-      path: /?ed=2560/
+      path: /?ed=2560
       headers:
         Host: sib.sibzamini.dpdns.org
     udp: true
@@ -459,80 +291,65 @@ proxies:
       headers:
         Host: sib.sibzamini.dpdns.org
     udp: true
-  - name: "@Hddify"
-    server: 188.114.97.7
-    port: 443
+  - name: "Telegram: @Hddify 🫀"
+    server: 104.18.26.90
+    port: 80
     type: vless
-    uuid: d16ad333-f353-4fd3-b457-01d147578c3a
+    uuid: 6f690965-3be3-43bb-9331-3ead6efb20aa
     cipher: auto
-    tls: true
+    tls: false
     skip-cert-verify: true
-    servername: 4cDW-V-kv1OS05S452q2VUP4-E9l3g36.dexAy16053.worKerS.DEv
+    servername: sib.sibzamini.dpdns.org
     network: ws
     ws-opts:
-      path: /3f0DtDEjJL70uG4H?ed=2560
+      path: /?ed=2560
       headers:
-        Host: 4cdw-v-kv1os05s452q2vup4-e9l3g36.dexay16053.workers.dev
+        Host: sib.sibzamini.dpdns.org
     udp: true
-  - name: ♡@Hddify🌱
-    server: 188.114.96.7
-    port: 443
+  - name: "Telegram: @Hddify 💙"
+    server: 104.18.26.90
+    port: 80
     type: vless
-    uuid: 1ed8608c-b515-4082-a754-b057e0640247
+    uuid: 6f690965-3be3-43bb-9331-3ead6efb20aa
     cipher: auto
-    tls: true
+    tls: false
     skip-cert-verify: true
-    servername: PlaNEtdevELoPErSicUsDL3895dl.LEVibiG676.WoRkERS.DEV
+    servername: sib.sibzamini.dpdns.org
     network: ws
     ws-opts:
-      path: /SSpW9jA7PCoMuj0V?ed=2560
+      path: /?ed=2560/?JOKERRVPNBIA_CHANEL@JOKERRVPN
       headers:
-        Host: planetdevelopersicusdl3895dl.levibig676.workers.dev
+        Host: sib.sibzamini.dpdns.org
     udp: true
-  - name: "@Hddify | چنل هدیفای 👾"
-    server: 198.62.62.4
-    port: 443
+  - name: "@Hddify | چنل هدیفای 🧑🏻‍💻"
+    server: 104.18.26.90
+    port: 80
     type: vless
-    uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
+    uuid: 6f690965-3be3-43bb-9331-3ead6efb20aa
     cipher: auto
-    tls: true
+    tls: false
     skip-cert-verify: true
-    servername: azadnet-7py.pages.dev
+    servername: sib.sibzamini.dpdns.org
     network: ws
     ws-opts:
-      path: /azadnet-7py.pages.dev/?ed=2560&PROT_TYPE=vless
+      path: /?ed=2560/?Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps
       headers:
-        Host: azadnet-7py.pages.dev
+        Host: sib.sibzamini.dpdns.org
     udp: true
-  - name: ♡@Hddify🌱 2
-    server: 154.92.9.151
-    port: 443
+  - name: "@Hddify | چنل هدیفای 💌"
+    server: 104.18.26.90
+    port: 80
     type: vless
-    uuid: ec8a65ad-aafc-4095-9b8c-ea10890ca629
+    uuid: 6f690965-3be3-43bb-9331-3ead6efb20aa
     cipher: auto
-    tls: true
+    tls: false
     skip-cert-verify: true
-    servername: simorgh.hpcode.ir
+    servername: sib.sibzamini.dpdns.org
     network: ws
     ws-opts:
-      path: /Javid-SHAH-KingRezaPahlavi/?ed=2560
+      path: /?ed=2560
       headers:
-        Host: simorgh.hpcode.ir
-    udp: true
-  - name: "@Hddify 2"
-    server: 188.114.96.7
-    port: 443
-    type: vless
-    uuid: 87756e07-0c02-4f38-8b55-1e2772df21b1
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ForLoVEinCOMPANY649.PIXEM79621.woRKers.DEV
-    network: ws
-    ws-opts:
-      path: /YtVlkrrsUfUTKgZm?ed=2560
-      headers:
-        Host: forloveincompany649.pixem79621.workers.dev
+        Host: sib.sibzamini.dpdns.org
     udp: true
   - name: "@Hddify | چنل هدیفای 🌼"
     server: 104.18.26.90
@@ -549,20 +366,65 @@ proxies:
       headers:
         Host: havvas.shohreh.dpdns.org
     udp: true
-  - name: "@Hddify 3"
-    server: 188.114.97.7
-    port: 443
+  - name: "@Hddify | چنل هدیفای 🪂 2"
+    server: 104.18.26.90
+    port: 80
     type: vless
-    uuid: a49f257d-52c6-439c-b66d-e4d1dca6a3c2
+    uuid: 6f690965-3be3-43bb-9331-3ead6efb20aa
     cipher: auto
-    tls: true
+    tls: false
     skip-cert-verify: true
-    servername: AppcompAnyinCdl38s.VoPiboW888.workers.DEv
+    servername: sib.sibzamini.dpdns.org
     network: ws
     ws-opts:
-      path: /MRcZkrxmm9TMPsjS?ed=2560
+      path: /?ed=2560/?@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps
       headers:
-        Host: appcompanyincdl38s.vopibow888.workers.dev
+        Host: sib.sibzamini.dpdns.org
+    udp: true
+  - name: "@Hddify | چنل هدیفای 💌 2"
+    server: 104.18.26.90
+    port: 80
+    type: vless
+    uuid: 6f690965-3be3-43bb-9331-3ead6efb20aa
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sib.sibzamini.dpdns.org
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sib.sibzamini.dpdns.org
+    udp: true
+  - name: "@Hddify | چنل هدیفای 💌 3"
+    server: 104.18.26.90
+    port: 80
+    type: vless
+    uuid: 6f690965-3be3-43bb-9331-3ead6efb20aa
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sib.sibzamini.dpdns.org
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sib.sibzamini.dpdns.org
+    udp: true
+  - name: "Telegram: @Hddify 🩶"
+    server: 104.18.26.90
+    port: 80
+    type: vless
+    uuid: 6f690965-3be3-43bb-9331-3ead6efb20aa
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sib.sibzamini.dpdns.org
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sib.sibzamini.dpdns.org
     udp: true
   - name: "@Hddify | چنل هدیفای 🪵"
     server: 162.159.129.11
@@ -579,38 +441,58 @@ proxies:
       headers:
         Host: sub.divib.dynv6.net
     udp: true
-  - name: "@Hddify 🇮🇷 I"
-    server: 185.208.77.113
-    port: 14040
+  - name: "@Hddify | چنل هدیفای 🌕"
+    server: 104.18.26.90
+    port: 80
     type: vless
-    uuid: a2691bdd-7989-4e7e-9c44-302e360c021f
+    uuid: 6f690965-3be3-43bb-9331-3ead6efb20aa
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: ""
+    servername: sib.sibzamini.dpdns.org
     network: ws
     ws-opts:
-      path: /
+      path: /?ed=2560/
       headers:
-        Host: ""
+        Host: sib.sibzamini.dpdns.org
     udp: true
-  - name: "@Hddify | چنل هدیفای 💖 2"
-    server: 0lan.amazon-osishop.ir
-    port: 8880
+  - name: ⁪⁬⁮⁮@Hddify | چنل هدیفای 🐛
+    server: 104.18.26.90
+    port: 80
     type: vless
-    uuid: a2eda8e1-4452-481b-9a71-aab18d3ed17e
+    uuid: 6f690965-3be3-43bb-9331-3ead6efb20aa
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: eN.TwiTtER.cOM.%3A8880
+    servername: sib.sibzamini.dpdns.org
+    network: ws
+    ws-opts:
+      path: /?ed=2560/
+      headers:
+        Host: sib.sibzamini.dpdns.org
     udp: true
-  - name: "@Hddify | چنل هدیفای 🤲🏻"
-    server: 101reel.com
+  - name: "Telegram: @Hddify 🫀 2"
+    server: 104.18.26.90
     port: 80
+    type: vless
+    uuid: 6f690965-3be3-43bb-9331-3ead6efb20aa
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sib.sibzamini.dpdns.org
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sib.sibzamini.dpdns.org
+    udp: true
+  - name: "@Hddify | چنل هدیفای 🌼 2"
+    server: 104.18.26.90
+    port: 443
     type: vless
     uuid: 941d092e-8313-452a-ba21-c9995dcba79d
     cipher: auto
-    tls: false
+    tls: true
     skip-cert-verify: true
     servername: havvas.shohreh.dpdns.org
     network: ws
@@ -619,30 +501,110 @@ proxies:
       headers:
         Host: havvas.shohreh.dpdns.org
     udp: true
-  - name: "@Hddify 🇸🇬"
-    server: 43.156.217.68
-    port: 41283
+  - name: "@Hddify | چنل هدیفای 🦠 2"
+    server: 104.18.26.90
+    port: 80
     type: vless
-    uuid: 4839e0b9-b275-47ea-81ab-9bfd38bbe7af
+    uuid: 6f690965-3be3-43bb-9331-3ead6efb20aa
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: ""
-    udp: true
-  - name: ♡@Hddify🌱 3
-    server: 188.114.97.7
-    port: 443
-    type: vless
-    uuid: ae658497-2809-4ecb-86d5-db73867bfa38
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 9oPprODUcTINCHELloauS9678.rIDic35214.wORkERS.DEv
+    servername: sib.sibzamini.dpdns.org
     network: ws
     ws-opts:
-      path: /WxedDvrJwCt8Kd1r?ed=2560
+      path: /?ed=2560
       headers:
-        Host: 9opproductinchelloaus9678.ridic35214.workers.dev
+        Host: sib.sibzamini.dpdns.org
+    udp: true
+  - name: "@Hddify | چنل هدیفای 🧑🏻‍💻 2"
+    server: 104.18.26.90
+    port: 80
+    type: vless
+    uuid: 6f690965-3be3-43bb-9331-3ead6efb20aa
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sib.sibzamini.dpdns.org
+    network: ws
+    ws-opts:
+      path: /?ed=2560/?Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps
+      headers:
+        Host: sib.sibzamini.dpdns.org
+    udp: true
+  - name: ⁪⁬⁮⁮@Hddify | چنل هدیفای 🐛 2
+    server: 104.18.26.90
+    port: 80
+    type: vless
+    uuid: 6f690965-3be3-43bb-9331-3ead6efb20aa
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sib.sibzamini.dpdns.org
+    network: ws
+    ws-opts:
+      path: /?ed=2560/
+      headers:
+        Host: sib.sibzamini.dpdns.org
+    udp: true
+  - name: "Telegram: @Hddify ❤️ 2"
+    server: 104.18.26.90
+    port: 80
+    type: vless
+    uuid: 6f690965-3be3-43bb-9331-3ead6efb20aa
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sib.sibzamini.dpdns.org
+    network: ws
+    ws-opts:
+      path: /?ed=2560/?JOKERRVPNBIA_CHANEL@JOKERRVPN
+      headers:
+        Host: sib.sibzamini.dpdns.org
+    udp: true
+  - name: "@Hddify | چنل هدیفای 🌕 2"
+    server: 104.18.26.90
+    port: 80
+    type: vless
+    uuid: 6f690965-3be3-43bb-9331-3ead6efb20aa
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sib.sibzamini.dpdns.org
+    network: ws
+    ws-opts:
+      path: /?ed=2560/
+      headers:
+        Host: sib.sibzamini.dpdns.org
+    udp: true
+  - name: "@Hddify | چنل هدیفای 💘 2"
+    server: 104.18.26.90
+    port: 80
+    type: vless
+    uuid: 6f690965-3be3-43bb-9331-3ead6efb20aa
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sib.sibzamini.dpdns.org
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sib.sibzamini.dpdns.org
+    udp: true
+  - name: "@Hddify | چنل هدیفای 🌴"
+    server: 104.18.26.90
+    port: 80
+    type: vless
+    uuid: 6f690965-3be3-43bb-9331-3ead6efb20aa
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sib.sibzamini.dpdns.org
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sib.sibzamini.dpdns.org
     udp: true
   - name: "@Hddify | چنل هدیفای 🫨"
     server: 101reel.com
@@ -659,7 +621,85 @@ proxies:
       headers:
         Host: barayeiranmahsang.sabzipolobamahi.dpdns.org
     udp: true
-  - name: "@Hddify 🇩🇪"
+  - name: "@Hddify 🇸🇬"
+    server: 43.156.217.68
+    port: 41283
+    type: vless
+    uuid: 4839e0b9-b275-47ea-81ab-9bfd38bbe7af
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: ""
+    udp: true
+  - name: "@Hddify 🇸🇬 2"
+    server: 43.156.217.68
+    port: 41283
+    type: vless
+    uuid: 4839e0b9-b275-47ea-81ab-9bfd38bbe7af
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: ""
+    udp: true
+  - name: "@Hddify | چنل هدیفای 👾"
+    server: 198.62.62.4
+    port: 443
+    type: vless
+    uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: azadnet-7py.pages.dev
+    network: ws
+    ws-opts:
+      path: /azadnet-7py.pages.dev/?ed=2560&PROT_TYPE=vless
+      headers:
+        Host: azadnet-7py.pages.dev
+    udp: true
+  - name: "@Hddify | چنل هدیفای 🤲🏻"
+    server: 101reel.com
+    port: 80
+    type: vless
+    uuid: 941d092e-8313-452a-ba21-c9995dcba79d
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: havvas.shohreh.dpdns.org
+    network: ws
+    ws-opts:
+      path: /?ed=2560/?CHANEL@RK_VPS@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps----@Rk_Vps
+      headers:
+        Host: havvas.shohreh.dpdns.org
+    udp: true
+  - name: "@Hddify 🇩🇪 2"
+    server: 5.10.215.111
+    port: 8880
+    type: vless
+    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: reedfree8mahsang2.redorg.ir
+    network: ws
+    ws-opts:
+      path: /TelegramU0001F1E8U0001F1F3
+      headers:
+        Host: reedfree8mahsang2.redorg.ir
+    udp: true
+  - name: "Telegram: @Hddify 💖"
+    server: 212.86.94.176
+    port: 31388
+    type: vless
+    uuid: e3ad2103-0f2d-4926-bc46-562dd3fbd3ba
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: ""
+    network: grpc
+    grpc-opts:
+      grpc-service-name: /
+    udp: true
+  - name: "@Hddify 🇩🇪 3"
     server: 5.10.214.71
     port: 8880
     type: vless
@@ -674,126 +714,79 @@ proxies:
       headers:
         Host: reedfree8mahsang2.redorg.ir
     udp: true
-  - name: "@Hddify | چنل هدیفای 🗺️"
-    server: 91.99.203.65
+  - name: "@Hddify | چنل هدیفای 🤡"
+    server: 154.92.9.46
     port: 443
     type: vless
-    uuid: 2eaef053-5fd6-4def-b234-d760690355ff
+    uuid: ec8a65ad-aafc-4095-9b8c-ea10890ca629
     cipher: auto
-    tls: false
+    tls: true
     skip-cert-verify: true
-    servername: zula.ir
-    udp: true
-  - name: "@Hddify | چنل هدیفای 🧌"
-    server: 91.99.231.218
-    port: 443
-    type: vless
-    uuid: 7b6eca4c-44ae-40c6-973a-4e3b29d30803
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: zula.ir
-    udp: true
-  - name: "@Hddify | چنل هدیفای 🌩️"
-    server: 91.99.207.47
-    port: 443
-    type: vless
-    uuid: 2eaef053-5fd6-4def-b234-d760690355ff
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: zula.ir
-    udp: true
-  - name: "@Hddify تمام نت ها 🟦🟨"
-    server: 45.12.31.156
-    port: 80
-    type: vless
-    uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: uuhUHYygEsdFGH.UYHJHGvgFcjGUJhbUIlbVFDxDxM.xyz
+    servername: simorgh.hpcode.ir
     network: ws
     ws-opts:
-      path: Telegram:@ShadowProxy66/?ed=2560
+      path: /Javid-SHAH-KingRezaPahlavi/?ed=2560
       headers:
-        Host: uuhUHYygEsdFGH.UYHJHGvgFcjGUJhbUIlbVFDxDxM.xyz
+        Host: simorgh.hpcode.ir
     udp: true
-  - name: "@Hddify 🇱🇹"
-    server: 45.87.175.58
-    port: 8080
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-    udp: true
-  - name: "@Hddify 🇱🇹 2"
-    server: 45.87.175.22
-    port: 8080
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-    udp: true
-  - name: "@Hddify | چنل هدیفای 🫆"
-    server: a.ru.maviks.ru
-    port: 443
-    type: vless
-    uuid: 5de591e3-e584-4b96-b78b-239da21286ec
-    cipher: auto
-    tls: false
-    flow: xtls-rprx-vision
-    skip-cert-verify: true
-    servername: maviks.ru
-    udp: true
-  - name: "@Hddify 🇫🇷"
-    server: 95.164.45.94
+  - name: "[@Hddify]"
+    server: 45.82.251.183
     port: 8880
     type: vless
-    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+    uuid: e4824193-4f54-453b-d037-88368e85ef0e
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: ""
+    servername: pqh36v5.economy36top.shop
     network: grpc
     grpc-opts:
       grpc-service-name: /
     udp: true
-  - name: "@Hddify 🏴‍☠️"
-    server: 104.26.14.85
-    port: 8080
+  - name: "@Hddify 🇬🇧"
+    server: 131.145.78.103
+    port: 443
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: W74XFALLLuw6m5IA
+    udp: true
+  - name: "@Hddify"
+    server: 104.16.0.113
+    port: 80
     type: vless
-    uuid: 6abbaf96-4b16-48d3-b996-a6067fc6eb2c
+    uuid: bbd2882a-c158-4ae6-b53a-5ae6be8dbcb0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: M4.nF9JZ2st7N.zULAiR.ORG.
+    servername: barayeiran.nastaranh.dpdns.org
     network: ws
     ws-opts:
-      path: /?ed/Telegram@V2ray_Alpha
+      path: /?ed=2560/?JOKERRVPN
       headers:
-        Host: M4.nF9JZ2st7N.zULAiR.ORG.
+        Host: barayeiran.nastaranh.dpdns.org
     udp: true
-  - name: "@Hddify | چنل هدیفای 🍓"
-    server: admin.c1.webramz.co
+  - name: "@Hddify 2"
+    server: en.jpgformat.ir
+    port: 10108
+    type: vless
+    uuid: 6d288402-6ef9-4092-9d52-c528690fb693
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: pMLMyAZD-6S6.paGeS.DEV
+    network: ws
+    ws-opts:
+      path: /Nu8bHy0jlYQqvxns/MTIxLjU0LjMwLjE1OQ==?ed=2560
+      headers:
+        Host: pmlmyazd-6s6.pages.dev
+    udp: true
+  - name: "@Hddify تمام نت ها 🟦🟨"
+    server: series-a2-mec.varzesh360.co
     port: 443
     type: ss
     cipher: chacha20-ietf-poly1305
-    password: 1xO2cqPazqjGfCfd
+    password: u17T3BvpYaaiuW2c
     udp: true
-  - name: "@Hddify | چنل هدیفای ☠️"
-    server: admin.c4.webramz.co
-    port: 443
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: 69MUii7VDwMqh7Hz
-    udp: true
-  - name: "@Hddify | چنل هدیفای 🌶️"
-    server: series-a2.varzesh360.co
-    port: 443
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: mps3FwmDjLrWaOVg
-    udp: true
-  - name: "@Hddify 4"
+  - name: "@Hddify 3"
     server: 104.26.14.85
     port: 8080
     type: vless
@@ -808,81 +801,40 @@ proxies:
       headers:
         Host: WQ.R5Kt41PbPO.zuLAIR.orG.
     udp: true
-  - name: "@Hddify 5"
-    server: 185.33.24.229
-    port: 28495
-    type: vless
-    uuid: 7e296434-2d17-48d3-928d-19eaa34aecb1
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: dl.google.com
-    udp: true
-  - name: "@Hddify 6"
-    server: 104.17.147.22
-    port: 80
-    type: vless
-    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: redfree8mahsang6.redfree8.ir
-    network: ws
-    ws-opts:
-      path: /Telegram@V2ray_Alpha/?ed=2560
-      headers:
-        Host: redfree8mahsang6.redfree8.ir
-    udp: true
-  - name: "@Hddify | چنل هدیفای 🥑"
-    server: series-a2.samanehha.co
+  - name: "@Hddify | چنل هدیفای ☘️"
+    server: admin.c4.webramz.co
     port: 443
     type: ss
     cipher: chacha20-ietf-poly1305
-    password: mps3FwmDjLrWaOVg
+    password: 69MUii7VDwMqh7Hz
     udp: true
-  - name: "@Hddify | چنل هدیفای 🌀"
-    server: admin.c2.havij.co
+  - name: "@Hddify | چنل هدیفای 🌷"
+    server: admin.c4.webramz.co
     port: 443
     type: ss
     cipher: chacha20-ietf-poly1305
-    password: AcGFEsMR6c07Txux
+    password: 69MUii7VDwMqh7Hz
     udp: true
-  - name: "@Hddify | چنل هدیفای 🌶️ 2"
-    server: 20.91.252.21
-    port: 48172
+  - name: "@Hddify | چنل هدیفای 🪱"
+    server: admin.c1.webramz.co
+    port: 443
     type: ss
     cipher: chacha20-ietf-poly1305
-    password: 51yloQC8D9w1Wae7FHtI65
+    password: 1xO2cqPazqjGfCfd
     udp: true
-  - name: ✦═---🚀[ @Hddify ]🚀---═✦
-    server: www.speedtest.net
-    port: 80
-    type: vless
-    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: redfree8mahsang6.redfree8.ir
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: redfree8mahsang6.redfree8.ir
-    udp: true
-  - name: "@Hddify 7"
-    server: www.speedtest.net
+  - name: "@Hddify | چنل هدیفای 🛩️"
+    server: series-a1.samanehha.co
     port: 443
-    type: vless
-    uuid: 3058e698-61fd-4d12-95bc-f1fe4c071713
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: hOZori.iR
-    network: ws
-    ws-opts:
-      path: /rkluheauth5uvnsb/ntqumty5ljiyos4xodg=?ed=2560
-      headers:
-        Host: hOZori.iR
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: W74XFALLLuw6m5IA
+    udp: true
+  - name: "@Hddify | چنل هدیفای ☕"
+    server: admin.c1.webramz.co
+    port: 443
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 1xO2cqPazqjGfCfd
     udp: true
   - name: "@Hddify | چنل هدیفای 🍷"
     server: series-a2-mec.varzesh360.co
@@ -898,92 +850,97 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: WstuSnlu4ieA9M0L
     udp: true
-  - name: "@Hddify 8"
-    server: 104.26.5.57
+  - name: "@Hddify | چنل هدیفای 🥭"
+    server: series-a2.varzesh360.co
+    port: 443
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: mps3FwmDjLrWaOVg
+    udp: true
+  - name: "@Hddify | چنل هدیفای 🍓"
+    server: admin.c1.webramz.co
+    port: 443
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 1xO2cqPazqjGfCfd
+    udp: true
+  - name: "@Hddify | چنل هدیفای 🥑"
+    server: series-a2.samanehha.co
+    port: 443
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: mps3FwmDjLrWaOVg
+    udp: true
+  - name: "@Hddify | چنل هدیفای 🌬️"
+    server: 154.92.9.46
     port: 443
     type: vless
-    uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+    uuid: ec8a65ad-aafc-4095-9b8c-ea10890ca629
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: UUHuhyYgESDfgh.UyHjhgvgFCjgujhBuILbVFDXdxM.xYZ
+    servername: simorgh.hpcode.ir
     network: ws
     ws-opts:
-      path: /egFIvRfmDaCdL5Uk/ODQuMjM1LjE2OS4yMzQ=?ed=2560/?MTMVPN---MTMVPN---MTMVPN---MTMVPN---MTMVPN---MTMVPN
+      path: /Javid-SHAH-KingRezaPahlavi/?ed=2560
       headers:
-        Host: UuhUHYygESDfgh.uYhJhGVgfCjgujhbUiLbVFdXDXM.XyZ
+        Host: simorgh.hpcode.ir
     udp: true
-  - name: "@Hddify | چنل هدیفای 🕷️"
-    server: 4.223.100.248
-    port: 48172
+  - name: "@Hddify | چنل هدیفای 🌀"
+    server: admin.c2.havij.co
+    port: 443
     type: ss
     cipher: chacha20-ietf-poly1305
-    password: 51yloQC8D9w1Wae7FHtI65
+    password: AcGFEsMR6c07Txux
     udp: true
-  - name: "@Hddify 9"
-    server: 104.16.0.113
-    port: 80
-    type: vless
-    uuid: bbd2882a-c158-4ae6-b53a-5ae6be8dbcb0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: barayeiran.nastaranh.dpdns.org
-    network: ws
-    ws-opts:
-      path: /?ed=2560/?JOKERRVPN
-      headers:
-        Host: barayeiran.nastaranh.dpdns.org
-    udp: true
-  - name: "@Hddify 🏴‍☠️ 2"
-    server: 172.67.180.227
+  - name: "@Hddify | چنل هدیفای ☠️"
+    server: admin.c4.webramz.co
     port: 443
-    type: trojan
-    password: bpb-trojan
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 69MUii7VDwMqh7Hz
+    udp: true
+  - name: "@Hddify | چنل هدیفای 👣"
+    server: series-a2.varzesh360.co
+    port: 443
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: mps3FwmDjLrWaOVg
+    udp: true
+  - name: "@Hddify | چنل هدیفای ☔"
+    server: series-a2.samanehha.co
+    port: 443
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: mps3FwmDjLrWaOVg
+    udp: true
+  - name: "@Hddify 🏴‍☠️"
+    server: 104.25.140.153
+    port: 443
+    type: vless
+    uuid: f9f52055-ff98-4f3c-baa4-869864503e1e
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: mashdt.pages.dev
+    servername: BPB-pANEL-En-1O0.pAges.DEV
     network: ws
     ws-opts:
-      path: /tr?ed=2560
+      path: /
       headers:
-        Host: mashdt.pages.dev
+        Host: BPB-pANEL-En-1O0.pAges.DEV
     udp: true
-  - name: "@Hddify🇳🇱"
-    server: 5.10.244.59
+  - name: "@Hddify 🇨🇾 CY"
+    server: 45.82.251.171
     port: 8880
     type: vless
-    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+    uuid: e4824193-4f54-453b-d037-88368e85ef0e
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: reedfree8mahsang2.redorg.ir
-    network: ws
-    ws-opts:
-      path: /TelegramU0001F1E8U0001F1F3
-      headers:
-        Host: reedfree8mahsang2.redorg.ir
-    udp: true
-  - name: "@Hddify ☀️"
-    server: admin.c3.webramz.co
-    port: 443
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: AlCsBGpsejHdVCME
-    udp: true
-  - name: "@Hddify 10"
-    server: www.speedtest.net
-    port: 443
-    type: vless
-    uuid: 3058e698-61fd-4d12-95bc-f1fe4c071713
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: hOZori.iR
-    network: ws
-    ws-opts:
-      path: /RklUHeautH5uvnSB/NTQuMTY5LjIyOS4xODg
-      headers:
-        Host: hozori.ir
+    servername: pqh32v1.film32western.shop
+    network: grpc
+    grpc-opts:
+      grpc-service-name: /
     udp: true
   - name: "@Hddify 🇳🇱"
     server: 45.131.6.68
@@ -1000,20 +957,27 @@ proxies:
       headers:
         Host: reedfree8mahsang2.redorg.ir
     udp: true
-  - name: "@Hddify 11"
-    server: en.jpgformat.ir
-    port: 10108
+  - name: "@Hddify تمام نت ها 🟦🟨 2"
+    server: admin.c4.webramz.co
+    port: 443
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 69MUii7VDwMqh7Hz
+    udp: true
+  - name: "@Hddify تمام نت ها 🟦🟨 3"
+    server: 45.12.31.156
+    port: 80
     type: vless
-    uuid: 6d288402-6ef9-4092-9d52-c528690fb693
+    uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
     cipher: auto
-    tls: true
+    tls: false
     skip-cert-verify: true
-    servername: pMLMyAZD-6S6.paGeS.DEV
+    servername: uuhUHYygEsdFGH.UYHJHGvgFcjGUJhbUIlbVFDxDxM.xyz
     network: ws
     ws-opts:
-      path: /Nu8bHy0jlYQqvxns/MTIxLjU0LjMwLjE1OQ==?ed=2560
+      path: Telegram:@ShadowProxy66/?ed=2560
       headers:
-        Host: pmlmyazd-6s6.pages.dev
+        Host: uuhUHYygEsdFGH.UYHJHGvgFcjGUJhbUIlbVFDxDxM.xyz
     udp: true
   - name: "@Hddify ⬅️کانفیگ های قویتر"
     server: 104.17.148.22
@@ -1030,7 +994,232 @@ proxies:
       headers:
         Host: hozori.ir
     udp: true
-  - name: "@Hddify 12"
+  - name: ✦═---🚀[ @Hddify ]🚀---═✦
+    server: www.speedtest.net
+    port: 80
+    type: vless
+    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: redfree8mahsang6.redfree8.ir
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: redfree8mahsang6.redfree8.ir
+    udp: true
+  - name: "@Hddify 4"
+    server: 104.26.5.57
+    port: 443
+    type: vless
+    uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: UUHuhyYgESDfgh.UyHjhgvgFCjgujhBuILbVFDXdxM.xYZ
+    network: ws
+    ws-opts:
+      path: /egFIvRfmDaCdL5Uk/ODQuMjM1LjE2OS4yMzQ=?ed=2560/?MTMVPN---MTMVPN---MTMVPN---MTMVPN---MTMVPN---MTMVPN
+      headers:
+        Host: UuhUHYygESDfgh.uYhJhGVgfCjgujhbUiLbVFdXDXM.XyZ
+    udp: true
+  - name: "@Hddify 5"
+    server: www.speedtest.net
+    port: 443
+    type: vless
+    uuid: 3058e698-61fd-4d12-95bc-f1fe4c071713
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: hOZori.iR
+    network: ws
+    ws-opts:
+      path: /RklUHeautH5uvnSB/NTQuMTY5LjIyOS4xODg
+      headers:
+        Host: hozori.ir
+    udp: true
+  - name: "@Hddify ☀️"
+    server: admin.c3.webramz.co
+    port: 443
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: AlCsBGpsejHdVCME
+    udp: true
+  - name: "@Hddify | چنل هدیفای 🧀"
+    server: admin.c4.webramz.co
+    port: 443
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 69MUii7VDwMqh7Hz
+    udp: true
+  - name: "@Hddify | چنل هدیفای 🐜"
+    server: series-a2.samanehha.co
+    port: 443
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: mps3FwmDjLrWaOVg
+    udp: true
+  - name: "@Hddify | چنل هدیفای ⚾"
+    server: freakconfig13.felafel.org
+    port: 443
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 1xO2cqPazqjGfCfd
+    udp: true
+  - name: "@Hddify | چنل هدیفای 🦚"
+    server: admin.c1.webramz.co
+    port: 443
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 1xO2cqPazqjGfCfd
+    udp: true
+  - name: "@Hddify | چنل هدیفای 🥃"
+    server: series-a2.varzesh360.co
+    port: 443
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: mps3FwmDjLrWaOVg
+    udp: true
+  - name: "@Hddify | چنل هدیفای 🫜"
+    server: admin.c1.webramz.co
+    port: 443
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 1xO2cqPazqjGfCfd
+    udp: true
+  - name: "@Hddify | چنل هدیفای 🌶️"
+    server: series-a2.varzesh360.co
+    port: 443
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: mps3FwmDjLrWaOVg
+    udp: true
+  - name: "Telegram: @Hddify 🖤"
+    server: admin.c4.webramz.co
+    port: 443
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 69MUii7VDwMqh7Hz
+    udp: true
+  - name: "Telegram: @Hddify 🩷"
+    server: series-a2.varzesh360.co
+    port: 443
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: mps3FwmDjLrWaOVg
+    udp: true
+  - name: "@Hddify | چنل هدیفای 🍃"
+    server: series-a2.samanehha.co
+    port: 443
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: mps3FwmDjLrWaOVg
+    udp: true
+  - name: "@Hddify | چنل هدیفای 🫄🏻"
+    server: series-a2-mec.varzesh360.co
+    port: 443
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: u17T3BvpYaaiuW2c
+    udp: true
+  - name: "@Hddify | چنل هدیفای 🦓"
+    server: series-a2-me.varzesh360.co
+    port: 443
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: Bog0ELmMM9DSxDdQ
+    udp: true
+  - name: "@Hddify 🇨🇾"
+    server: 45.82.251.146
+    port: 8880
+    type: vless
+    uuid: e4824193-4f54-453b-d037-88368e85ef0e
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: ""
+    network: grpc
+    grpc-opts:
+      grpc-service-name: /
+    udp: true
+  - name: "@Hddify 🇨🇾 2"
+    server: 45.82.251.183
+    port: 8880
+    type: vless
+    uuid: e4824193-4f54-453b-d037-88368e85ef0e
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: pqh36v5.economy36top.shop
+    network: grpc
+    grpc-opts:
+      grpc-service-name: /
+    udp: true
+  - name: "@Hddify 🇨🇾 3"
+    server: 45.82.251.161
+    port: 8880
+    type: vless
+    uuid: e4824193-4f54-453b-d037-88368e85ef0e
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: pqh34v7.bloger34art.shop
+    network: grpc
+    grpc-opts:
+      grpc-service-name: /
+    udp: true
+  - name: "@Hddify 🏴‍☠️ 2"
+    server: 104.21.42.56
+    port: 443
+    type: vless
+    uuid: 9ae18aa0-8887-4913-a35a-9f014d58d100
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: gzwfgglclokmx5vvazjcideqec5c2vofss4nvs0rkuytvnkrdyawwc6hnimovos.958dtd.workers.Dev
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: gzwfgglclokmx5vvazjcideqec5c2vofss4nvs0rkuytvnkrdyawwc6hnimovos.958dtd.workers.Dev
+    udp: true
+  - name: "@Hddify🇳🇱"
+    server: 5.10.244.59
+    port: 8880
+    type: vless
+    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: reedfree8mahsang2.redorg.ir
+    network: ws
+    ws-opts:
+      path: /TelegramU0001F1E8U0001F1F3
+      headers:
+        Host: reedfree8mahsang2.redorg.ir
+    udp: true
+  - name: "@Hddify 🇱🇹"
+    server: 45.87.175.22
+    port: 8080
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+    udp: true
+  - name: "@Hddify 🏴‍☠️ 3"
+    server: 172.67.180.227
+    port: 443
+    type: trojan
+    password: bpb-trojan
+    skip-cert-verify: true
+    sni: mashdt.pages.dev
+    network: ws
+    ws-opts:
+      path: /tr?ed=2560
+      headers:
+        Host: mashdt.pages.dev
+    udp: true
+  - name: "@Hddify 6"
     server: minecraft1111.javadstv70.workers.dev
     port: 443
     type: vless
@@ -1045,7 +1234,86 @@ proxies:
       headers:
         Host: minecraft1111.javadstv70.workers.dev
     udp: true
-  - name: "@Hddify 13"
+  - name: "@Hddify 7"
+    server: 172.67.69.216
+    port: 443
+    type: vless
+    uuid: 0ddce4ab-1351-43fd-af7a-9cfd0778dd56
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: um48TWyGPhrt30V0lGy-gI42f7ZGqiWm.HofaT69375.wORKErs.dEv
+    network: ws
+    ws-opts:
+      path: /fydOF6RAozEF8R75?ed=2560
+      headers:
+        Host: um48twygphrt30v0lgy-gi42f7zgqiwm.hofat69375.workers.dev
+    udp: true
+  - name: "@Hddify 8"
+    server: www.speedtest.net
+    port: 443
+    type: vless
+    uuid: 3058e698-61fd-4d12-95bc-f1fe4c071713
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: hOZori.iR
+    network: ws
+    ws-opts:
+      path: /rkluheauth5uvnsb/ntqumty5ljiyos4xodg=?ed=2560
+      headers:
+        Host: hOZori.iR
+    udp: true
+  - name: "@Hddify 9"
+    server: 185.33.24.229
+    port: 28495
+    type: vless
+    uuid: 7e296434-2d17-48d3-928d-19eaa34aecb1
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: dl.google.com
+    udp: true
+  - name: "@Hddify 10"
+    server: 104.17.147.22
+    port: 80
+    type: vless
+    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: redfree8mahsang6.redfree8.ir
+    network: ws
+    ws-opts:
+      path: /Telegram@V2ray_Alpha/?ed=2560
+      headers:
+        Host: redfree8mahsang6.redfree8.ir
+    udp: true
+  - name: "@Hddify | چنل هدیفای 🌶️ 2"
+    server: 20.91.252.21
+    port: 48172
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 51yloQC8D9w1Wae7FHtI65
+    udp: true
+  - name: "@Hddify | چنل هدیفای 🕷️"
+    server: 4.223.100.248
+    port: 48172
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 51yloQC8D9w1Wae7FHtI65
+    udp: true
+  - name: "@Hddify | چنل هدیفای 😁"
+    server: mar13t.rasmar1400.com
+    port: 2080
+    type: vless
+    uuid: bea34b73-3244-475b-b914-7bb80e1cda91
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: dash.cloudflare.com
+    udp: true
+  - name: "@Hddify 11"
     server: 154.92.9.176
     port: 443
     type: vless
@@ -1074,192 +1342,226 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - "@Hddify | چنل هدیفای 🥝"
+      - "@Hddify | چنل هدیفای 🥝 2"
+      - "@Hddify | چنل هدیفای 🏔️"
+      - "@Hddify | چنل هدیفای 🙏🏻"
+      - "@Hddify | چنل هدیفای 🦠"
       - "@Hddify | چنل هدیفای 💘"
-      - "Telegram: @Hddify ❣️"
-      - "@Hddify | چنل هدیفای 🥶"
-      - "@Hddify | چنل هدیفای 💖"
-      - "@Hddify | چنل هدیفای ⚫"
-      - "@Hddify | چنل هدیفای ❄️"
-      - "@Hddify | چنل هدیفای 🚨"
-      - "@Hddify | چنل هدیفای 🛟"
-      - "@Hddify | چنل هدیفای 🛍️"
-      - "@Hddify | چنل هدیفای 💦"
-      - "@Hddify | چنل هدیفای 📀"
-      - "@Hddify | چنل هدیفای 🧸"
-      - "@Hddify | چنل هدیفای 🍍"
-      - "@Hddify | چنل هدیفای 🫡"
-      - "@Hddify | چنل هدیفای 🗿"
-      - "@Hddify | چنل هدیفای ⚪"
-      - "@Hddify |%2https://5586c2a9-c92c-4974-9b70-ca44622c6c8c@151.101.3.8:80?path=/containers/fi&security=none&encryption=none&host=tsvCY5W4AP61qVbo.net&type=ws#@Hddify | چنل هدیفای 🧨0چنل هدیفای 🎆"
-      - "@Hddify | چنل هدیفای 🥸"
-      - "@Hddify | چنل هدیفای 🫴🏻"
-      - "@Hddify | چنل هدیفای 💫"
-      - "@Hddify | چنل هدیفای 🌽"
-      - "@Hddify | چنل هدیفای 💯"
-      - "@Hddify | چنل هدیفای 👅"
-      - "@Hddify | چنل هدیفای 🫀"
-      - "@Hddify | چنل هدیفای 😁"
-      - "@Hddify | چنل هدیفای 🧨"
-      - "@Hddify | چنل هدیفای 💊"
+      - "@Hddify | چنل هدیفای 💤"
+      - "@Hddify | چنل هدیفای 💤 2"
       - "@Hddify | چنل هدیفای 🤼"
-      - "@Hddify | چنل هدیفای 📟"
-      - "@Hddify | چنل هدیفای ♥️"
-      - "@Hddify | چنل هدیفای 🌪️"
-      - "@Hddify | چنل هدیفای 🎀"
-      - "@Hddify | چنل هدیفای 🌜"
-      - "@Hddify | چنل هدیفای ☃️"
-      - "@Hddify | چنل هدیفای 🍋‍🟩"
-      - "@Hddify | چنل هدیفای 🤹🏻"
+      - "@Hddify | چنل هدیفای  🙅"
       - "Telegram: @Hddify ❤️"
-      - "@Hddify | چنل هدیفای 🤼 2"
-      - "Telegram: @Hddify 💖"
-      - "@Hddify | چنل هدیفای 🧑🏻‍💻"
-      - "@Hddify | چنل هدیفای 🌕"
-      - "@Hddify | چنل هدیفای 🪂"
-      - "@Hddify"
-      - ♡@Hddify🌱
-      - "@Hddify | چنل هدیفای 👾"
-      - ♡@Hddify🌱 2
-      - "@Hddify 2"
-      - "@Hddify | چنل هدیفای 🌼"
-      - "@Hddify 3"
-      - "@Hddify | چنل هدیفای 🪵"
-      - "@Hddify 🇮🇷 I"
-      - "@Hddify | چنل هدیفای 💖 2"
-      - "@Hddify | چنل هدیفای 🤲🏻"
-      - "@Hddify 🇸🇬"
-      - ♡@Hddify🌱 3
-      - "@Hddify | چنل هدیفای 🫨"
+      - "@Hddify | چنل هدیفای 🙏🏻 2"
+      - "@Hddify | چنل هدیفای 💤 3"
+      - "@Hddify | چنل هدیفای 🙏🏻 3"
       - "@Hddify 🇩🇪"
-      - "@Hddify | چنل هدیفای 🗺️"
-      - "@Hddify | چنل هدیفای 🧌"
-      - "@Hddify | چنل هدیفای 🌩️"
+      - "@Hddify | چنل هدیفای 🤼 2"
+      - "@Hddify | چنل هدیفای 🤹🏻"
+      - "@Hddify | چنل هدیفای 🏔️ 2"
+      - "@Hddify | چنل هدیفای 🪂"
+      - "Telegram: @Hddify 🫀"
+      - "Telegram: @Hddify 💙"
+      - "@Hddify | چنل هدیفای 🧑🏻‍💻"
+      - "@Hddify | چنل هدیفای 💌"
+      - "@Hddify | چنل هدیفای 🌼"
+      - "@Hddify | چنل هدیفای 🪂 2"
+      - "@Hddify | چنل هدیفای 💌 2"
+      - "@Hddify | چنل هدیفای 💌 3"
+      - "Telegram: @Hddify 🩶"
+      - "@Hddify | چنل هدیفای 🪵"
+      - "@Hddify | چنل هدیفای 🌕"
+      - ⁪⁬⁮⁮@Hddify | چنل هدیفای 🐛
+      - "Telegram: @Hddify 🫀 2"
+      - "@Hddify | چنل هدیفای 🌼 2"
+      - "@Hddify | چنل هدیفای 🦠 2"
+      - "@Hddify | چنل هدیفای 🧑🏻‍💻 2"
+      - ⁪⁬⁮⁮@Hddify | چنل هدیفای 🐛 2
+      - "Telegram: @Hddify ❤️ 2"
+      - "@Hddify | چنل هدیفای 🌕 2"
+      - "@Hddify | چنل هدیفای 💘 2"
+      - "@Hddify | چنل هدیفای 🌴"
+      - "@Hddify | چنل هدیفای 🫨"
+      - "@Hddify 🇸🇬"
+      - "@Hddify 🇸🇬 2"
+      - "@Hddify | چنل هدیفای 👾"
+      - "@Hddify | چنل هدیفای 🤲🏻"
+      - "@Hddify 🇩🇪 2"
+      - "Telegram: @Hddify 💖"
+      - "@Hddify 🇩🇪 3"
+      - "@Hddify | چنل هدیفای 🤡"
+      - "[@Hddify]"
+      - "@Hddify 🇬🇧"
+      - "@Hddify"
+      - "@Hddify 2"
       - "@Hddify تمام نت ها 🟦🟨"
-      - "@Hddify 🇱🇹"
-      - "@Hddify 🇱🇹 2"
-      - "@Hddify | چنل هدیفای 🫆"
-      - "@Hddify 🇫🇷"
-      - "@Hddify 🏴‍☠️"
-      - "@Hddify | چنل هدیفای 🍓"
-      - "@Hddify | چنل هدیفای ☠️"
-      - "@Hddify | چنل هدیفای 🌶️"
-      - "@Hddify 4"
-      - "@Hddify 5"
-      - "@Hddify 6"
-      - "@Hddify | چنل هدیفای 🥑"
-      - "@Hddify | چنل هدیفای 🌀"
-      - "@Hddify | چنل هدیفای 🌶️ 2"
-      - ✦═---🚀[ @Hddify ]🚀---═✦
-      - "@Hddify 7"
+      - "@Hddify 3"
+      - "@Hddify | چنل هدیفای ☘️"
+      - "@Hddify | چنل هدیفای 🌷"
+      - "@Hddify | چنل هدیفای 🪱"
+      - "@Hddify | چنل هدیفای 🛩️"
+      - "@Hddify | چنل هدیفای ☕"
       - "@Hddify | چنل هدیفای 🍷"
       - "@Hddify | چنل هدیفای 🥛"
-      - "@Hddify 8"
-      - "@Hddify | چنل هدیفای 🕷️"
-      - "@Hddify 9"
+      - "@Hddify | چنل هدیفای 🥭"
+      - "@Hddify | چنل هدیفای 🍓"
+      - "@Hddify | چنل هدیفای 🥑"
+      - "@Hddify | چنل هدیفای 🌬️"
+      - "@Hddify | چنل هدیفای 🌀"
+      - "@Hddify | چنل هدیفای ☠️"
+      - "@Hddify | چنل هدیفای 👣"
+      - "@Hddify | چنل هدیفای ☔"
+      - "@Hddify 🏴‍☠️"
+      - "@Hddify 🇨🇾 CY"
+      - "@Hddify 🇳🇱"
+      - "@Hddify تمام نت ها 🟦🟨 2"
+      - "@Hddify تمام نت ها 🟦🟨 3"
+      - "@Hddify ⬅️کانفیگ های قویتر"
+      - ✦═---🚀[ @Hddify ]🚀---═✦
+      - "@Hddify 4"
+      - "@Hddify 5"
+      - "@Hddify ☀️"
+      - "@Hddify | چنل هدیفای 🧀"
+      - "@Hddify | چنل هدیفای 🐜"
+      - "@Hddify | چنل هدیفای ⚾"
+      - "@Hddify | چنل هدیفای 🦚"
+      - "@Hddify | چنل هدیفای 🥃"
+      - "@Hddify | چنل هدیفای 🫜"
+      - "@Hddify | چنل هدیفای 🌶️"
+      - "Telegram: @Hddify 🖤"
+      - "Telegram: @Hddify 🩷"
+      - "@Hddify | چنل هدیفای 🍃"
+      - "@Hddify | چنل هدیفای 🫄🏻"
+      - "@Hddify | چنل هدیفای 🦓"
+      - "@Hddify 🇨🇾"
+      - "@Hddify 🇨🇾 2"
+      - "@Hddify 🇨🇾 3"
       - "@Hddify 🏴‍☠️ 2"
       - "@Hddify🇳🇱"
-      - "@Hddify ☀️"
+      - "@Hddify 🇱🇹"
+      - "@Hddify 🏴‍☠️ 3"
+      - "@Hddify 6"
+      - "@Hddify 7"
+      - "@Hddify 8"
+      - "@Hddify 9"
       - "@Hddify 10"
-      - "@Hddify 🇳🇱"
+      - "@Hddify | چنل هدیفای 🌶️ 2"
+      - "@Hddify | چنل هدیفای 🕷️"
+      - "@Hddify | چنل هدیفای 😁"
       - "@Hddify 11"
-      - "@Hddify ⬅️کانفیگ های قویتر"
-      - "@Hddify 12"
-      - "@Hddify 13"
 
   - name: 🗺 Location
     type: select
     proxies:
+      - "@Hddify | چنل هدیفای 🥝"
+      - "@Hddify | چنل هدیفای 🥝 2"
+      - "@Hddify | چنل هدیفای 🏔️"
+      - "@Hddify | چنل هدیفای 🙏🏻"
+      - "@Hddify | چنل هدیفای 🦠"
       - "@Hddify | چنل هدیفای 💘"
-      - "Telegram: @Hddify ❣️"
-      - "@Hddify | چنل هدیفای 🥶"
-      - "@Hddify | چنل هدیفای 💖"
-      - "@Hddify | چنل هدیفای ⚫"
-      - "@Hddify | چنل هدیفای ❄️"
-      - "@Hddify | چنل هدیفای 🚨"
-      - "@Hddify | چنل هدیفای 🛟"
-      - "@Hddify | چنل هدیفای 🛍️"
-      - "@Hddify | چنل هدیفای 💦"
-      - "@Hddify | چنل هدیفای 📀"
-      - "@Hddify | چنل هدیفای 🧸"
-      - "@Hddify | چنل هدیفای 🍍"
-      - "@Hddify | چنل هدیفای 🫡"
-      - "@Hddify | چنل هدیفای 🗿"
-      - "@Hddify | چنل هدیفای ⚪"
-      - "@Hddify |%2https://5586c2a9-c92c-4974-9b70-ca44622c6c8c@151.101.3.8:80?path=/containers/fi&security=none&encryption=none&host=tsvCY5W4AP61qVbo.net&type=ws#@Hddify | چنل هدیفای 🧨0چنل هدیفای 🎆"
-      - "@Hddify | چنل هدیفای 🥸"
-      - "@Hddify | چنل هدیفای 🫴🏻"
-      - "@Hddify | چنل هدیفای 💫"
-      - "@Hddify | چنل هدیفای 🌽"
-      - "@Hddify | چنل هدیفای 💯"
-      - "@Hddify | چنل هدیفای 👅"
-      - "@Hddify | چنل هدیفای 🫀"
-      - "@Hddify | چنل هدیفای 😁"
-      - "@Hddify | چنل هدیفای 🧨"
-      - "@Hddify | چنل هدیفای 💊"
+      - "@Hddify | چنل هدیفای 💤"
+      - "@Hddify | چنل هدیفای 💤 2"
       - "@Hddify | چنل هدیفای 🤼"
-      - "@Hddify | چنل هدیفای 📟"
-      - "@Hddify | چنل هدیفای ♥️"
-      - "@Hddify | چنل هدیفای 🌪️"
-      - "@Hddify | چنل هدیفای 🎀"
-      - "@Hddify | چنل هدیفای 🌜"
-      - "@Hddify | چنل هدیفای ☃️"
-      - "@Hddify | چنل هدیفای 🍋‍🟩"
-      - "@Hddify | چنل هدیفای 🤹🏻"
+      - "@Hddify | چنل هدیفای  🙅"
       - "Telegram: @Hddify ❤️"
-      - "@Hddify | چنل هدیفای 🤼 2"
-      - "Telegram: @Hddify 💖"
-      - "@Hddify | چنل هدیفای 🧑🏻‍💻"
-      - "@Hddify | چنل هدیفای 🌕"
-      - "@Hddify | چنل هدیفای 🪂"
-      - "@Hddify"
-      - ♡@Hddify🌱
-      - "@Hddify | چنل هدیفای 👾"
-      - ♡@Hddify🌱 2
-      - "@Hddify 2"
-      - "@Hddify | چنل هدیفای 🌼"
-      - "@Hddify 3"
-      - "@Hddify | چنل هدیفای 🪵"
-      - "@Hddify 🇮🇷 I"
-      - "@Hddify | چنل هدیفای 💖 2"
-      - "@Hddify | چنل هدیفای 🤲🏻"
-      - "@Hddify 🇸🇬"
-      - ♡@Hddify🌱 3
-      - "@Hddify | چنل هدیفای 🫨"
+      - "@Hddify | چنل هدیفای 🙏🏻 2"
+      - "@Hddify | چنل هدیفای 💤 3"
+      - "@Hddify | چنل هدیفای 🙏🏻 3"
       - "@Hddify 🇩🇪"
-      - "@Hddify | چنل هدیفای 🗺️"
-      - "@Hddify | چنل هدیفای 🧌"
-      - "@Hddify | چنل هدیفای 🌩️"
+      - "@Hddify | چنل هدیفای 🤼 2"
+      - "@Hddify | چنل هدیفای 🤹🏻"
+      - "@Hddify | چنل هدیفای 🏔️ 2"
+      - "@Hddify | چنل هدیفای 🪂"
+      - "Telegram: @Hddify 🫀"
+      - "Telegram: @Hddify 💙"
+      - "@Hddify | چنل هدیفای 🧑🏻‍💻"
+      - "@Hddify | چنل هدیفای 💌"
+      - "@Hddify | چنل هدیفای 🌼"
+      - "@Hddify | چنل هدیفای 🪂 2"
+      - "@Hddify | چنل هدیفای 💌 2"
+      - "@Hddify | چنل هدیفای 💌 3"
+      - "Telegram: @Hddify 🩶"
+      - "@Hddify | چنل هدیفای 🪵"
+      - "@Hddify | چنل هدیفای 🌕"
+      - ⁪⁬⁮⁮@Hddify | چنل هدیفای 🐛
+      - "Telegram: @Hddify 🫀 2"
+      - "@Hddify | چنل هدیفای 🌼 2"
+      - "@Hddify | چنل هدیفای 🦠 2"
+      - "@Hddify | چنل هدیفای 🧑🏻‍💻 2"
+      - ⁪⁬⁮⁮@Hddify | چنل هدیفای 🐛 2
+      - "Telegram: @Hddify ❤️ 2"
+      - "@Hddify | چنل هدیفای 🌕 2"
+      - "@Hddify | چنل هدیفای 💘 2"
+      - "@Hddify | چنل هدیفای 🌴"
+      - "@Hddify | چنل هدیفای 🫨"
+      - "@Hddify 🇸🇬"
+      - "@Hddify 🇸🇬 2"
+      - "@Hddify | چنل هدیفای 👾"
+      - "@Hddify | چنل هدیفای 🤲🏻"
+      - "@Hddify 🇩🇪 2"
+      - "Telegram: @Hddify 💖"
+      - "@Hddify 🇩🇪 3"
+      - "@Hddify | چنل هدیفای 🤡"
+      - "[@Hddify]"
+      - "@Hddify 🇬🇧"
+      - "@Hddify"
+      - "@Hddify 2"
       - "@Hddify تمام نت ها 🟦🟨"
-      - "@Hddify 🇱🇹"
-      - "@Hddify 🇱🇹 2"
-      - "@Hddify | چنل هدیفای 🫆"
-      - "@Hddify 🇫🇷"
-      - "@Hddify 🏴‍☠️"
-      - "@Hddify | چنل هدیفای 🍓"
-      - "@Hddify | چنل هدیفای ☠️"
-      - "@Hddify | چنل هدیفای 🌶️"
-      - "@Hddify 4"
-      - "@Hddify 5"
-      - "@Hddify 6"
-      - "@Hddify | چنل هدیفای 🥑"
-      - "@Hddify | چنل هدیفای 🌀"
-      - "@Hddify | چنل هدیفای 🌶️ 2"
-      - ✦═---🚀[ @Hddify ]🚀---═✦
-      - "@Hddify 7"
+      - "@Hddify 3"
+      - "@Hddify | چنل هدیفای ☘️"
+      - "@Hddify | چنل هدیفای 🌷"
+      - "@Hddify | چنل هدیفای 🪱"
+      - "@Hddify | چنل هدیفای 🛩️"
+      - "@Hddify | چنل هدیفای ☕"
       - "@Hddify | چنل هدیفای 🍷"
       - "@Hddify | چنل هدیفای 🥛"
-      - "@Hddify 8"
-      - "@Hddify | چنل هدیفای 🕷️"
-      - "@Hddify 9"
+      - "@Hddify | چنل هدیفای 🥭"
+      - "@Hddify | چنل هدیفای 🍓"
+      - "@Hddify | چنل هدیفای 🥑"
+      - "@Hddify | چنل هدیفای 🌬️"
+      - "@Hddify | چنل هدیفای 🌀"
+      - "@Hddify | چنل هدیفای ☠️"
+      - "@Hddify | چنل هدیفای 👣"
+      - "@Hddify | چنل هدیفای ☔"
+      - "@Hddify 🏴‍☠️"
+      - "@Hddify 🇨🇾 CY"
+      - "@Hddify 🇳🇱"
+      - "@Hddify تمام نت ها 🟦🟨 2"
+      - "@Hddify تمام نت ها 🟦🟨 3"
+      - "@Hddify ⬅️کانفیگ های قویتر"
+      - ✦═---🚀[ @Hddify ]🚀---═✦
+      - "@Hddify 4"
+      - "@Hddify 5"
+      - "@Hddify ☀️"
+      - "@Hddify | چنل هدیفای 🧀"
+      - "@Hddify | چنل هدیفای 🐜"
+      - "@Hddify | چنل هدیفای ⚾"
+      - "@Hddify | چنل هدیفای 🦚"
+      - "@Hddify | چنل هدیفای 🥃"
+      - "@Hddify | چنل هدیفای 🫜"
+      - "@Hddify | چنل هدیفای 🌶️"
+      - "Telegram: @Hddify 🖤"
+      - "Telegram: @Hddify 🩷"
+      - "@Hddify | چنل هدیفای 🍃"
+      - "@Hddify | چنل هدیفای 🫄🏻"
+      - "@Hddify | چنل هدیفای 🦓"
+      - "@Hddify 🇨🇾"
+      - "@Hddify 🇨🇾 2"
+      - "@Hddify 🇨🇾 3"
       - "@Hddify 🏴‍☠️ 2"
       - "@Hddify🇳🇱"
-      - "@Hddify ☀️"
+      - "@Hddify 🇱🇹"
+      - "@Hddify 🏴‍☠️ 3"
+      - "@Hddify 6"
+      - "@Hddify 7"
+      - "@Hddify 8"
+      - "@Hddify 9"
       - "@Hddify 10"
-      - "@Hddify 🇳🇱"
+      - "@Hddify | چنل هدیفای 🌶️ 2"
+      - "@Hddify | چنل هدیفای 🕷️"
+      - "@Hddify | چنل هدیفای 😁"
       - "@Hddify 11"
-      - "@Hddify ⬅️کانفیگ های قویتر"
-      - "@Hddify 12"
-      - "@Hddify 13"
 
 rules:
   - MATCH,☰ MENU
