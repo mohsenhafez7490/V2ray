@@ -47,56 +47,11 @@ proxies:
     servername: sub.divib.dynv6.net
     network: ws
     ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: sub.divib.dynv6.net
-    udp: true
-  - name: "@Mohsen_Hafez 4"
-    server: 162.159.129.11
-    port: 2053
-    type: vless
-    uuid: b1a8ceea-6601-45b5-a674-7e5b64ab6f6f
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sub.divib.dynv6.net
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: sub.divib.dynv6.net
-    udp: true
-  - name: "@Mohsen_Hafez 5"
-    server: 162.159.129.11
-    port: 2053
-    type: vless
-    uuid: b1a8ceea-6601-45b5-a674-7e5b64ab6f6f
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sub.divib.dynv6.net
-    network: ws
-    ws-opts:
       path: /?ed=2560/?rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps
       headers:
         Host: sub.divib.dynv6.net
     udp: true
-  - name: "@Mohsen_Hafez 6"
-    server: 162.159.129.11
-    port: 2053
-    type: vless
-    uuid: b1a8ceea-6601-45b5-a674-7e5b64ab6f6f
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sub.divib.dynv6.net
-    network: ws
-    ws-opts:
-      path: /telegram@mtmvpn/?ed=2560
-      headers:
-        Host: sub.divib.dynv6.net
-    udp: true
-  - name: "@Mohsen_Hafez 7"
+  - name: "@Mohsen_Hafez 4"
     server: www.speedtest.net
     port: 443
     type: vless
@@ -111,7 +66,7 @@ proxies:
       headers:
         Host: my.digikala.dynv6.net
     udp: true
-  - name: "@Mohsen_Hafez 8"
+  - name: "@Mohsen_Hafez 5"
     server: 104.18.26.90
     port: 443
     type: vless
@@ -126,7 +81,82 @@ proxies:
       headers:
         Host: barayeiranmahsang.mahmoodchitooz.dpdns.org
     udp: true
+  - name: "@Mohsen_Hafez 6"
+    server: 162.159.129.11
+    port: 2053
+    type: vless
+    uuid: b1a8ceea-6601-45b5-a674-7e5b64ab6f6f
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.divib.dynv6.net
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sub.divib.dynv6.net
+    udp: true
+  - name: "@Mohsen_Hafez 7"
+    server: 162.159.129.11
+    port: 2053
+    type: vless
+    uuid: b1a8ceea-6601-45b5-a674-7e5b64ab6f6f
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.divib.dynv6.net
+    network: ws
+    ws-opts:
+      path: /telegram@mtmvpn/?ed=2560
+      headers:
+        Host: sub.divib.dynv6.net
+    udp: true
+  - name: "@Mohsen_Hafez 8"
+    server: 172.67.92.147
+    port: 443
+    type: vless
+    uuid: 75fde681-ec64-4654-86fa-30732e8e179c
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: NGINX.NSCl.IR
+    network: ws
+    ws-opts:
+      path: /assets
+      headers:
+        Host: NGINX.NSCl.IR
+    udp: true
   - name: "@Mohsen_Hafez 9"
+    server: 104.18.26.90
+    port: 2096
+    type: vless
+    uuid: e5013a1a-de5d-478b-8961-68721f79e285
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 638874929583850409.zagreb-prx-dnraaad.info
+    network: ws
+    ws-opts:
+      path: /pvjoniws
+      headers:
+        Host: 638874929583850409.zagreb-prx-dnraaad.info
+    udp: true
+  - name: "@Mohsen_Hafez 10"
+    server: 162.159.129.11
+    port: 2053
+    type: vless
+    uuid: b1a8ceea-6601-45b5-a674-7e5b64ab6f6f
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.divib.dynv6.net
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sub.divib.dynv6.net
+    udp: true
+  - name: "@Mohsen_Hafez 11"
     server: 162.159.129.11
     port: 2053
     type: vless
@@ -141,22 +171,7 @@ proxies:
       headers:
         Host: sub.divib.dynv6.net
     udp: true
-  - name: "@Mohsen_Hafez 10"
-    server: 101reel.com
-    port: 443
-    type: vless
-    uuid: b55ec078-3b17-4ed1-a697-71f464cdcaaa
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: barayeiranmahsang.sabzipolobamahi.dpdns.org
-    network: ws
-    ws-opts:
-      path: /?ed=2560/?chanel@rk_vps@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps
-      headers:
-        Host: barayeiranmahsang.sabzipolobamahi.dpdns.org
-    udp: true
-  - name: "@Mohsen_Hafez 11"
+  - name: "@Mohsen_Hafez 12"
     server: 104.18.26.90
     port: 2096
     type: vless
@@ -171,7 +186,7 @@ proxies:
       headers:
         Host: 638874929583954786.zagreb-prx-dnraaad.info
     udp: true
-  - name: "@Mohsen_Hafez 12"
+  - name: "@Mohsen_Hafez 13"
     server: 198.62.62.4
     port: 443
     type: vless
@@ -185,21 +200,6 @@ proxies:
       path: /azadnet-7py.pages.dev/?ed=2560&prot_type=vless
       headers:
         Host: azadnet-7py.pages.dev
-    udp: true
-  - name: "@Mohsen_Hafez 13"
-    server: 104.18.26.90
-    port: 2096
-    type: vless
-    uuid: e5013a1a-de5d-478b-8961-68721f79e285
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 638874929583850409.zagreb-prx-dnraaad.info
-    network: ws
-    ws-opts:
-      path: /pvjoniws
-      headers:
-        Host: 638874929583850409.zagreb-prx-dnraaad.info
     udp: true
   - name: "@Mohsen_Hafez 14"
     server: 104.18.26.90
@@ -220,96 +220,21 @@ proxies:
     server: 104.18.26.90
     port: 2096
     type: vless
-    uuid: 4bcb875b-bc40-4455-b242-cc32e58ae871
+    uuid: 760d1d5e-6696-49b6-aaed-a6411ccea8db
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: 638874929583386193.zagreb-prx-dnraaad.info
+    servername: 638874929583581773.zagreb-prx-dnraaad.info
     network: ws
     ws-opts:
-      path: /nodudrws
+      path: /ikhocbws
       headers:
-        Host: 638874929583386193.zagreb-prx-dnraaad.info
+        Host: 638874929583581773.zagreb-prx-dnraaad.info
     udp: true
   - name: "@Mohsen_Hafez 16"
     server: 104.18.26.90
     port: 2096
     type: vless
-    uuid: 760d1d5e-6696-49b6-aaed-a6411ccea8db
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 638874929583581773.zagreb-prx-dnraaad.info
-    network: ws
-    ws-opts:
-      path: /ikhocbws
-      headers:
-        Host: 638874929583581773.zagreb-prx-dnraaad.info
-    udp: true
-  - name: "@Mohsen_Hafez 17"
-    server: 104.18.26.90
-    port: 2096
-    type: vless
-    uuid: 653ded5e-50bc-4fe4-807b-1230a017c304
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 638874931195382804.kish-prx-dnraaaf.info
-    network: ws
-    ws-opts:
-      path: /eccmnews
-      headers:
-        Host: 638874931195382804.kish-prx-dnraaaf.info
-    udp: true
-  - name: "@Mohsen_Hafez 18"
-    server: 172.67.92.147
-    port: 443
-    type: vless
-    uuid: 75fde681-ec64-4654-86fa-30732e8e179c
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: NGINX.NSCl.IR
-    network: ws
-    ws-opts:
-      path: /assets
-      headers:
-        Host: NGINX.NSCl.IR
-    udp: true
-  - name: "@Mohsen_Hafez 19"
-    server: 104.18.26.90
-    port: 443
-    type: vless
-    uuid: b28eb861-1748-4200-ba72-278669edc33b
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: barayeiranmahsang.mahmoodchitooz.dpdns.org
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: barayeiranmahsang.mahmoodchitooz.dpdns.org
-    udp: true
-  - name: "@Mohsen_Hafez 20"
-    server: 104.18.26.90
-    port: 443
-    type: vless
-    uuid: b28eb861-1748-4200-ba72-278669edc33b
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: barayeiranmahsang.mahmoodchitooz.dpdns.org
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: barayeiranmahsang.mahmoodchitooz.dpdns.org
-    udp: true
-  - name: "@Mohsen_Hafez 21"
-    server: 104.18.26.90
-    port: 2096
-    type: vless
     uuid: 4bcb875b-bc40-4455-b242-cc32e58ae871
     cipher: auto
     tls: true
@@ -321,37 +246,22 @@ proxies:
       headers:
         Host: 638874929583386193.zagreb-prx-dnraaad.info
     udp: true
-  - name: "@Mohsen_Hafez 22"
-    server: 104.18.26.90
-    port: 2096
+  - name: "@Mohsen_Hafez 17"
+    server: 101reel.com
+    port: 443
     type: vless
-    uuid: 760d1d5e-6696-49b6-aaed-a6411ccea8db
+    uuid: b55ec078-3b17-4ed1-a697-71f464cdcaaa
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: 638874929583581773.zagreb-prx-dnraaad.info
+    servername: barayeiranmahsang.sabzipolobamahi.dpdns.org
     network: ws
     ws-opts:
-      path: /ikhocbws
+      path: /?ed=2560/?chanel@rk_vps@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps
       headers:
-        Host: 638874929583581773.zagreb-prx-dnraaad.info
+        Host: barayeiranmahsang.sabzipolobamahi.dpdns.org
     udp: true
-  - name: "@Mohsen_Hafez 23"
-    server: 104.18.26.90
-    port: 2096
-    type: vless
-    uuid: e5013a1a-de5d-478b-8961-68721f79e285
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 638874929583850409.zagreb-prx-dnraaad.info
-    network: ws
-    ws-opts:
-      path: /pvjoniws
-      headers:
-        Host: 638874929583850409.zagreb-prx-dnraaad.info
-    udp: true
-  - name: "@Mohsen_Hafez 24"
+  - name: "@Mohsen_Hafez 18"
     server: 104.18.26.90
     port: 2096
     type: vless
@@ -366,20 +276,110 @@ proxies:
       headers:
         Host: 638874931195382804.kish-prx-dnraaaf.info
     udp: true
-  - name: "@Mohsen_Hafez 25"
-    server: 104.18.26.90
-    port: 2096
+  - name: "@Mohsen_Hafez 19"
+    server: 198.62.62.4
+    port: 443
     type: vless
-    uuid: 147d63c1-2f68-4f45-b3ea-cb3172fab133
+    uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: 638874929583954786.zagreb-prx-dnraaad.info
+    servername: azadnet-7py.pages.dev
     network: ws
     ws-opts:
-      path: /jmgjhhws
+      path: /azadnet-7py.pages.dev/?ed=2560&prot_type=vless
       headers:
-        Host: 638874929583954786.zagreb-prx-dnraaad.info
+        Host: azadnet-7py.pages.dev
+    udp: true
+  - name: "@Mohsen_Hafez 20"
+    server: 162.159.129.11
+    port: 2053
+    type: vless
+    uuid: b1a8ceea-6601-45b5-a674-7e5b64ab6f6f
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.divib.dynv6.net
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sub.divib.dynv6.net
+    udp: true
+  - name: "@Mohsen_Hafez 21"
+    server: 162.159.129.11
+    port: 2053
+    type: vless
+    uuid: b1a8ceea-6601-45b5-a674-7e5b64ab6f6f
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.divib.dynv6.net
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sub.divib.dynv6.net
+    udp: true
+  - name: "@Mohsen_Hafez 22"
+    server: www.speedtest.net
+    port: 443
+    type: vless
+    uuid: 6bcb4f37-bba7-4ae0-afac-d43195c72c12
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: my.digikala.dynv6.net
+    network: ws
+    ws-opts:
+      path: /--------v2rayngcloud-----?ed=2560
+      headers:
+        Host: my.digikala.dynv6.net
+    udp: true
+  - name: "@Mohsen_Hafez 23"
+    server: 162.159.129.11
+    port: 2053
+    type: vless
+    uuid: b1a8ceea-6601-45b5-a674-7e5b64ab6f6f
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.divib.dynv6.net
+    network: ws
+    ws-opts:
+      path: /?ed=2560/?rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps
+      headers:
+        Host: sub.divib.dynv6.net
+    udp: true
+  - name: "@Mohsen_Hafez 24"
+    server: 104.18.26.90
+    port: 443
+    type: vless
+    uuid: b28eb861-1748-4200-ba72-278669edc33b
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: barayeiranmahsang.mahmoodchitooz.dpdns.org
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: barayeiranmahsang.mahmoodchitooz.dpdns.org
+    udp: true
+  - name: "@Mohsen_Hafez 25"
+    server: 162.159.129.11
+    port: 2053
+    type: vless
+    uuid: b1a8ceea-6601-45b5-a674-7e5b64ab6f6f
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.divib.dynv6.net
+    network: ws
+    ws-opts:
+      path: /telegram@mtmvpn/?ed=2560
+      headers:
+        Host: sub.divib.dynv6.net
     udp: true
   - name: "@Mohsen_Hafez 26"
     server: 104.18.26.90
@@ -397,19 +397,19 @@ proxies:
         Host: barayeiranmahsang.mahmoodchitooz.dpdns.org
     udp: true
   - name: "@Mohsen_Hafez 27"
-    server: 104.18.26.90
-    port: 2096
+    server: 162.159.129.11
+    port: 2053
     type: vless
-    uuid: 147d63c1-2f68-4f45-b3ea-cb3172fab133
+    uuid: b1a8ceea-6601-45b5-a674-7e5b64ab6f6f
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: 638874929583954786.zagreb-prx-dnraaad.info
+    servername: sub.divib.dynv6.net
     network: ws
     ws-opts:
-      path: /jmgjhhws
+      path: /
       headers:
-        Host: 638874929583954786.zagreb-prx-dnraaad.info
+        Host: sub.divib.dynv6.net
     udp: true
   - name: "@Mohsen_Hafez 28"
     server: 172.67.92.147
@@ -428,35 +428,20 @@ proxies:
     udp: true
   - name: "@Mohsen_Hafez 29"
     server: 104.18.26.90
-    port: 443
+    port: 2096
     type: vless
-    uuid: b28eb861-1748-4200-ba72-278669edc33b
+    uuid: e5013a1a-de5d-478b-8961-68721f79e285
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: barayeiranmahsang.mahmoodchitooz.dpdns.org
+    servername: 638874929583850409.zagreb-prx-dnraaad.info
     network: ws
     ws-opts:
-      path: /?ed=2560
+      path: /pvjoniws
       headers:
-        Host: barayeiranmahsang.mahmoodchitooz.dpdns.org
+        Host: 638874929583850409.zagreb-prx-dnraaad.info
     udp: true
   - name: "@Mohsen_Hafez 30"
-    server: 172.66.132.196
-    port: 443
-    type: vless
-    uuid: dbb3c682-8564-4c02-aec9-23ecf7981820
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ARC-448.Pages.DEV
-    network: ws
-    ws-opts:
-      path: /tel-@v2ray_alpha
-      headers:
-        Host: ARC-448.Pages.DEV
-    udp: true
-  - name: "@Mohsen_Hafez 31"
     server: 104.18.26.90
     port: 2096
     type: vless
@@ -471,22 +456,67 @@ proxies:
       headers:
         Host: 638874931195382804.kish-prx-dnraaaf.info
     udp: true
+  - name: "@Mohsen_Hafez 31"
+    server: 101reel.com
+    port: 443
+    type: vless
+    uuid: b55ec078-3b17-4ed1-a697-71f464cdcaaa
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: barayeiranmahsang.sabzipolobamahi.dpdns.org
+    network: ws
+    ws-opts:
+      path: /?ed=2560/?chanel@rk_vps@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps----@rk_vps
+      headers:
+        Host: barayeiranmahsang.sabzipolobamahi.dpdns.org
+    udp: true
   - name: "@Mohsen_Hafez 32"
     server: 104.18.26.90
     port: 2096
     type: vless
-    uuid: e5013a1a-de5d-478b-8961-68721f79e285
+    uuid: 4bcb875b-bc40-4455-b242-cc32e58ae871
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: 638874929583850409.zagreb-prx-dnraaad.info
+    servername: 638874929583386193.zagreb-prx-dnraaad.info
     network: ws
     ws-opts:
-      path: /pvjoniws
+      path: /nodudrws
       headers:
-        Host: 638874929583850409.zagreb-prx-dnraaad.info
+        Host: 638874929583386193.zagreb-prx-dnraaad.info
     udp: true
   - name: "@Mohsen_Hafez 33"
+    server: 104.18.26.90
+    port: 2096
+    type: vless
+    uuid: 760d1d5e-6696-49b6-aaed-a6411ccea8db
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 638874929583581773.zagreb-prx-dnraaad.info
+    network: ws
+    ws-opts:
+      path: /ikhocbws
+      headers:
+        Host: 638874929583581773.zagreb-prx-dnraaad.info
+    udp: true
+  - name: "@Mohsen_Hafez 34"
+    server: 198.62.62.4
+    port: 443
+    type: vless
+    uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: azadnet-7py.pages.dev
+    network: ws
+    ws-opts:
+      path: /azadnet-7py.pages.dev/?ed=2560&prot_type=vless
+      headers:
+        Host: azadnet-7py.pages.dev
+    udp: true
+  - name: "@Mohsen_Hafez 35"
     server: 104.18.26.90
     port: 2096
     type: vless
@@ -501,7 +531,67 @@ proxies:
       headers:
         Host: 638874929583412911.zagreb-prx-dnraaad.info
     udp: true
-  - name: "@Mohsen_Hafez 34"
+  - name: "@Mohsen_Hafez 36"
+    server: 104.18.26.90
+    port: 443
+    type: vless
+    uuid: b28eb861-1748-4200-ba72-278669edc33b
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: barayeiranmahsang.mahmoodchitooz.dpdns.org
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: barayeiranmahsang.mahmoodchitooz.dpdns.org
+    udp: true
+  - name: "@Mohsen_Hafez 37"
+    server: 104.18.26.90
+    port: 443
+    type: vless
+    uuid: b28eb861-1748-4200-ba72-278669edc33b
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: barayeiranmahsang.mahmoodchitooz.dpdns.org
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: barayeiranmahsang.mahmoodchitooz.dpdns.org
+    udp: true
+  - name: "@Mohsen_Hafez 38"
+    server: 104.18.26.90
+    port: 2096
+    type: vless
+    uuid: 147d63c1-2f68-4f45-b3ea-cb3172fab133
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 638874929583954786.zagreb-prx-dnraaad.info
+    network: ws
+    ws-opts:
+      path: /jmgjhhws
+      headers:
+        Host: 638874929583954786.zagreb-prx-dnraaad.info
+    udp: true
+  - name: "@Mohsen_Hafez 39"
+    server: 104.18.26.90
+    port: 2096
+    type: vless
+    uuid: e5013a1a-de5d-478b-8961-68721f79e285
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 638874929583850409.zagreb-prx-dnraaad.info
+    network: ws
+    ws-opts:
+      path: /pvjoniws
+      headers:
+        Host: 638874929583850409.zagreb-prx-dnraaad.info
+    udp: true
+  - name: "@Mohsen_Hafez 40"
     server: 104.18.26.90
     port: 2096
     type: vless
@@ -515,6 +605,216 @@ proxies:
       path: /nodudrws
       headers:
         Host: 638874929583386193.zagreb-prx-dnraaad.info
+    udp: true
+  - name: "@Mohsen_Hafez 41"
+    server: 104.18.26.90
+    port: 2096
+    type: vless
+    uuid: 653ded5e-50bc-4fe4-807b-1230a017c304
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 638874931195382804.kish-prx-dnraaaf.info
+    network: ws
+    ws-opts:
+      path: /eccmnews
+      headers:
+        Host: 638874931195382804.kish-prx-dnraaaf.info
+    udp: true
+  - name: "@Mohsen_Hafez 42"
+    server: 172.67.92.147
+    port: 443
+    type: vless
+    uuid: 75fde681-ec64-4654-86fa-30732e8e179c
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: NGINX.NSCl.IR
+    network: ws
+    ws-opts:
+      path: /assets
+      headers:
+        Host: NGINX.NSCl.IR
+    udp: true
+  - name: "@Mohsen_Hafez 43"
+    server: 104.18.26.90
+    port: 2096
+    type: vless
+    uuid: d93d7da2-6c2c-4fc6-bc2a-1da9cef60793
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 638874929583412911.zagreb-prx-dnraaad.info
+    network: ws
+    ws-opts:
+      path: /ohfqcwws
+      headers:
+        Host: 638874929583412911.zagreb-prx-dnraaad.info
+    udp: true
+  - name: "@Mohsen_Hafez 44"
+    server: 104.18.26.90
+    port: 2096
+    type: vless
+    uuid: 760d1d5e-6696-49b6-aaed-a6411ccea8db
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 638874929583581773.zagreb-prx-dnraaad.info
+    network: ws
+    ws-opts:
+      path: /ikhocbws
+      headers:
+        Host: 638874929583581773.zagreb-prx-dnraaad.info
+    udp: true
+  - name: "@Mohsen_Hafez 45"
+    server: 104.18.26.90
+    port: 443
+    type: vless
+    uuid: b28eb861-1748-4200-ba72-278669edc33b
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: barayeiranmahsang.mahmoodchitooz.dpdns.org
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: barayeiranmahsang.mahmoodchitooz.dpdns.org
+    udp: true
+  - name: "@Mohsen_Hafez 46"
+    server: 172.66.132.196
+    port: 443
+    type: vless
+    uuid: dbb3c682-8564-4c02-aec9-23ecf7981820
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ARC-448.Pages.DEV
+    network: ws
+    ws-opts:
+      path: /tel-@v2ray_alpha
+      headers:
+        Host: ARC-448.Pages.DEV
+    udp: true
+  - name: "@Mohsen_Hafez 47"
+    server: 172.67.92.147
+    port: 443
+    type: vless
+    uuid: 75fde681-ec64-4654-86fa-30732e8e179c
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: NGINX.NSCl.IR
+    network: ws
+    ws-opts:
+      path: /assets
+      headers:
+        Host: NGINX.NSCl.IR
+    udp: true
+  - name: "@Mohsen_Hafez 48"
+    server: 104.18.26.90
+    port: 2096
+    type: vless
+    uuid: e5013a1a-de5d-478b-8961-68721f79e285
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 638874929583850409.zagreb-prx-dnraaad.info
+    network: ws
+    ws-opts:
+      path: /pvjoniws
+      headers:
+        Host: 638874929583850409.zagreb-prx-dnraaad.info
+    udp: true
+  - name: "@Mohsen_Hafez 49"
+    server: 104.18.26.90
+    port: 2096
+    type: vless
+    uuid: 653ded5e-50bc-4fe4-807b-1230a017c304
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 638874931195382804.kish-prx-dnraaaf.info
+    network: ws
+    ws-opts:
+      path: /eccmnews
+      headers:
+        Host: 638874931195382804.kish-prx-dnraaaf.info
+    udp: true
+  - name: "@Mohsen_Hafez 50"
+    server: 104.18.26.90
+    port: 2096
+    type: vless
+    uuid: 4bcb875b-bc40-4455-b242-cc32e58ae871
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 638874929583386193.zagreb-prx-dnraaad.info
+    network: ws
+    ws-opts:
+      path: /nodudrws
+      headers:
+        Host: 638874929583386193.zagreb-prx-dnraaad.info
+    udp: true
+  - name: "@Mohsen_Hafez 51"
+    server: 104.18.26.90
+    port: 2096
+    type: vless
+    uuid: 760d1d5e-6696-49b6-aaed-a6411ccea8db
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 638874929583581773.zagreb-prx-dnraaad.info
+    network: ws
+    ws-opts:
+      path: /ikhocbws
+      headers:
+        Host: 638874929583581773.zagreb-prx-dnraaad.info
+    udp: true
+  - name: "@Mohsen_Hafez 52"
+    server: 104.18.26.90
+    port: 2096
+    type: vless
+    uuid: 147d63c1-2f68-4f45-b3ea-cb3172fab133
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 638874929583954786.zagreb-prx-dnraaad.info
+    network: ws
+    ws-opts:
+      path: /jmgjhhws
+      headers:
+        Host: 638874929583954786.zagreb-prx-dnraaad.info
+    udp: true
+  - name: "@Mohsen_Hafez 53"
+    server: 104.18.26.90
+    port: 2096
+    type: vless
+    uuid: d93d7da2-6c2c-4fc6-bc2a-1da9cef60793
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 638874929583412911.zagreb-prx-dnraaad.info
+    network: ws
+    ws-opts:
+      path: /ohfqcwws
+      headers:
+        Host: 638874929583412911.zagreb-prx-dnraaad.info
+    udp: true
+  - name: "@Mohsen_Hafez 54"
+    server: 104.18.26.90
+    port: 443
+    type: vless
+    uuid: b28eb861-1748-4200-ba72-278669edc33b
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: barayeiranmahsang.mahmoodchitooz.dpdns.org
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: barayeiranmahsang.mahmoodchitooz.dpdns.org
     udp: true
 
 proxy-groups:
@@ -530,7 +830,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-    proxies:
       - "@Mohsen_Hafez"
       - "@Mohsen_Hafez 2"
       - "@Mohsen_Hafez 3"
@@ -565,11 +864,30 @@ proxy-groups:
       - "@Mohsen_Hafez 32"
       - "@Mohsen_Hafez 33"
       - "@Mohsen_Hafez 34"
+      - "@Mohsen_Hafez 35"
+      - "@Mohsen_Hafez 36"
+      - "@Mohsen_Hafez 37"
+      - "@Mohsen_Hafez 38"
+      - "@Mohsen_Hafez 39"
+      - "@Mohsen_Hafez 40"
+      - "@Mohsen_Hafez 41"
+      - "@Mohsen_Hafez 42"
+      - "@Mohsen_Hafez 43"
+      - "@Mohsen_Hafez 44"
+      - "@Mohsen_Hafez 45"
+      - "@Mohsen_Hafez 46"
+      - "@Mohsen_Hafez 47"
+      - "@Mohsen_Hafez 48"
+      - "@Mohsen_Hafez 49"
+      - "@Mohsen_Hafez 50"
+      - "@Mohsen_Hafez 51"
+      - "@Mohsen_Hafez 52"
+      - "@Mohsen_Hafez 53"
+      - "@Mohsen_Hafez 54"
 
   - name: 🗺 Location
     type: select
     proxies:
-    proxies:
       - "@Mohsen_Hafez"
       - "@Mohsen_Hafez 2"
       - "@Mohsen_Hafez 3"
@@ -604,6 +922,26 @@ proxy-groups:
       - "@Mohsen_Hafez 32"
       - "@Mohsen_Hafez 33"
       - "@Mohsen_Hafez 34"
+      - "@Mohsen_Hafez 35"
+      - "@Mohsen_Hafez 36"
+      - "@Mohsen_Hafez 37"
+      - "@Mohsen_Hafez 38"
+      - "@Mohsen_Hafez 39"
+      - "@Mohsen_Hafez 40"
+      - "@Mohsen_Hafez 41"
+      - "@Mohsen_Hafez 42"
+      - "@Mohsen_Hafez 43"
+      - "@Mohsen_Hafez 44"
+      - "@Mohsen_Hafez 45"
+      - "@Mohsen_Hafez 46"
+      - "@Mohsen_Hafez 47"
+      - "@Mohsen_Hafez 48"
+      - "@Mohsen_Hafez 49"
+      - "@Mohsen_Hafez 50"
+      - "@Mohsen_Hafez 51"
+      - "@Mohsen_Hafez 52"
+      - "@Mohsen_Hafez 53"
+      - "@Mohsen_Hafez 54"
 
 rules:
   - MATCH,☰ MENU
