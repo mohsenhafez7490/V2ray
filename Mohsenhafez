@@ -6,159 +6,582 @@ log-level: info
 external-controller: 127.0.0.1:9090
 
 proxies:
-  - name: "@Mohsen_Hafez"
-    server: 104.18.26.90
+  - name: "@MOHSEN_HAFEZ"
+    server: 190.93.245.218
     port: 443
-    type: vless
-    uuid: 1343289b-3518-48da-9ee6-1bc99860b505
-    cipher: auto
-    tls: true
+    type: trojan
+    password: m1o3hs6e6n
     skip-cert-verify: true
-    servername: mrdnzdtnbkwbdfsqoncu.dissertationhelpspecialist.com
+    sni: mohsen.mohsenhafezquran.workers.dev
     network: ws
     ws-opts:
-      path: /twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice?ed=2560
+      path: /?ed=2560
       headers:
-        Host: mrdnzdtnbkwbdfsqoncu.dissertationhelpspecialist.com
+        Host: mohsen.mohsenhafezquran.workers.dev
     udp: true
-  - name: "@Mohsen_Hafez 2"
+  - name: "@MOHSEN_HAFEZ 2"
+    server: 190.93.247.106
+    port: 443
+    type: trojan
+    password: m1o3hs6e6n
+    skip-cert-verify: true
+    sni: mohsen.mohsenhafezquran.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: mohsen.mohsenhafezquran.workers.dev
+    udp: true
+  - name: "@Mohsen_Hafez"
+    server: Peweza2.digipedia.shop
+    port: 443
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: WstuSnlu4ieA9M0L
+    udp: true
+  - name: "@Mohsen_Hafez"
+    server: Peweza3.digipedia.shop
+    port: 443
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: mps3FwmDjLrWaOVg
+    udp: true
+  - name: "@Mohsen_Hafez 2"
+    server: Peweza1.digipedia.shop
+    port: 443
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: mps3FwmDjLrWaOVg
+    udp: true
+  - name: "@MOHSEN_HAFEZ 3"
+    server: 198.41.202.210
+    port: 443
+    type: trojan
+    password: m1o3hs6e6n
+    skip-cert-verify: true
+    sni: mohsen.mohsenhafezquran.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: mohsen.mohsenhafezquran.workers.dev
+    udp: true
+  - name: "@MOHSEN_HAFEZ 4"
+    server: 104.18.44.88
+    port: 443
+    type: trojan
+    password: m1o3hs6e6n
+    skip-cert-verify: true
+    sni: mohsen.mohsenhafezquran.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: mohsen.mohsenhafezquran.workers.dev
+    udp: true
+  - name: "@MOHSEN_HAFEZ 5"
+    server: 104.18.190.50
+    port: 443
+    type: trojan
+    password: m1o3hs6e6n
+    skip-cert-verify: true
+    sni: mohsen.mohsenhafezquran.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: mohsen.mohsenhafezquran.workers.dev
+    udp: true
+  - name: "@MOHSEN_HAFEZ 6"
+    server: 141.101.121.60
+    port: 443
+    type: trojan
+    password: m1o3hs6e6n
+    skip-cert-verify: true
+    sni: mohsen.mohsenhafezquran.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: mohsen.mohsenhafezquran.workers.dev
+    udp: true
+  - name: "@Mohsen_Hafez 2"
     server: 104.18.26.90
     port: 443
     type: vless
-    uuid: 80d1fe59-60f4-4272-a280-820e1ef0a754
+    uuid: 5879d109-8c92-448a-801b-3f3989019934
     cipher: auto
     tls: true
     skip-cert-verify: true
     servername: pages.dev
     network: ws
     ws-opts:
-      path: /telegram-xv2ray---telegram-xv2ray---telegram-xv2ray---telegram-xv2ray---telegram-xv2ray---telegram-xv2ray---telegram-xv2ray---telegram-xv2ray---telegram-xv2ray---telegram-xv2ray---telegram-xv2ray---telegram-xv2ray---telegram-xv2ray?ed=2048
+      path: /Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray?ed=2048
       headers:
-        Host: pages.dev
+        Host: tbs-80p.pages.dev
     udp: true
-  - name: "@Mohsen_Hafez 3"
-    server: 94.182.136.184
-    port: 1217
+  - name: "@MOHSEN_HAFEZ 7"
+    server: 188.114.98.44
+    port: 443
+    type: trojan
+    password: m1o3hs6e6n
+    skip-cert-verify: true
+    sni: mohsen.mohsenhafezquran.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: mohsen.mohsenhafezquran.workers.dev
+    udp: true
+  - name: "@MOHSEN_HAFEZ 8"
+    server: 172.64.156.96
+    port: 443
+    type: trojan
+    password: m1o3hs6e6n
+    skip-cert-verify: true
+    sni: mohsen.mohsenhafezquran.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: mohsen.mohsenhafezquran.workers.dev
+    udp: true
+  - name: "@MOHSEN_HAFEZ 9"
+    server: 104.16.6.13
+    port: 443
+    type: trojan
+    password: m1o3hs6e6n
+    skip-cert-verify: true
+    sni: mohsen.mohsenhafezquran.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: mohsen.mohsenhafezquran.workers.dev
+    udp: true
+  - name: "@MOHSEN_HAFEZ 10"
+    server: 104.19.76.219
+    port: 443
+    type: trojan
+    password: m1o3hs6e6n
+    skip-cert-verify: true
+    sni: mohsen.mohsenhafezquran.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: mohsen.mohsenhafezquran.workers.dev
+    udp: true
+  - name: "@Mohsen_Hafez 3"
+    server: 104.26.6.89
+    port: 80
     type: vless
-    uuid: c50a0271-6cd4-4ef4-a2d2-f03e7e8a1537
+    uuid: b360267f-81aa-4740-a9c0-9a64fe7f9775
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: onlytesla1.xz027.com
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: onlytesla1.xz027.com
+    udp: true
+  - name: "@Mohsen_Hafez"
+    server: 172.66.44.118
+    port: 443
+    type: vless
+    uuid: 63005378-e32e-4e23-bc6e-84812f147a6f
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ConFIgmr.PaGeS.dEV
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: ConFIgmr.PaGeS.dEV
+    udp: true
+  - name: "@Mohsen_Hafez"
+    server: all32-vip.f-sub.com
+    port: 2434
+    type: vless
+    uuid: b9a9fe5a-4c06-4f77-852d-92104b94a5d0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: www.chess.com
+    udp: true
+  - name: "@Mohsen_Hafez 2"
+    server: 138.199.146.181
+    port: 13411
+    type: vmess
+    uuid: ee3f37b1-e805-4bdc-9d46-80df181899df
+    alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
     servername: ""
     udp: true
-  - name: "@Mohsen_Hafez 4"
-    server: 104.18.26.90
-    port: 2096
+  - name: "@Mohsen_Hafez 4"
+    server: ipw.gfdv54cvghhgfhgj-njhgj64.info
+    port: 8443
     type: vless
-    uuid: b4a29ec1-5569-4ff3-aca2-8183e26fbfe2
+    uuid: 96a1b724-68d2-4f4d-ab25-38ecd83577bc
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: 638874929583359846.zagreb-prx-dnraaad.info
+    servername: IyFpLkXk10.jOoLaJoOlA.OrG
     network: ws
     ws-opts:
-      path: /rsjcbpws
+      path: /
       headers:
-        Host: 638874929583359846.zagreb-prx-dnraaad.info
+        Host: IyFpLkXk10.jOoLaJoOlA.OrG
     udp: true
-  - name: "@Mohsen_Hafez 5"
-    server: 172.187.105.25
+  - name: "@Mohsen_Hafez 5"
+    server: 172.66.47.25
+    port: 443
+    type: vless
+    uuid: e2d6455c-9846-4502-8394-16b8c1c07b68
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: GrOupYOUNeS.PAGes.DEV
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: GrOupYOUNeS.PAGes.DEV
+    udp: true
+  - name: "@Mohsen_Hafez 6"
+    server: ipw.gfdv54cvghhgfhgj-njhgj64.info
+    port: 2096
+    type: vless
+    uuid: 337bf72e-bb79-4d5f-be3f-7822eb77100c
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: Ft77Ta8Q1m.EmShAbKhObE.oRg
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: Ft77Ta8Q1m.EmShAbKhObE.oRg
+    udp: true
+  - name: "@Mohsen_Hafez 3"
+    server: ipw.gfdv54cvghhgfhgj-njhgj64.info
+    port: 8443
+    type: vless
+    uuid: 96a1b724-68d2-4f4d-ab25-38ecd83577bc
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: IyFpLkXk10.jOoLaJoOlA.OrG
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: IyFpLkXk10.jOoLaJoOlA.OrG
+    udp: true
+  - name: "@Mohsen_Hafez 2"
+    server: 103.160.204.50
+    port: 443
+    type: vless
+    uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: vless8-ekh.pages.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: vless8-ekh.pages.dev
+    udp: true
+  - name: "@Mohsen_Hafez 3"
+    server: 141.101.121.55
+    port: 8080
+    type: vless
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 1750293123492.china.baidu.bilibili.china.aeko.cn
+    network: ws
+    ws-opts:
+      path: /?ed
+      headers:
+        Host: 1750293123492.china.baidu.bilibili.china.aeko.cn
+    udp: true
+  - name: "@Mohsen_Hafez 4"
+    server: switcher-nick-croquet.freesocks.work
+    port: 443
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 9tqhMdIrTkgQ46PvhyAtMH
+    udp: true
+  - name: "@Mohsen_Hafez 7"
+    server: ipw.gfdv54cvghhgfhgj-njhgj64.info
+    port: 2096
+    type: vless
+    uuid: 752811df-c191-4f5f-acaa-ce6399a22024
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 638879413057214934.kish-prx-dnraaad.info
+    network: ws
+    ws-opts:
+      path: /lpiipkws
+      headers:
+        Host: 638879413057214934.kish-prx-dnraaad.info
+    udp: true
+  - name: "@Mohsen_Hafez 8"
+    server: ipw.gfdv54cvghhgfhgj-njhgj64.info
+    port: 443
+    type: vless
+    uuid: 337bf72e-bb79-4d5f-be3f-7822eb77100c
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: EbRhP7yUx0.ToRsAnSpOrT16.oRg
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: EbRhP7yUx0.ToRsAnSpOrT16.oRg
+    udp: true
+  - name: "@Mohsen_Hafez 9"
+    server: 65.109.203.70
+    port: 2096
+    type: vless
+    uuid: feea904b-d443-43e1-beaa-621ef7a3de3f
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: ""
+    udp: true
+  - name: "@Mohsen_Hafez 10"
+    server: hazaratwork.darkping.net
+    port: 5372
+    type: vless
+    uuid: e936c213-b9ea-4bf8-90e9-fa5e60c5fb4c
+    cipher: auto
+    tls: false
+    flow: xtls-rprx-vision
+    skip-cert-verify: true
+    servername: tgju.org
+    udp: true
+  - name: "@Mohsen_Hafez 11"
+    server: 154.92.9.46
+    port: 443
+    type: vless
+    uuid: ec8a65ad-aafc-4095-9b8c-ea10890ca629
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: simorgh.hpcode.ir
+    network: ws
+    ws-opts:
+      path: /Javid-SHAH-KingRezaPahlavi/?ed=@vpnserverrr_vpnserverrr_vpnserverrr
+      headers:
+        Host: simorgh.hpcode.ir
+    udp: true
+  - name: "@Mohsen_Hafez 3"
+    server: ee1.daallygold.com
+    port: 52262
+    type: vmess
+    uuid: af5a0d0c-c898-4a51-ba6a-47179d483e41
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: ""
+    udp: true
+  - name: "@Mohsen_Hafez"
+    server: de1.cowjuice.me
+    port: 443
+    type: vless
+    uuid: 955827fc-c729-4a1e-ba6c-d85754c8e937
+    cipher: auto
+    tls: false
+    flow: xtls-rprx-vision
+    skip-cert-verify: true
+    servername: thelocal.de
+    udp: true
+  - name: "@Mohsen_Hafez 4"
+    server: 154.92.9.176
+    port: 443
+    type: vless
+    uuid: ec8a65ad-aafc-4095-9b8c-ea10890ca629
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: simorgh.hpcode.ir
+    network: ws
+    ws-opts:
+      path: /Javid-SHAH-KingRezaPahlavi/?ed=2560
+      headers:
+        Host: simorgh.hpcode.ir
+    udp: true
+  - name: "@Mohsen_Hafez 5"
+    server: micro.slumbo.com
+    port: 443
+    type: vless
+    uuid: 60bc841c-cfbd-408f-889b-473f90bb4a26
+    cipher: auto
+    tls: false
+    flow: xtls-rprx-vision
+    skip-cert-verify: true
+    servername: refersion.com
+    udp: true
+  - name: "@Mohsen_Hafez 5"
+    server: 141.101.121.243
+    port: 8080
+    type: vless
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 1750293123492.china.baidu.bilibili.china.aeko.cn
+    network: ws
+    ws-opts:
+      path: /?ed
+      headers:
+        Host: 1750293123492.china.baidu.bilibili.china.aeko.cn
+    udp: true
+  - name: "@Mohsen_Hafez 6"
+    server: 154.92.9.46
+    port: 443
+    type: vless
+    uuid: ec8a65ad-aafc-4095-9b8c-ea10890ca629
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: simorgh.hpcode.ir
+    network: ws
+    ws-opts:
+      path: /Javid-SHAH-KingRezaPahlavi/?ed=2560
+      headers:
+        Host: simorgh.hpcode.ir
+    udp: true
+  - name: "@Mohsen_Hafez 6"
+    server: 141.101.121.108
+    port: 8080
+    type: vless
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 1750293123492.china.baidu.bilibili.china.aeko.cn
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: 1750293123492.china.baidu.bilibili.china.aeko.cn
+    udp: true
+  - name: "@Mohsen_Hafez 7"
+    server: 141.101.121.108
+    port: 8080
+    type: vless
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 1750293123492.china.baidu.bilibili.china.aeko.cn
+    network: ws
+    ws-opts:
+      path: "/telegram: @Eternal_Connect - telegram: @Eternal_Connect - telegram: @Eternal_Connect - telegram: @Eternal_Connect /?ed=2048"
+      headers:
+        Host: 1750293123492.china.baidu.bilibili.china.aeko.cn
+    udp: true
+  - name: "@Mohsen_Hafez 8"
+    server: www.pcmag.com
+    port: 443
+    type: trojan
+    password: vip
+    skip-cert-verify: true
+    sni: heihu880.pages.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: heihu880.pages.dev
+    udp: true
+  - name: "@Mohsen_Hafez 12"
+    server: Www.speedtest.net
+    port: 443
+    type: vless
+    uuid: 49970ad1-d6ce-4e5a-8909-a1810818821c
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: PamcHalL.coM
+    network: ws
+    ws-opts:
+      path: /Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2?ed=2560
+      headers:
+        Host: pamchall.com
+    udp: true
+  - name: "@Mohsen_Hafez 4"
+    server: 104.19.245.206
+    port: 443
+    type: vless
+    uuid: 9dd24d01-2b7a-4bd8-8c76-129d6ca89b8c
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: kawaiifreevpn-7ds.pages.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: kawaiifreevpn-7ds.pages.dev
+    udp: true
+  - name: "@Mohsen_Hafez 13"
+    server: series-a2-mec.varzesh360.co
+    port: 443
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: u17T3BvpYaaiuW2c
+    udp: true
+  - name: "@Mohsen_Hafez 14"
+    server: admin.c1.webramz.co
     port: 443
     type: ss
     cipher: chacha20-ietf-poly1305
     password: 1xO2cqPazqjGfCfd
     udp: true
-  - name: "@Mohsen_Hafez 6"
-    server: 198.62.62.4
+  - name: "@Mohsen_Hafez 5"
+    server: 172.66.47.15
     port: 443
     type: vless
-    uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
+    uuid: 9368b093-d790-4096-9d8a-1265e82f9e2f
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: azadnet-7py.pages.dev
+    servername: GgGgr.PaGES.dEV
     network: ws
     ws-opts:
-      path: /azadnet-7py.pages.dev/?ed=2560&prot_type=vless
+      path: /telegram@v2ray_alpha/?ed
       headers:
-        Host: azadnet-7py.pages.dev
+        Host: GgGgr.PaGES.dEV
     udp: true
-  - name: "@Mohsen_Hafez 7"
-    server: 104.18.26.90
-    port: 2096
-    type: vless
-    uuid: e5013a1a-de5d-478b-8961-68721f79e285
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 638874929583850409.zagreb-prx-dnraaad.info
-    network: ws
-    ws-opts:
-      path: /pvjoniws
-      headers:
-        Host: 638874929583850409.zagreb-prx-dnraaad.info
-    udp: true
-  - name: "@Mohsen_Hafez 8"
-    server: 172.66.132.196
+  - name: "@Mohsen_Hafez 6"
+    server: 104.16.34.128
     port: 443
     type: vless
-    uuid: dbb3c682-8564-4c02-aec9-23ecf7981820
+    uuid: 267613d7-f53f-4005-b642-d6f1f687b7cf
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ARC-448.Pages.DEV
+    servername: ensHOLP-91s.pageS.DEv
     network: ws
     ws-opts:
-      path: /tel-@v2ray_alpha
+      path: /dqmn2vqlkae52qwd?ed=2560
       headers:
-        Host: ARC-448.Pages.DEV
+        Host: ensHOLP-91s.pageS.DEv
     udp: true
-  - name: "@Mohsen_Hafez 9"
-    server: 104.18.26.90
-    port: 2096
-    type: vless
-    uuid: 4bcb875b-bc40-4455-b242-cc32e58ae871
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 638874929583386193.zagreb-prx-dnraaad.info
-    network: ws
-    ws-opts:
-      path: /nodudrws
-      headers:
-        Host: 638874929583386193.zagreb-prx-dnraaad.info
-    udp: true
-  - name: "@Mohsen_Hafez 10"
-    server: 104.18.26.90
-    port: 2096
-    type: vless
-    uuid: d93d7da2-6c2c-4fc6-bc2a-1da9cef60793
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 638874929583412911.zagreb-prx-dnraaad.info
-    network: ws
-    ws-opts:
-      path: /ohfqcwws
-      headers:
-        Host: 638874929583412911.zagreb-prx-dnraaad.info
-    udp: true
-  - name: "@Mohsen_Hafez 11"
-    server: 104.18.26.90
-    port: 2096
-    type: vless
-    uuid: 147d63c1-2f68-4f45-b3ea-cb3172fab133
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 638874929583954786.zagreb-prx-dnraaad.info
-    network: ws
-    ws-opts:
-      path: /jmgjhhws
-      headers:
-        Host: 638874929583954786.zagreb-prx-dnraaad.info
-    udp: true
-  - name: "@Mohsen_Hafez 12"
+  - name: "@Mohsen_Hafez 7"
     server: 172.67.92.147
     port: 443
     type: vless
@@ -173,22 +596,464 @@ proxies:
       headers:
         Host: NGINX.NSCl.IR
     udp: true
-  - name: "@Mohsen_Hafez 13"
-    server: 69.84.182.2
+  - name: "@Mohsen_Hafez 9"
+    server: 104.17.182.58
     port: 443
     type: vless
-    uuid: 80d1fe59-60f4-4272-a280-820e1ef0a754
+    uuid: c1601a96-febd-4baa-8fe3-17ca8f4121bd
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: pages.dev
+    servername: frieren.albedo.ddns-ip.net
     network: ws
     ws-opts:
-      path: /telegram-xv2ray---telegram-xv2ray---telegram-xv2ray---telegram-xv2ray---telegram-xv2ray---telegram-xv2ray---telegram-xv2ray---telegram-xv2ray---telegram-xv2ray---telegram-xv2ray---telegram-xv2ray---telegram-xv2ray---telegram-xv2ray?ed=2048
+      path: /proxyip=ayaka.shorekeeper.ir
       headers:
-        Host: pages.dev
+        Host: frieren.albedo.ddns-ip.net
     udp: true
-  - name: "@Mohsen_Hafez 14"
+  - name: "@Mohsen_Hafez 15"
+    server: series-a1.samanehha.co
+    port: 443
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: W74XFALLLuw6m5IA
+    udp: true
+  - name: "@Mohsen_Hafez 16"
+    server: series-a2.varzesh360.co
+    port: 443
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: mps3FwmDjLrWaOVg
+    udp: true
+  - name: "@Mohsen_Hafez 17"
+    server: admin.c2.havij.co
+    port: 443
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: AcGFEsMR6c07Txux
+    udp: true
+  - name: "@Mohsen_Hafez 2"
+    server: 104.18.26.90
+    port: 2096
+    type: vless
+    uuid: e5013a1a-de5d-478b-8961-68721f79e285
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 638874929583850409.zagreb-prx-dnraaad.info
+    network: ws
+    ws-opts:
+      path: /pvjoniws
+      headers:
+        Host: 638874929583850409.zagreb-prx-dnraaad.info
+    udp: true
+  - name: "@Mohsen_Hafez 8"
+    server: 188.114.99.16
+    port: 2053
+    type: vless
+    uuid: 54f6e78c-b497-4db7-ba48-38c4cf81d5ef
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 019309B7.XyZ0.PaGeS.dEV
+    network: ws
+    ws-opts:
+      path: /telegram@v2ray_alpha/?ed
+      headers:
+        Host: 019309B7.XyZ0.PaGeS.dEV
+    udp: true
+  - name: "@Mohsen_Hafez 7"
+    server: admin.c2.webramz.co
+    port: 443
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: WstuSnlu4ieA9M0L
+    udp: true
+  - name: "@Mohsen_Hafez 10"
+    server: 15.204.200.208
+    port: 443
+    type: vless
+    uuid: 54694a33-a8dc-47dd-bc38-acd3971e0055
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 147135004002.sec20org.com
+    udp: true
+  - name: "@Mohsen_Hafez 8"
+    server: 141.101.121.55
+    port: 8080
+    type: vless
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 1750293123492.china.baidu.bilibili.china.aeko.cn
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: 1750293123492.china.baidu.bilibili.china.aeko.cn
+    udp: true
+  - name: "@Mohsen_Hafez 9"
+    server: 104.22.24.195
+    port: 443
+    type: vless
+    uuid: 9dd24d01-2b7a-4bd8-8c76-129d6ca89b8c
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: kawaiifreevpn-7ds.pages.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: kawaiifreevpn-7ds.pages.dev
+    udp: true
+  - name: "@Mohsen_Hafez 10"
+    server: 172.66.47.15
+    port: 443
+    type: vless
+    uuid: 9368b093-d790-4096-9d8a-1265e82f9e2f
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: GgGgr.PaGES.dEV
+    network: ws
+    ws-opts:
+      path: /telegram@v2ray_alpha/?ed=2560
+      headers:
+        Host: GgGgr.PaGES.dEV
+    udp: true
+  - name: "@Mohsen_Hafez 11"
+    server: 104.19.245.206
+    port: 443
+    type: vless
+    uuid: 9dd24d01-2b7a-4bd8-8c76-129d6ca89b8c
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: kawaiifreevpn-7ds.pages.dev
+    network: ws
+    ws-opts:
+      path: /?ed
+      headers:
+        Host: kawaiifreevpn-7ds.pages.dev
+    udp: true
+  - name: "@Mohsen_Hafez 12"
+    server: 104.22.24.195
+    port: 443
+    type: vless
+    uuid: 9dd24d01-2b7a-4bd8-8c76-129d6ca89b8c
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: kawaiifreevpn-7ds.pages.dev
+    network: ws
+    ws-opts:
+      path: /?ed=#telegram-marambashi_marambashi_marambashi_marambashi?ed=512
+      headers:
+        Host: kawaiifreevpn-7ds.pages.dev
+    udp: true
+  - name: "@Mohsen_Hafez 13"
+    server: 188.114.99.16
+    port: 2053
+    type: vless
+    uuid: 54f6e78c-b497-4db7-ba48-38c4cf81d5ef
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 019309B7.XyZ0.PaGeS.dEV
+    network: ws
+    ws-opts:
+      path: /yzejftqqvmhtztle?ed
+      headers:
+        Host: 019309B7.XyZ0.PaGeS.dEV
+    udp: true
+  - name: "@Mohsen_Hafez 14"
+    server: 104.16.243.59
+    port: 443
+    type: vless
+    uuid: 75fde681-ec64-4654-86fa-30732e8e179c
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: NGINX.NSCl.IR
+    network: ws
+    ws-opts:
+      path: /config-proxy-free--telegram--config-proxy-free--telegram--config-proxy-free--telegram--config-proxy-free--telegram--config-proxy-free--telegram--config-proxy-free?ed
+      headers:
+        Host: NGINX.NSCl.IR
+    udp: true
+  - name: "@Mohsen_Hafez 15"
+    server: 162.159.129.11
+    port: 443
+    type: vless
+    uuid: 75fde681-ec64-4654-86fa-30732e8e179c
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: NGINX.NSCl.IR
+    network: ws
+    ws-opts:
+      path: /assets
+      headers:
+        Host: NGINX.NSCl.IR
+    udp: true
+  - name: "@Mohsen_Hafez 16"
+    server: 104.16.34.128
+    port: 443
+    type: vless
+    uuid: 267613d7-f53f-4005-b642-d6f1f687b7cf
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ensHOLP-91s.pageS.DEv
+    network: ws
+    ws-opts:
+      path: /dqmn2vqlkae52qwd?ed
+      headers:
+        Host: ensHOLP-91s.pageS.DEv
+    udp: true
+  - name: "@Mohsen_Hafez 17"
+    server: 188.114.99.16
+    port: 2053
+    type: vless
+    uuid: 54f6e78c-b497-4db7-ba48-38c4cf81d5ef
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 019309B7.XyZ0.PaGeS.dEV
+    network: ws
+    ws-opts:
+      path: "/telegram: @eternal_connect - telegram: @eternal_connect - telegram: @eternal_connect - telegram: @eternal_connect /?ed"
+      headers:
+        Host: 019309B7.XyZ0.PaGeS.dEV
+    udp: true
+  - name: "@Mohsen_Hafez 18"
+    server: 162.159.129.67
+    port: 8443
+    type: vless
+    uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: azadnet1-706.pages.dev
+    network: ws
+    ws-opts:
+      path: /azadnet1-706.pages.dev/?ed
+      headers:
+        Host: azadnet1-706.pages.dev
+    udp: true
+  - name: "@Mohsen_Hafez 9"
+    server: 4.223.100.248
+    port: 48172
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 51yloQC8D9w1Wae7FHtI65
+    udp: true
+  - name: "@Mohsen_Hafez 11"
+    server: 104.16.243.59
+    port: 443
+    type: vless
+    uuid: 75fde681-ec64-4654-86fa-30732e8e179c
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: NGINX.NSCl.IR
+    network: ws
+    ws-opts:
+      path: /assets
+      headers:
+        Host: nginx.nscl.ir
+    udp: true
+  - name: "@Mohsen_Hafez 19"
+    server: 104.18.29.253
+    port: 443
+    type: vless
+    uuid: 9dd24d01-2b7a-4bd8-8c76-129d6ca89b8c
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: kawaiifreevpn-7ds.pages.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: kawaiifreevpn-7ds.pages.dev
+    udp: true
+  - name: "@Mohsen_Hafez 20"
+    server: 104.16.243.59
+    port: 443
+    type: vless
+    uuid: 75fde681-ec64-4654-86fa-30732e8e179c
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: NGINX.NSCl.IR
+    network: ws
+    ws-opts:
+      path: /assets
+      headers:
+        Host: NGINX.NSCl.IR
+    udp: true
+  - name: "@Mohsen_Hafez 21"
+    server: 104.18.26.90
+    port: 2096
+    type: vless
+    uuid: 4bcb875b-bc40-4455-b242-cc32e58ae871
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 638874929583386193.zagreb-prx-dnraaad.info
+    network: ws
+    ws-opts:
+      path: /nodudrws
+      headers:
+        Host: 638874929583386193.zagreb-prx-dnraaad.info
+    udp: true
+  - name: "@Mohsen_Hafez 22"
+    server: 104.18.26.90
+    port: 2096
+    type: vless
+    uuid: b4a29ec1-5569-4ff3-aca2-8183e26fbfe2
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 638874929583359846.zagreb-prx-dnraaad.info
+    network: ws
+    ws-opts:
+      path: /rsjcbpws
+      headers:
+        Host: 638874929583359846.zagreb-prx-dnraaad.info
+    udp: true
+  - name: "@Mohsen_Hafez 23"
+    server: 104.18.26.90
+    port: 2096
+    type: vless
+    uuid: 6ebc2581-bccf-4cac-a0e1-aebd7ded874c
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 638874929583333723.zagreb-prx-dnraaad.info
+    network: ws
+    ws-opts:
+      path: /aucvumws
+      headers:
+        Host: 638874929583333723.zagreb-prx-dnraaad.info
+    udp: true
+  - name: "@Mohsen_Hafez 24"
+    server: 104.18.26.90
+    port: 2096
+    type: vless
+    uuid: f819c6fb-5588-4906-b526-db1b57b0f55f
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 638874929556824666.abadan-prx-dnraaad.info
+    network: ws
+    ws-opts:
+      path: /dusjewws
+      headers:
+        Host: 638874929556824666.abadan-prx-dnraaad.info
+    udp: true
+  - name: "@Mohsen_Hafez 25"
+    server: 104.18.26.90
+    port: 2096
+    type: vless
+    uuid: d3f7d069-890f-43b9-ae8f-823443270113
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 638874929583751598.zagreb-prx-dnraaad.info
+    network: ws
+    ws-opts:
+      path: /exyyutws
+      headers:
+        Host: 638874929583751598.zagreb-prx-dnraaad.info
+    udp: true
+  - name: "@Mohsen_Hafez 26"
+    server: 15.204.200.208
+    port: 443
+    type: vless
+    uuid: 54694a33-a8dc-47dd-bc38-acd3971e0055
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 147135004002.sec20org.com
+    udp: true
+  - name: "@Mohsen_Hafez 27"
+    server: 62.3.12.185
+    port: 443
+    type: vless
+    uuid: 75fde681-ec64-4654-86fa-30732e8e179c
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: NGINX-Z.pages.DEV
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: NGINX-Z.pages.DEV
+    udp: true
+  - name: "@Mohsen_Hafez 28"
+    server: 147135001195.sec22org.com
+    port: 443
+    type: vless
+    uuid: ea286109-d20f-415e-849e-4af20ab04b65
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ""
+    udp: true
+  - name: "@Mohsen_Hafez 29"
+    server: 104.18.26.90
+    port: 2096
+    type: vless
+    uuid: 24a4aa9b-b341-4717-9d4a-00d74c2b84e0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: JuOf8QfKy3.VpBeThOrVp002.InFo
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: JuOf8QfKy3.VpBeThOrVp002.InFo
+    udp: true
+  - name: "@Mohsen_Hafez 30"
+    server: 135.148.74.157
+    port: 443
+    type: vless
+    uuid: 54694a33-a8dc-47dd-bc38-acd3971e0055
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 147135004002.sec20org.com
+    udp: true
+  - name: "@Mohsen_Hafez 10"
+    server: admin.c4.webramz.co
+    port: 443
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 69MUii7VDwMqh7Hz
+    udp: true
+  - name: "@Mohsen_Hafez 12"
+    server: 172.67.92.147
+    port: 443
+    type: vless
+    uuid: 75fde681-ec64-4654-86fa-30732e8e179c
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: NGINX.NSCl.IR
+    network: ws
+    ws-opts:
+      path: /assets
+      headers:
+        Host: nginx.nscl.ir
+    udp: true
+  - name: "@Mohsen_Hafez 13"
     server: 104.18.26.90
     port: 2096
     type: vless
@@ -203,65 +1068,57 @@ proxies:
       headers:
         Host: 638874929583581773.zagreb-prx-dnraaad.info
     udp: true
-  - name: "@Mohsen_Hafez 15"
-    server: www.speedtest.net
+  - name: "@Mohsen_Hafez 14"
+    server: series-a2-me.varzesh360.co
     port: 443
-    type: vless
-    uuid: 6bcb4f37-bba7-4ae0-afac-d43195c72c12
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: my.digikala.dynv6.net
-    network: ws
-    ws-opts:
-      path: /--------v2rayngcloud-----?ed=2560
-      headers:
-        Host: my.digikala.dynv6.net
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: Bog0ELmMM9DSxDdQ
     udp: true
-  - name: "@Mohsen_Hafez 16"
-    server: www.speedtest.net
-    port: 443
+  - name: "@Mohsen_Hafez 15"
+    server: 104.18.26.90
+    port: 2096
     type: vless
-    uuid: 6bcb4f37-bba7-4ae0-afac-d43195c72c12
+    uuid: d93d7da2-6c2c-4fc6-bc2a-1da9cef60793
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: my.digikala.dynv6.net
+    servername: 638874929583412911.zagreb-prx-dnraaad.info
     network: ws
     ws-opts:
-      path: /?ed=2560
+      path: /ohfqcwws
       headers:
-        Host: my.digikala.dynv6.net
+        Host: 638874929583412911.zagreb-prx-dnraaad.info
     udp: true
-  - name: "@Mohsen_Hafez 17"
-    server: www.speedtest.net
+  - name: "@Mohsen_Hafez 3"
+    server: 172.66.132.196
     port: 443
     type: vless
-    uuid: 6bcb4f37-bba7-4ae0-afac-d43195c72c12
+    uuid: dbb3c682-8564-4c02-aec9-23ecf7981820
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: my.digikala.dynv6.net
+    servername: ARC-448.Pages.DEV
     network: ws
     ws-opts:
-      path: /--------v2rayngcloud-----?ed=2560
+      path: /tel-@v2ray_alpha
       headers:
-        Host: my.digikala.dynv6.net
+        Host: ARC-448.Pages.DEV
     udp: true
-  - name: "@Mohsen_Hafez 18"
-    server: 154.92.9.46
-    port: 443
+  - name: "@Mohsen_Hafez 4"
+    server: 104.18.26.90
+    port: 2096
     type: vless
-    uuid: ec8a65ad-aafc-4095-9b8c-ea10890ca629
+    uuid: 147d63c1-2f68-4f45-b3ea-cb3172fab133
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: simorgh.hpcode.ir
+    servername: 638874929583954786.zagreb-prx-dnraaad.info
     network: ws
     ws-opts:
-      path: /javid-shah-kingrezapahlavi/?ed=2560
+      path: /jmgjhhws
       headers:
-        Host: simorgh.hpcode.ir
+        Host: 638874929583954786.zagreb-prx-dnraaad.info
     udp: true
 
 proxy-groups:
@@ -277,46 +1134,182 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - "@MOHSEN_HAFEZ"
+      - "@MOHSEN_HAFEZ 2"
+      - "@Mohsen_Hafez"
+      - "@Mohsen_Hafez"
+      - "@Mohsen_Hafez 2"
+      - "@MOHSEN_HAFEZ 3"
+      - "@MOHSEN_HAFEZ 4"
+      - "@MOHSEN_HAFEZ 5"
+      - "@MOHSEN_HAFEZ 6"
+      - "@Mohsen_Hafez 2"
+      - "@MOHSEN_HAFEZ 7"
+      - "@MOHSEN_HAFEZ 8"
+      - "@MOHSEN_HAFEZ 9"
+      - "@MOHSEN_HAFEZ 10"
+      - "@Mohsen_Hafez 3"
+      - "@Mohsen_Hafez"
+      - "@Mohsen_Hafez"
+      - "@Mohsen_Hafez 2"
+      - "@Mohsen_Hafez 4"
+      - "@Mohsen_Hafez 5"
+      - "@Mohsen_Hafez 6"
+      - "@Mohsen_Hafez 3"
+      - "@Mohsen_Hafez 2"
+      - "@Mohsen_Hafez 3"
+      - "@Mohsen_Hafez 4"
+      - "@Mohsen_Hafez 7"
+      - "@Mohsen_Hafez 8"
+      - "@Mohsen_Hafez 9"
+      - "@Mohsen_Hafez 10"
+      - "@Mohsen_Hafez 11"
+      - "@Mohsen_Hafez 3"
       - "@Mohsen_Hafez"
+      - "@Mohsen_Hafez 4"
+      - "@Mohsen_Hafez 5"
+      - "@Mohsen_Hafez 5"
+      - "@Mohsen_Hafez 6"
+      - "@Mohsen_Hafez 6"
+      - "@Mohsen_Hafez 7"
+      - "@Mohsen_Hafez 8"
+      - "@Mohsen_Hafez 12"
+      - "@Mohsen_Hafez 4"
+      - "@Mohsen_Hafez 13"
+      - "@Mohsen_Hafez 14"
+      - "@Mohsen_Hafez 5"
+      - "@Mohsen_Hafez 6"
+      - "@Mohsen_Hafez 7"
+      - "@Mohsen_Hafez 9"
+      - "@Mohsen_Hafez 15"
+      - "@Mohsen_Hafez 16"
+      - "@Mohsen_Hafez 17"
       - "@Mohsen_Hafez 2"
+      - "@Mohsen_Hafez 8"
+      - "@Mohsen_Hafez 7"
+      - "@Mohsen_Hafez 10"
+      - "@Mohsen_Hafez 8"
+      - "@Mohsen_Hafez 9"
+      - "@Mohsen_Hafez 10"
+      - "@Mohsen_Hafez 11"
+      - "@Mohsen_Hafez 12"
+      - "@Mohsen_Hafez 13"
+      - "@Mohsen_Hafez 14"
+      - "@Mohsen_Hafez 15"
+      - "@Mohsen_Hafez 16"
+      - "@Mohsen_Hafez 17"
+      - "@Mohsen_Hafez 18"
+      - "@Mohsen_Hafez 9"
+      - "@Mohsen_Hafez 11"
+      - "@Mohsen_Hafez 19"
+      - "@Mohsen_Hafez 20"
+      - "@Mohsen_Hafez 21"
+      - "@Mohsen_Hafez 22"
+      - "@Mohsen_Hafez 23"
+      - "@Mohsen_Hafez 24"
+      - "@Mohsen_Hafez 25"
+      - "@Mohsen_Hafez 26"
+      - "@Mohsen_Hafez 27"
+      - "@Mohsen_Hafez 28"
+      - "@Mohsen_Hafez 29"
+      - "@Mohsen_Hafez 30"
+      - "@Mohsen_Hafez 10"
+      - "@Mohsen_Hafez 12"
+      - "@Mohsen_Hafez 13"
+      - "@Mohsen_Hafez 14"
+      - "@Mohsen_Hafez 15"
       - "@Mohsen_Hafez 3"
       - "@Mohsen_Hafez 4"
-      - "@Mohsen_Hafez 5"
-      - "@Mohsen_Hafez 6"
-      - "@Mohsen_Hafez 7"
-      - "@Mohsen_Hafez 8"
-      - "@Mohsen_Hafez 9"
-      - "@Mohsen_Hafez 10"
-      - "@Mohsen_Hafez 11"
-      - "@Mohsen_Hafez 12"
-      - "@Mohsen_Hafez 13"
-      - "@Mohsen_Hafez 14"
-      - "@Mohsen_Hafez 15"
-      - "@Mohsen_Hafez 16"
-      - "@Mohsen_Hafez 17"
-      - "@Mohsen_Hafez 18"
 
   - name: 🗺 Location
     type: select
     proxies:
+      - "@MOHSEN_HAFEZ"
+      - "@MOHSEN_HAFEZ 2"
+      - "@Mohsen_Hafez"
+      - "@Mohsen_Hafez"
+      - "@Mohsen_Hafez 2"
+      - "@MOHSEN_HAFEZ 3"
+      - "@MOHSEN_HAFEZ 4"
+      - "@MOHSEN_HAFEZ 5"
+      - "@MOHSEN_HAFEZ 6"
+      - "@Mohsen_Hafez 2"
+      - "@MOHSEN_HAFEZ 7"
+      - "@MOHSEN_HAFEZ 8"
+      - "@MOHSEN_HAFEZ 9"
+      - "@MOHSEN_HAFEZ 10"
+      - "@Mohsen_Hafez 3"
+      - "@Mohsen_Hafez"
+      - "@Mohsen_Hafez"
+      - "@Mohsen_Hafez 2"
+      - "@Mohsen_Hafez 4"
+      - "@Mohsen_Hafez 5"
+      - "@Mohsen_Hafez 6"
+      - "@Mohsen_Hafez 3"
+      - "@Mohsen_Hafez 2"
+      - "@Mohsen_Hafez 3"
+      - "@Mohsen_Hafez 4"
+      - "@Mohsen_Hafez 7"
+      - "@Mohsen_Hafez 8"
+      - "@Mohsen_Hafez 9"
+      - "@Mohsen_Hafez 10"
+      - "@Mohsen_Hafez 11"
+      - "@Mohsen_Hafez 3"
       - "@Mohsen_Hafez"
+      - "@Mohsen_Hafez 4"
+      - "@Mohsen_Hafez 5"
+      - "@Mohsen_Hafez 5"
+      - "@Mohsen_Hafez 6"
+      - "@Mohsen_Hafez 6"
+      - "@Mohsen_Hafez 7"
+      - "@Mohsen_Hafez 8"
+      - "@Mohsen_Hafez 12"
+      - "@Mohsen_Hafez 4"
+      - "@Mohsen_Hafez 13"
+      - "@Mohsen_Hafez 14"
+      - "@Mohsen_Hafez 5"
+      - "@Mohsen_Hafez 6"
+      - "@Mohsen_Hafez 7"
+      - "@Mohsen_Hafez 9"
+      - "@Mohsen_Hafez 15"
+      - "@Mohsen_Hafez 16"
+      - "@Mohsen_Hafez 17"
       - "@Mohsen_Hafez 2"
+      - "@Mohsen_Hafez 8"
+      - "@Mohsen_Hafez 7"
+      - "@Mohsen_Hafez 10"
+      - "@Mohsen_Hafez 8"
+      - "@Mohsen_Hafez 9"
+      - "@Mohsen_Hafez 10"
+      - "@Mohsen_Hafez 11"
+      - "@Mohsen_Hafez 12"
+      - "@Mohsen_Hafez 13"
+      - "@Mohsen_Hafez 14"
+      - "@Mohsen_Hafez 15"
+      - "@Mohsen_Hafez 16"
+      - "@Mohsen_Hafez 17"
+      - "@Mohsen_Hafez 18"
+      - "@Mohsen_Hafez 9"
+      - "@Mohsen_Hafez 11"
+      - "@Mohsen_Hafez 19"
+      - "@Mohsen_Hafez 20"
+      - "@Mohsen_Hafez 21"
+      - "@Mohsen_Hafez 22"
+      - "@Mohsen_Hafez 23"
+      - "@Mohsen_Hafez 24"
+      - "@Mohsen_Hafez 25"
+      - "@Mohsen_Hafez 26"
+      - "@Mohsen_Hafez 27"
+      - "@Mohsen_Hafez 28"
+      - "@Mohsen_Hafez 29"
+      - "@Mohsen_Hafez 30"
+      - "@Mohsen_Hafez 10"
+      - "@Mohsen_Hafez 12"
+      - "@Mohsen_Hafez 13"
+      - "@Mohsen_Hafez 14"
+      - "@Mohsen_Hafez 15"
       - "@Mohsen_Hafez 3"
       - "@Mohsen_Hafez 4"
-      - "@Mohsen_Hafez 5"
-      - "@Mohsen_Hafez 6"
-      - "@Mohsen_Hafez 7"
-      - "@Mohsen_Hafez 8"
-      - "@Mohsen_Hafez 9"
-      - "@Mohsen_Hafez 10"
-      - "@Mohsen_Hafez 11"
-      - "@Mohsen_Hafez 12"
-      - "@Mohsen_Hafez 13"
-      - "@Mohsen_Hafez 14"
-      - "@Mohsen_Hafez 15"
-      - "@Mohsen_Hafez 16"
-      - "@Mohsen_Hafez 17"
-      - "@Mohsen_Hafez 18"
 
 rules:
   - MATCH,☰ MENU
