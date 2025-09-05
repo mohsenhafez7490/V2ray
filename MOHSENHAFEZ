@@ -1,3 +1,6 @@
+vless://88a197e6-7c61-446a-bba3-187b99b8b2af@91.99.159.82:2080?security=reality&encryption=none&pbk=9P0GTyz-Z_38Iz8iceIOlv9ogjoNXqQKNLCXd1kacXo&headerType=none&fp=firefox&type=tcp&sni=example.com&sid=24c079181442c756#%40Mohsen_Hafez
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppRF9zajVobXNNcVdwZ3U3UElpcUVB@91.99.159.82:1080#%40Mohsen_Hafez
+
 vless://19508bb2-bef7-44c3-bdbd-35c23c7ccecc@93.127.180.144:8880?security=none&encryption=none&headerType=none&type=tcp#%40Mohsen_Hafez
 vless://ad069756-c14b-4443-87af-4a503c5c08f5@m33a.vip784.com:33801?security=none&encryption=none&host=varzesh3.ir&headerType=http&type=tcp#%40Mohsen_Hafez
 vless://8523c3f2-d5c7-4cce-9342-5c48a1afb3b9@m59a.vip784.com:33801?security=none&encryption=none&host=varzesh3.ir&headerType=http&type=tcp#%40Mohsen_Hafez
