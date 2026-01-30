@@ -6,370 +6,3644 @@ log-level: info
 external-controller: 127.0.0.1:9090
 
 proxies:
-  - name: "@MOHSEN_HAFEZ☆"
-    server: 190.93.247.106
+  - name: "@Mohsen_Hafez"
+    type: vless
+    server: 89.169.162.214
+    port: 8443
+    uuid: 2ad6bd90-51fd-41d2-985b-b7aab5cd77c8
+    servername: yandex.ru
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+      short-id: 205748bc0f24a747
+  - name: "@Mohsen_Hafez_1"
+    type: vless
+    server: 212.233.73.212
     port: 443
-    type: trojan
-    password: m1o3hs6e6n
-    skip-cert-verify: true
-    sni: mohsen.mohsenhafezquran.workers.dev
+    uuid: 27a5fc60-29b7-4598-9cdd-b8180a01b441
+    servername: m.vk.ru
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+      short-id: 2715592069f36fe7
+  - name: "@Mohsen_Hafez_2"
+    type: vless
+    server: 212.111.84.82
+    port: 443
+    uuid: 0ff8dbfb-d7ee-4a19-b22d-b652a8b52e22
+    servername: m.vk.ru
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+      short-id: f4b4a6365558ea2e
+  - name: "@Mohsen_Hafez_3"
+    type: vless
+    server: 217.13.104.115
+    port: 4249
+    uuid: 488fa2ff-440b-46b7-b0e0-211bcf923d5e
+    servername: eh.vk.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: NzoS8wtHAWEmypXGdwW01bN0LpDzr-Lw2HRRopKsLxY
+      short-id: a20d3ed244c76426
+  - name: "@Mohsen_Hafez_4"
+    type: vless
+    server: 84.23.52.70
+    port: 443
+    uuid: 27a5fc60-29b7-4598-9cdd-b8180a01b441
+    servername: m.vk.ru
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+      short-id: 8ba12e75110b7a9c
+  - name: "@Mohsen_Hafez_5"
+    type: vless
+    server: 158.160.221.132
+    port: 443
+    uuid: d4d031ec-0ba6-486a-aa0c-dce2b7cb8933
+    servername: yandex.ru
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
+      short-id: 1929ef620e9b34f5
+  - name: "@Mohsen_Hafez_6"
+    type: vless
+    server: 212.233.73.212
+    port: 8443
+    uuid: 27a5fc60-29b7-4598-9cdd-b8180a01b441
+    servername: m.vk.ru
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+      short-id: 2715592069f36fe7
+  - name: "@Mohsen_Hafez_7"
+    type: vless
+    server: us2.miyazono-kaori.com
+    port: 443
+    uuid: 937f8940-ad8a-409f-93c3-4d6249af628f
+    servername: download-porter.hoyoverse.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: _TIQSjojgpdSBoSVXuQjFSqIdPeXjQIQkM5cFSv6Gnc
+      short-id: 9613864900a8f12d
+  - name: "@Mohsen_Hafez_8"
+    type: vless
+    server: us1.miyazono-kaori.com
+    port: 443
+    uuid: 937f8940-ad8a-409f-93c3-4d6249af628f
+    servername: download-porter.hoyoverse.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 9mkPUmY5M-N81bSDf3lP9X3JnH25l4SfeUTnlwV04Eo
+      short-id: d77c4204
+  - name: "@Mohsen_Hafez_9"
+    type: vless
+    server: 15.204.97.198
+    port: 23576
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    servername: fuck.rkn
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: "01"
+  - name: "@Mohsen_Hafez_10"
+    type: vless
+    server: 77.240.39.112
+    port: 443
+    uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3
+    servername: hls-svod.itunes.apple.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+      short-id: 48720c
+  - name: "@Mohsen_Hafez_11"
+    type: vless
+    server: 91.147.92.153
+    port: 443
+    uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3
+    servername: hls-svod.itunes.apple.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+      short-id: 48720c
+  - name: "@Mohsen_Hafez_12"
+    type: vless
+    server: afrcloud5.mmv.kr
+    port: 443
+    uuid: 6b8609c0-26e0-4ec4-9b63-e555bcd6c7d9
     network: ws
+    servername: afrcloud5.mmv.kr
+    tls: true
+    ws-opts:
+      path: /129.153.132.114=46000
+      headers:
+        Host: afrcloud5.mmv.kr
+  - name: "@Mohsen_Hafez_13"
+    type: trojan
+    server: afrcloud5.mmv.kr
+    port: 443
+    password: 6b8609c0-26e0-4ec4-9b63-e555bcd6c7d9
+    sni: afrcloud5.mmv.kr
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /129.153.132.114=46000
+      headers:
+        Host: afrcloud5.mmv.kr
+  - name: "@Mohsen_Hafez_14"
+    type: vless
+    server: 89.169.162.214
+    port: 443
+    uuid: 2ad6bd90-51fd-41d2-985b-b7aab5cd77c8
+    servername: yandex.ru
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+      short-id: 205748bc0f24a747
+  - name: "@Mohsen_Hafez_15"
+    type: vless
+    server: 103.35.188.22
+    port: 8443
+    uuid: 93a20fae-54f4-4e25-93ef-995b3e52fc04
+    servername: tradingview.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 61Svf2Pd08DRvSgCHyI_J-F7lhPLd_hg3mS_byFl_h0
+      short-id: cefa7ca418bd0dcb
+  - name: "@Mohsen_Hafez_16"
+    type: hysteria2
+    server: 156.226.173.8
+    port: 8443
+    password: 9c23940e-efd8-4763-bfb5-54739b50893d
+    sni: hy5.hy2yydsapi.top
+    skip-cert-verify: true
+  - name: "@Mohsen_Hafez_17"
+    type: vless
+    server: 132.226.147.10
+    port: 443
+    uuid: b527363c-efb8-4a3f-9209-cdeb18349afd
+    servername: musicstatus.tv.apple.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: OEZ3C-1OCSYBikqcWudtPP3PpQq2RAI7rFPxWoTCDSc
+      short-id: bffe9292
+  - name: "@Mohsen_Hafez_18"
+    type: vless
+    server: 15.204.97.206
+    port: 23576
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    servername: fuck.rkn
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: "01"
+  - name: "@Mohsen_Hafez_19"
+    type: trojan
+    server: jp.111000.cc.cd
+    port: 443
+    password: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+    sni: sni.111000.de5.net
+    alpn:
+      - http/1.1
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /?ip=ip.111000.de5.net:443
+      headers:
+        Host: sni.111000.de5.net
+  - name: "@Mohsen_Hafez_20"
+    type: vless
+    server: 212.111.84.82
+    port: 443
+    uuid: 0ff8dbfb-d7ee-4a19-b22d-b652a8b52e22
+    servername: m.vk.ru
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+      short-id: f4b4a6365558ea2e
+  - name: "@Mohsen_Hafez_21"
+    type: vless
+    server: 188.114.98.23
+    port: 2053
+    uuid: 8d9ccaac-2cb2-4c42-9a2b-0a5a10243031
+    network: ws
+    servername: zxz.ecoping2.org
+    tls: true
+    ws-opts:
+      headers:
+        Host: zxz.ecoping2.org
+  - name: "@Mohsen_Hafez_22"
+    type: vless
+    server: 212.111.84.82
+    port: 443
+    uuid: 0ff8dbfb-d7ee-4a19-b22d-b652a8b52e22
+    servername: m.vk.ru
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+      short-id: f4b4a6365558ea2e
+  - name: "@Mohsen_Hafez_23"
+    type: vless
+    server: 47.245.38.111
+    port: 443
+    uuid: 86b414b6-966e-4f6d-ab16-32049ef732d3
+    servername: www.autodesk.com
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: y167aJhpgWWjltY4UCir_uu8Mj__Hkc1W4etD0QXYH4
+      short-id: 860705e716cbe6ed
+  - name: "@Mohsen_Hafez_24"
+    type: vless
+    server: yesok42v2.ip4exordir.shop
+    port: 8880
+    uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
+    network: grpc
+    tls: false
+  - name: "@Mohsen_Hafez_25"
+    type: vless
+    server: 104.18.32.47
+    port: 443
+    uuid: fef4a93d-eb4f-4657-b56b-32a0dc060045
+    network: ws
+    servername: dev.twistsparrow.xyz
+    tls: true
+    ws-opts:
+      path: /
+      headers:
+        Host: dev.twistsparrow.xyz
+  - name: "@Mohsen_Hafez_26"
+    type: vless
+    server: 188.114.98.23
+    port: 2053
+    uuid: 8d9ccaac-2cb2-4c42-9a2b-0a5a10243031
+    network: ws
+    servername: lin.ecoglass.ir
+    tls: true
+    ws-opts:
+      headers:
+        Host: lin.ecoglass.ir
+  - name: "@Mohsen_Hafez_27"
+    type: vless
+    server: 62.60.185.223
+    port: 50850
+    uuid: b47f28a0-2d60-4fa2-851d-744bc13bbd0b
+    tls: false
+  - name: "@Mohsen_Hafez_28"
+    type: vless
+    server: end.app9.ir
+    port: 8990
+    uuid: 16dca335-d479-4baa-b5b8-2d137408f289
+    servername: end.app9.ir
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+  - name: "@Mohsen_Hafez_29"
+    type: vless
+    server: xhttp.pcapps.ir
+    port: 2053
+    uuid: 16dca335-d479-4baa-b5b8-2d137408f289
+    network: http
+    servername: cdn.pcapps.ir
+    tls: true
+    client-fingerprint: chrome
+    http-opts:
+      headers:
+        Host: cdn.pcapps.ir
+  - name: "@Mohsen_Hafez_30"
+    type: vless
+    server: xhttp.pcapps.ir
+    port: 2053
+    uuid: 16dca335-d479-4baa-b5b8-2d137408f289
+    network: http
+    servername: cdn2.pcapps.ir
+    tls: true
+    client-fingerprint: chrome
+    http-opts:
+      headers:
+        Host: cdn2.pcapps.ir
+  - name: "@Mohsen_Hafez_31"
+    type: vless
+    server: tun.pcapps.ir
+    port: 2020
+    uuid: 16dca335-d479-4baa-b5b8-2d137408f289
+    tls: false
+  - name: "@Mohsen_Hafez_32"
+    type: vless
+    server: bio.app9.ir
+    port: 8443
+    uuid: 16dca335-d479-4baa-b5b8-2d137408f289
+    servername: refersion.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  - name: "@Mohsen_Hafez_33"
+    type: vless
+    server: cpu.pcapps.ir
+    port: 2087
+    uuid: 16dca335-d479-4baa-b5b8-2d137408f289
+    servername: refersion.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  - name: "@Mohsen_Hafez_34"
+    type: vless
+    server: 188.114.96.3
+    port: 443
+    uuid: 396c904b-4b62-4334-b793-ee25fc0c61cc
+    network: ws
+    servername: pages.dev
+    tls: true
+    ws-opts:
+      path: /eyJqdW5rIjoiTHczMWlhREZIb0ljUDhoaCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+      headers:
+        Host: 8vmU06cxdz59m931xnREgj8qpnoq1-06.pages.dev
+  - name: "@Mohsen_Hafez_35"
+    type: vless
+    server: nodejs.org
+    port: 80
+    uuid: ba2bb9d8-9baa-45d6-9e0a-38c9cb6a6a9a
+    network: ws
+    tls: false
+    ws-opts:
+      path: /?ed
+      headers:
+        Host: WeaK-preSSUrE3Ga6bzof92.sPorTlaNd.coMPANY.
+  - name: "@Mohsen_Hafez_36"
+    type: vless
+    server: 104.19.37.10
+    port: 443
+    uuid: 85f9e89d-3298-4c2c-9a03-8ab71be0f986
+    network: ws
+    servername: free.aliamini.net
+    tls: true
+    ws-opts:
+      path: /@AlaedinVPN
+      headers:
+        Host: free.aliamini.net
+  - name: "@Mohsen_Hafez_37"
+    type: vless
+    server: 188.114.96.3
+    port: 443
+    uuid: 396c904b-4b62-4334-b793-ee25fc0c61cc
+    network: ws
+    servername: pages.dev
+    tls: true
+    ws-opts:
+      path: /eyJqdW5rIjoiTHczMWlhREZIb0ljUDhoaCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+      headers:
+        Host: 8vmU06cxdz59m931xnREgj8qpnoq1-06.pages.dev
+  - name: "@Mohsen_Hafez_38"
+    type: ss
+    server: 82.38.31.89
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+  - name: "@Mohsen_Hafez_39"
+    type: vless
+    server: 172.64.152.23
+    port: 443
+    uuid: 396c904b-4b62-4334-b793-ee25fc0c61cc
+    network: ws
+    servername: pages.dev
+    tls: true
+    ws-opts:
+      path: /eyJqdW5rIjoiTHczMWlhREZIb0ljUDhoaCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+      headers:
+        Host: 8vmU06cxdz59m931xnREgj8qpnoq1-06.pages.dev
+  - name: "@Mohsen_Hafez_40"
+    type: vless
+    server: 172.64.152.23
+    port: 443
+    uuid: 396c904b-4b62-4334-b793-ee25fc0c61cc
+    network: ws
+    servername: pages.dev
+    tls: true
+    ws-opts:
+      path: /eyJqdW5rIjoiTHczMWlhREZIb0ljUDhoaCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+      headers:
+        Host: 8vmU06cxdz59m931xnREgj8qpnoq1-06.pages.dev
+  - name: "@Mohsen_Hafez_41"
+    type: vless
+    server: 172.64.152.23
+    port: 443
+    uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+    network: ws
+    servername: l.ayovo.netlib.re
+    tls: true
+    ws-opts:
+      path: /x-aniu/?ed=2560
+      headers:
+        Host: l.ayovo.netlib.re
+  - name: "@Mohsen_Hafez_42"
+    type: trojan
+    server: 172.64.152.23
+    port: 443
+    password: humanity
+    sni: www.gossipglove.com
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /assignment
+      headers:
+        Host: www.gossipglove.com
+  - name: "@Mohsen_Hafez_43"
+    type: vless
+    server: ir2us.ak6.ir
+    port: 705
+    uuid: 2ca5e634-8795-47b8-9e64-4d77ad142c6d
+    network: ws
+    tls: false
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: mohsen.mohsenhafezquran.workers.dev
-    udp: true
-  - name: "@MOHSEN_HAFEZ☆ 2"
-    server: 172.67.101.147
-    port: 443
+        Host: snapp.ir
+  - name: "@Mohsen_Hafez_44"
     type: trojan
-    password: m1o3hs6e6n
-    skip-cert-verify: true
-    sni: mohsen.mohsenhafezquran.workers.dev
+    server: 172.64.152.23
+    port: 443
+    password: humanity
+    sni: www.creationlong.org
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /assignment
+      headers:
+        Host: www.creationlong.org
+  - name: "@Mohsen_Hafez_45"
+    type: vless
+    server: 172.64.152.23
+    port: 443
+    uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
     network: ws
+    servername: l.ayovo.netlib.re
+    tls: true
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: mohsen.mohsenhafezquran.workers.dev
-    udp: true
-  - name: "@MOHSEN_HAFEZ☆ 3"
-    server: 190.93.245.91
-    port: 443
-    type: trojan
-    password: m1o3hs6e6n
-    skip-cert-verify: true
-    sni: mohsen.mohsenhafezquran.workers.dev
+        Host: l.ayovo.netlib.re
+  - name: "@Mohsen_Hafez_46"
+    type: vless
+    server: niimb.aparat-movies-download.ir
+    port: 42555
+    uuid: 6618b577-b801-4f0c-811a-ac83c70639dc
+    tls: false
+  - name: "@Mohsen_Hafez_47"
+    type: vless
+    server: tu1.connectbaash.info
+    port: 6071
+    uuid: 723c7b9d-5d2a-401f-ae45-ba57181538fa
+    tls: false
+  - name: "@Mohsen_Hafez_48"
+    type: vless
+    server: 89.167.0.99
+    port: 7070
+    uuid: c8e0cef7-b3fc-4f4c-c31f-15e38f5cf124
+    tls: false
+  - name: "@Mohsen_Hafez_49"
+    type: vless
+    server: seven.nothingnewtodo.online
+    port: 58318
+    uuid: 64cf2543-9a22-432d-a413-7fb7efbc1b3a
+    tls: false
+  - name: "@Mohsen_Hafez_50"
+    type: vless
+    server: 104.17.147.22
+    port: 80
+    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
     network: ws
+    tls: false
+    ws-opts:
+      path: /TELEGRAM-MARAMBASHI_MARAMBASHI?ed=512
+      headers:
+        Host: redfree8mahsang6.redfree8.ir
+  - name: "@Mohsen_Hafez_51"
+    type: vless
+    server: ip.elcump.top
+    port: 8443
+    uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
+    network: ws
+    servername: hitgram.ir
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /---@MiTiVPN/---@MiTiVPN/---MiTiVPN/---@MiTiVPN
+      headers:
+        Host: hitgram.ir
+  - name: "@Mohsen_Hafez_52"
+    type: vless
+    server: 188.114.96.3
+    port: 443
+    uuid: 396c904b-4b62-4334-b793-ee25fc0c61cc
+    network: ws
+    servername: pages.dev
+    tls: true
+    ws-opts:
+      path: /eyJqdW5rIjoiTHczMWlhREZIb0ljUDhoaCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+      headers:
+        Host: 8vmU06cxdz59m931xnREgj8qpnoq1-06.pages.dev
+  - name: "@Mohsen_Hafez_53"
+    type: vless
+    server: tu1.connectbaash.info
+    port: 6071
+    uuid: 723c7b9d-5d2a-401f-ae45-ba57181538fa
+    tls: false
+  - name: "@Mohsen_Hafez_54"
+    type: vless
+    server: 172.64.152.23
+    port: 443
+    uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+    network: ws
+    servername: l.ayovo.netlib.re
+    tls: true
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: mohsen.mohsenhafezquran.workers.dev
-    udp: true
-  - name: "@MOHSEN_HAFEZ☆ 4"
-    server: 104.16.35.207
-    port: 443
+        Host: l.ayovo.netlib.re
+  - name: "@Mohsen_Hafez_55"
+    type: vless
+    server: 89.167.0.99
+    port: 7070
+    uuid: c8e0cef7-b3fc-4f4c-c31f-15e38f5cf124
+    tls: false
+  - name: "@Mohsen_Hafez_56"
+    type: vless
+    server: niimb.aparat-movies-download.ir
+    port: 42555
+    uuid: 6618b577-b801-4f0c-811a-ac83c70639dc
+    tls: false
+  - name: "@Mohsen_Hafez_57"
     type: trojan
-    password: m1o3hs6e6n
-    skip-cert-verify: true
-    sni: mohsen.mohsenhafezquran.workers.dev
+    server: 172.64.152.23
+    port: 443
+    password: humanity
+    sni: www.creationlong.org
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /assignment
+      headers:
+        Host: www.creationlong.org
+  - name: "@Mohsen_Hafez_58"
+    type: vless
+    server: tu1.connectbaash.info
+    port: 6071
+    uuid: 723c7b9d-5d2a-401f-ae45-ba57181538fa
+    tls: false
+  - name: "@Mohsen_Hafez_59"
+    type: vless
+    server: ir2us.ak6.ir
+    port: 705
+    uuid: 2ca5e634-8795-47b8-9e64-4d77ad142c6d
     network: ws
+    tls: false
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: mohsen.mohsenhafezquran.workers.dev
-    udp: true
-  - name: "@MOHSEN_HAFEZ☆ 5"
-    server: 190.93.244.112
-    port: 443
+        Host: snapp.ir
+  - name: "@Mohsen_Hafez_60"
+    type: vless
+    server: seven.nothingnewtodo.online
+    port: 58318
+    uuid: 54458ae1-5cd1-4f70-9a10-b207dc7c782b
+    tls: false
+  - name: "@Mohsen_Hafez_61"
     type: trojan
-    password: m1o3hs6e6n
-    skip-cert-verify: true
-    sni: mohsen.mohsenhafezquran.workers.dev
+    server: 104.18.0.55
+    port: 443
+    password: humanity
+    sni: www.gossipglove.com
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /assignment
+  - name: "@Mohsen_Hafez_62"
+    type: vless
+    server: 188.114.98.23
+    port: 2053
+    uuid: 8d9ccaac-2cb2-4c42-9a2b-0a5a10243031
     network: ws
+    servername: zxz.ecoping2.org
+    tls: true
+    ws-opts:
+      headers:
+        Host: zxz.ecoping2.org
+  - name: "@Mohsen_Hafez_63"
+    type: vless
+    server: cld2.lordofwest.ir
+    port: 2053
+    uuid: 8d9ccaac-2cb2-4c42-9a2b-0a5a10243031
+    network: ws
+    servername: greece.lumeshop.ir
+    tls: true
+    ws-opts:
+      headers:
+        Host: greece.lumeshop.ir
+  - name: "@Mohsen_Hafez_64"
+    type: vless
+    server: 188.114.98.23
+    port: 2053
+    uuid: 8d9ccaac-2cb2-4c42-9a2b-0a5a10243031
+    network: ws
+    servername: lin.ecoglass.ir
+    tls: true
+    ws-opts:
+      headers:
+        Host: lin.ecoglass.ir
+  - name: "@Mohsen_Hafez_65"
+    type: vless
+    server: 104.248.167.70
+    port: 10304
+    uuid: 88bef288-3d7f-4171-a23d-c044c2041eb4
+    network: kcp
+    tls: false
+  - name: "@Mohsen_Hafez_66"
+    type: vless
+    server: 104.248.167.70
+    port: 14509
+    uuid: 61daf28f-ef1b-438b-fb27-e9a56d1a5e07
+    network: kcp
+    tls: false
+  - name: "@Mohsen_Hafez_67"
+    type: vless
+    server: cld2.lordofwest.ir
+    port: 2053
+    uuid: 8d9ccaac-2cb2-4c42-9a2b-0a5a10243031
+    network: ws
+    servername: ksdzzz.ecoping2.org
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      headers:
+        Host: ksdzzz.ecoping2.org
+  - name: "@Mohsen_Hafez_68"
+    type: vless
+    server: cld2.lordofwest.ir
+    port: 2053
+    uuid: 8d9ccaac-2cb2-4c42-9a2b-0a5a10243031
+    network: ws
+    servername: Seattle.r1cx.ir
+    tls: true
+    ws-opts:
+      headers:
+        Host: Seattle.r1cx.ir
+  - name: "@Mohsen_Hafez_69"
+    type: vless
+    server: 190.93.244.3
+    port: 2053
+    uuid: 8d9ccaac-2cb2-4c42-9a2b-0a5a10243031
+    network: ws
+    servername: ity.ecoping2.org
+    tls: true
+    ws-opts:
+      headers:
+        Host: ity.ecoping2.org
+  - name: "@Mohsen_Hafez_70"
+    type: vless
+    server: 188.114.98.0
+    port: 443
+    uuid: 3f0f36f5-f091-45c5-88c9-4bcc545b922c
+    network: ws
+    servername: hetz.x-smm.com
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /45.76.183.217=49292
+      headers:
+        Host: hetz.x-smm.com
+  - name: "@Mohsen_Hafez_71"
+    type: vless
+    server: cld2.lordofwest.ir
+    port: 2053
+    uuid: 8d9ccaac-2cb2-4c42-9a2b-0a5a10243031
+    network: ws
+    servername: atla.r1cx.ir
+    tls: true
+  - name: "@Mohsen_Hafez_72"
+    type: vless
+    server: 89.167.0.99
+    port: 7070
+    uuid: c8e0cef7-b3fc-4f4c-c31f-15e38f5cf124
+    tls: false
+  - name: "@Mohsen_Hafez_73"
+    type: vless
+    server: zone.li.f2zone.ir
+    port: 50334
+    uuid: c31d941d-da9a-41eb-885f-b3d3aa6ff22c
+    tls: false
+  - name: "@Mohsen_Hafez_74"
+    type: vless
+    server: nodejs.org
+    port: 80
+    uuid: 3775d133-dc3a-4a02-8095-5c70c328ae9f
+    network: ws
+    tls: false
+    ws-opts:
+      path: /?ed
+      headers:
+        Host: HUge-ActOR48bf36fHJV.ecOTouriSS.co.uK.
+  - name: "@Mohsen_Hafez_75"
+    type: vless
+    server: band.footballfotball.sbs
+    port: 23245
+    uuid: d23473c9-7f29-4c47-858b-9c7c57c2a121
+    tls: false
+  - name: "@Mohsen_Hafez_76"
+    type: trojan
+    server: 172.64.155.209
+    port: 443
+    password: humanity
+    sni: www.gossipglove.com
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /assignment
+      headers:
+        Host: www.gossipglove.com
+  - name: "@Mohsen_Hafez_77"
+    type: trojan
+    server: 172.64.155.209
+    port: 443
+    password: humanity
+    sni: www.gossipglove.com
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /assignment
+      headers:
+        Host: www.gossipglove.com
+  - name: "@Mohsen_Hafez_78"
+    type: vless
+    server: o3.tun.nodegozar.com
+    port: 1717
+    uuid: 3697dfdc-5b8f-4c46-b8b3-6975445fdf29
+    tls: false
+  - name: "@Mohsen_Hafez_79"
+    type: vless
+    server: 104.21.224.5
+    port: 2096
+    uuid: 686c62d9-17a7-43c9-a40a-f6747df60a9f
+    network: ws
+    servername: ca.adobe-connect.top
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: ca.adobe-connect.top
+  - name: "@Mohsen_Hafez_80"
+    type: vless
+    server: tu2.bing-net.com
+    port: 3044
+    uuid: 52343444-0029-4feb-9d52-31ecf4724db7
+    tls: false
+  - name: "@Mohsen_Hafez_81"
+    type: vless
+    server: tu1.bing-net.com
+    port: 3035
+    uuid: 52343444-0029-4feb-9d52-31ecf4724db7
+    tls: false
+  - name: "@Mohsen_Hafez_82"
+    type: vless
+    server: download.pcapps.ir
+    port: 2030
+    uuid: 16dca335-d479-4baa-b5b8-2d137408f289
+    network: ws
+    tls: false
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: skyroom.online
+  - name: "@Mohsen_Hafez_83"
+    type: vless
+    server: download.pcapps.ir
+    port: 2030
+    uuid: 16dca335-d479-4baa-b5b8-2d137408f289
+    network: ws
+    tls: false
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: skyroom.online
+  - name: "@Mohsen_Hafez_84"
+    type: vless
+    server: turkey-dtc1.mlgolden.store
+    port: 4020
+    uuid: 7a151a91-02ad-ad5a-8cf0-74f02f50416b
+    tls: false
+  - name: "@Mohsen_Hafez_85"
+    type: vless
+    server: 212.111.85.1
+    port: 8443
+    uuid: 80115515-eb00-4d28-8f02-66b3e3e6a515
+    servername: m.vk.ru
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
+      short-id: 1929ef620e9b34f5
+  - name: "@Mohsen_Hafez_86"
+    type: vless
+    server: 104.18.32.47
+    port: 443
+    uuid: c9b0932d-8d1c-43c5-b64b-e9a74719c76d
+    network: ws
+    servername: freuddd.info
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /hsdgsws
+      headers:
+        Host: freuddd.info
+  - name: "@Mohsen_Hafez_87"
+    type: vless
+    server: irandiar.ghafgh.ir
+    port: 2020
+    uuid: 5bf59cec-57e0-47ee-9904-3ea8121f3302
+    tls: false
+  - name: "@Mohsen_Hafez_88"
+    type: vless
+    server: cloud.nexun.ir
+    port: 443
+    uuid: 2070ba69-6fc7-4cc9-9c8f-196be6aa9b3c
+    servername: ars.nexun.ir
+    tls: true
+  - name: "@Mohsen_Hafez_89"
+    type: trojan
+    server: 94.140.0.1
+    port: 443
+    password: bpb-trojan
+    sni: singbox.lu567890.us.kg
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /tr?ed=2560
+      headers:
+        Host: singbox.lu567890.us.kg
+  - name: "@Mohsen_Hafez_90"
+    type: vless
+    server: 151.101.3.19
+    port: 80
+    uuid: 0b516cf6-cd76-470c-954d-9374d734f445
+    network: ws
+    tls: false
+    ws-opts:
+      path: /site
+      headers:
+        Host: yalandonya.global.ssl.fastly.net
+  - name: "@Mohsen_Hafez_91"
+    type: vless
+    server: python.org
+    port: 80
+    uuid: 1fbd6005-2228-44f4-b33e-d7845afd725d
+    network: ws
+    tls: false
+    ws-opts:
+      path: /site
+      headers:
+        Host: yalandonya.global.ssl.fastly.net
+  - name: "@Mohsen_Hafez_92"
+    type: vless
+    server: speedtest.net
+    port: 80
+    uuid: a26bbed7-a286-4840-84bc-dc102c526777
+    network: http
+    tls: false
+    http-opts:
+      path: /category/music
+      headers:
+        Host: iran.boltboost.gg
+  - name: "@Mohsen_Hafez_93"
+    type: vless
+    server: ir2.gitmaker.ir
+    port: 777
+    uuid: 67bad1be-8510-4703-91f2-b566d7213598
+    tls: false
+  - name: "@Mohsen_Hafez_94"
+    type: ss
+    server: 82.38.31.89
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+  - name: "@Mohsen_Hafez_95"
+    type: vless
+    server: 188.114.96.3
+    port: 443
+    uuid: 396c904b-4b62-4334-b793-ee25fc0c61cc
+    network: ws
+    servername: pages.dev
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /eyJqdW5rIjoiTHczMWlhREZIb0ljUDhoaCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+      headers:
+        Host: 8vmU06cxdz59m931xnREgj8qpnoq1-06.pages.dev
+  - name: "@Mohsen_Hafez_96"
+    type: ss
+    server: 148.113.143.102
+    port: 11201
+    cipher: chacha20-ietf-poly1305
+    password: 8d90009fa5023cfa
+  - name: "@Mohsen_Hafez_97"
+    type: ss
+    server: 54.36.174.140
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: pvgz9pq
+  - name: "@Mohsen_Hafez_98"
+    type: vless
+    server: 188.114.98.0
+    port: 443
+    uuid: 3f0f36f5-f091-45c5-88c9-4bcc545b922c
+    network: ws
+    servername: hetz.x-smm.com
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /45.76.183.217=49292
+      headers:
+        Host: hetz.x-smm.com
+  - name: "@Mohsen_Hafez_99"
+    type: vless
+    server: 162.19.10.99
+    port: 443
+    uuid: nasnet
+    servername: nasnet-162191099-direct.sharghdaily.co
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: randomized
+  - name: "@Mohsen_Hafez_100"
+    type: vless
+    server: 77.73.232.61
+    port: 19747
+    uuid: 2a9ed01e-5455-44b4-a66a-76ee8165f0ac
+    servername: yahoo.com
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: ZO9dTeg1slvTXgVsBsaJ1BDvz_YUImTLJjbHs-GdVyM
+      short-id: "2001"
+  - name: "@Mohsen_Hafez_101"
+    type: vless
+    server: 188.114.96.3
+    port: 443
+    uuid: 396c904b-4b62-4334-b793-ee25fc0c61cc
+    network: ws
+    servername: pages.dev
+    tls: true
+    ws-opts:
+      path: /eyJqdW5rIjoiTHczMWlhREZIb0ljUDhoaCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+      headers:
+        Host: 8vmU06cxdz59m931xnREgj8qpnoq1-06.pages.dev
+  - name: "@Mohsen_Hafez_102"
+    type: vless
+    server: 37.152.175.93
+    port: 8443
+    uuid: 0d9e572e-ad55-4fb8-adcf-858cbafb9c40
+    servername: parsabr.com
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: vZruSVclFJztKnzP8Da1OuG7hyNeM1_YhDX9Tpih3mM
+      short-id: 3650a4286bf867e9
+  - name: "@Mohsen_Hafez_103"
+    type: vless
+    server: 104.18.15.19
+    port: 8443
+    uuid: 0665cf1e-0df8-4981-a8de-a366e37c0866
+    network: ws
+    servername: xdol7mayq6wu5kil7wjyrni7o8tnydsafcmhfhn7g6rimbw5o2g6mlm.zjde5.de5.net
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /?ed=#TELEGRAM-YamYamProxy_YamYamProxy_YamYamProxy_YamYamProxy_YamYamProxy?ed=2560
+      headers:
+        Host: xdol7mayq6wu5kil7wjyrni7o8tnydsafcmhfhn7g6rimbw5o2g6mlm.zjde5.de5.net
+  - name: "@Mohsen_Hafez_104"
+    type: vless
+    server: 188.114.96.3
+    port: 443
+    uuid: 396c904b-4b62-4334-b793-ee25fc0c61cc
+    network: ws
+    servername: pages.dev
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /eyJqdW5rIjoiTHczMWlhREZIb0ljUDhoaCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+      headers:
+        Host: 8vmU06cxdz59m931xnREgj8qpnoq1-06.pages.dev
+  - name: "@Mohsen_Hafez_105"
+    type: vless
+    server: 104.18.15.19
+    port: 8443
+    uuid: 0665cf1e-0df8-4981-a8de-a366e37c0866
+    network: ws
+    servername: xdol7mayq6wu5kil7wjyrni7o8tnydsafcmhfhn7g6rimbw5o2g6mlm.zjde5.de5.net
+    tls: true
+    client-fingerprint: chrome
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: mohsen.mohsenhafezquran.workers.dev
-    udp: true
-  - name: "@MOHSEN_HAFEZ☆ 6"
-    server: 188.114.96.69
-    port: 443
-    type: trojan
-    password: m1o3hs6e6n
-    skip-cert-verify: true
-    sni: mohsen.mohsenhafezquran.workers.dev
+        Host: xdol7mayq6wu5kil7wjyrni7o8tnydsafcmhfhn7g6rimbw5o2g6mlm.zjde5.de5.net
+  - name: "@Mohsen_Hafez_106"
+    type: vless
+    server: srv10.bestforcast.com
+    port: 11550
+    uuid: 71c89341-559f-46ea-8684-8f06e3a65a39
     network: ws
+    tls: false
+  - name: "@Mohsen_Hafez_107"
+    type: vless
+    server: nsop.mastermarly.ir
+    port: 2096
+    uuid: 73130c36-8b0a-4f5a-865c-bf92c182c1a7
+    network: ws
+    servername: francoo.mastermarly.ir
+    tls: true
+    client-fingerprint: safari
+    ws-opts:
+      path: /path
+      headers:
+        Host: francoo.mastermarly.ir
+  - name: "@Mohsen_Hafez_108"
+    type: vless
+    server: api.gametvr.ir
+    port: 2080
+    uuid: 831bfcdf-b296-3171-8c78-8f7b5f627d93
+    tls: false
+  - name: "@Mohsen_Hafez_109"
+    type: vless
+    server: 188.114.96.3
+    port: 443
+    uuid: 396c904b-4b62-4334-b793-ee25fc0c61cc
+    network: ws
+    servername: pages.dev
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /eyJqdW5rIjoiTHczMWlhREZIb0ljUDhoaCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+      headers:
+        Host: 8vmU06cxdz59m931xnREgj8qpnoq1-06.pages.dev
+  - name: "@Mohsen_Hafez_110"
+    type: vless
+    server: 188.114.96.3
+    port: 443
+    uuid: 396c904b-4b62-4334-b793-ee25fc0c61cc
+    network: ws
+    servername: pages.dev
+    tls: true
+    ws-opts:
+      path: /eyJqdW5rIjoiTHczMWlhREZIb0ljUDhoaCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+      headers:
+        Host: 8vmU06cxdz59m931xnREgj8qpnoq1-06.pages.dev
+  - name: "@Mohsen_Hafez_111"
+    type: vless
+    server: fox1.wizard2shop.org
+    port: 2083
+    uuid: 517c776e-afbf-4749-9643-73c3ea26b905
+    network: ws
+    servername: xiz10.wizard2shop.org
+    tls: true
+    client-fingerprint: "360"
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: mohsen.mohsenhafezquran.workers.dev
-    udp: true
-  - name: "@MOHSEN_HAFEZ☆ 7"
-    server: 141.101.120.103
-    port: 443
-    type: trojan
-    password: m1o3hs6e6n
-    skip-cert-verify: true
-    sni: mohsen.mohsenhafezquran.workers.dev
+        Host: xiz10.wizard2shop.org
+  - name: "@Mohsen_Hafez_112"
+    type: vless
+    server: tgju.org
+    port: 2053
+    uuid: nasnet
+    network: http
+    servername: nasnet-571299667.rahavard365.co
+    tls: true
+    client-fingerprint: randomized
+    http-opts:
+      path: /NASNET/cdn?ed=2560
+      headers:
+        Host: nasnet-571299667.rahavard365.co
+  - name: "@Mohsen_Hafez_113"
+    type: vless
+    server: 147.78.140.0
+    port: 8443
+    uuid: 829658bf-03c4-4c28-81e9-dd6ea141b2d0
     network: ws
+    servername: 5jq7fvwpqt5owo2fi198sa6qoxznkzfea7en4m3xroeqrt3u3q.zjde5.de5.net
+    tls: true
+    client-fingerprint: chrome
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: mohsen.mohsenhafezquran.workers.dev
-    udp: true
-  - name: "@MOHSEN_HAFEZ☆ 8"
-    server: 104.19.159.83
-    port: 443
-    type: trojan
-    password: m1o3hs6e6n
-    skip-cert-verify: true
-    sni: mohsen.mohsenhafezquran.workers.dev
+        Host: 5jq7fvwpqt5owo2fi198sa6qoxznkzfea7en4m3xroeqrt3u3q.zjde5.de5.net
+  - name: "@Mohsen_Hafez_114"
+    type: vless
+    server: 104.18.15.19
+    port: 8443
+    uuid: 0665cf1e-0df8-4981-a8de-a366e37c0866
     network: ws
+    servername: xdol7mayq6wu5kil7wjyrni7o8tnydsafcmhfhn7g6rimbw5o2g6mlm.zjde5.de5.net
+    tls: true
+    client-fingerprint: chrome
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: mohsen.mohsenhafezquran.workers.dev
-    udp: true
-  - name: "@MOHSEN_HAFEZ☆ 9"
-    server: 104.24.139.120
+        Host: xdol7mayq6wu5kil7wjyrni7o8tnydsafcmhfhn7g6rimbw5o2g6mlm.zjde5.de5.net
+  - name: "@Mohsen_Hafez_115"
+    type: ss
+    server: 54.36.174.140
     port: 443
-    type: trojan
-    password: m1o3hs6e6n
-    skip-cert-verify: true
-    sni: mohsen.mohsenhafezquran.workers.dev
+    cipher: chacha20-ietf-poly1305
+    password: pvgz9pq
+  - name: "@Mohsen_Hafez_116"
+    type: ss
+    server: 54.36.174.134
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: pvgz9pq
+  - name: "@Mohsen_Hafez_117"
+    type: vless
+    server: uae1-dtc1.mlgolden.store
+    port: 6090
+    uuid: de6c5615-9e31-4761-970a-6b3c60c9fc99
+    tls: false
+  - name: "@Mohsen_Hafez_118"
+    type: vless
+    server: turkey-dtc1.mlgolden.store
+    port: 4020
+    uuid: 7a151a91-02ad-ad5a-8cf0-74f02f50416b
+    tls: false
+  - name: "@Mohsen_Hafez_119"
+    type: vless
+    server: ip.elcump.top
+    port: 8443
+    uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
     network: ws
+    servername: hitgram.ir
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /---@V2rayBaaz/---@V2rayBaaz/---V2rayBaaz/---@V2rayBaaz
+      headers:
+        Host: hitgram.ir
+  - name: "@Mohsen_Hafez_120"
+    type: vless
+    server: band.footballfotball.sbs
+    port: 23245
+    uuid: d23473c9-7f29-4c47-858b-9c7c57c2a121
+    tls: false
+  - name: "@Mohsen_Hafez_121"
+    type: vless
+    server: ipw.ygdfw.com
+    port: 443
+    uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
+    network: http
+    servername: Tp010XmFnT.dOtA2pLaY.iNfO
+    tls: true
+    http-opts:
+      path: /
+      headers:
+        Host: Tp010XmFnT.dOtA2pLaY.iNfO
+  - name: "@Mohsen_Hafez_122"
+    type: vless
+    server: nl.shallmod.ir
+    port: 8081
+    uuid: 5862fdf8-4856-4b43-b9cb-639fe2c48630
+    tls: false
+  - name: "@Mohsen_Hafez_123"
+    type: vless
+    server: chat.openai.com
+    port: 443
+    uuid: 396c904b-4b62-4334-b793-ee25fc0c61cc
+    network: ws
+    servername: pages.dev
+    tls: true
+    ws-opts:
+      path: /eyJqdW5rIjoiTHczMWlhREZIb0ljUDhoaCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+      headers:
+        Host: 8vmU06cxdz59m931xnREgj8qpnoq1-06.pages.dev
+  - name: "@Mohsen_Hafez_124"
+    type: vless
+    server: red1.iran-ont.co.uk
+    port: 4553
+    uuid: 41921dc4-5c32-417e-924a-3b75d5a0aba3
+    tls: false
+  - name: "@Mohsen_Hafez_125"
+    type: vless
+    server: 188.114.96.3
+    port: 443
+    uuid: 396c904b-4b62-4334-b793-ee25fc0c61cc
+    network: ws
+    servername: pages.dev
+    tls: true
+    ws-opts:
+      path: /eyJqdW5rIjoiTHczMWlhREZIb0ljUDhoaCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+      headers:
+        Host: 8vmU06cxdz59m931xnREgj8qpnoq1-06.pages.dev
+  - name: "@Mohsen_Hafez_126"
+    type: vless
+    server: chat.openai.com
+    port: 443
+    uuid: 396c904b-4b62-4334-b793-ee25fc0c61cc
+    network: ws
+    servername: pages.dev
+    tls: true
+    ws-opts:
+      path: /eyJqdW5rIjoiTHczMWlhREZIb0ljUDhoaCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+      headers:
+        Host: 8vmU06cxdz59m931xnREgj8qpnoq1-06.pages.dev
+  - name: "@Mohsen_Hafez_127"
+    type: vless
+    server: amir.ancvp.ancvpp.shop
+    port: 110
+    uuid: 80d367e0-7050-4aae-af43-7c9f43e6a834
+    tls: false
+  - name: "@Mohsen_Hafez_128"
+    type: vless
+    server: 188.114.96.3
+    port: 443
+    uuid: 396c904b-4b62-4334-b793-ee25fc0c61cc
+    network: ws
+    servername: pages.dev
+    tls: true
+    ws-opts:
+      path: /eyJqdW5rIjoiTHczMWlhREZIb0ljUDhoaCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+      headers:
+        Host: 8vmU06cxdz59m931xnREgj8qpnoq1-06.pages.dev
+  - name: "@Mohsen_Hafez_129"
+    type: vless
+    server: blog.zanbori.ir
+    port: 4220
+    uuid: 51d7e784-d531-4756-a887-cb60b3069aa3
+    network: ws
+    tls: false
+    ws-opts:
+      path: /
+      headers:
+        Host: blog.zanborak-shop.ir
+  - name: "@Mohsen_Hafez_130"
+    type: vless
+    server: zone.in.f2zone.ir
+    port: 23702
+    uuid: c31d941d-da9a-41eb-885f-b3d3aa6ff22c
+    tls: false
+  - name: "@Mohsen_Hafez_131"
+    type: vless
+    server: fox2.wizard2shop.org
+    port: 2083
+    uuid: 517c776e-afbf-4749-9643-73c3ea26b905
+    network: ws
+    servername: xiz20.wizard2shop.org
+    tls: true
+    client-fingerprint: safari
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: mohsen.mohsenhafezquran.workers.dev
-    udp: true
-  - name: "@MOHSEN_HAFEZ☆ 10"
-    server: 104.24.249.110
-    port: 443
-    type: trojan
-    password: m1o3hs6e6n
-    skip-cert-verify: true
-    sni: mohsen.mohsenhafezquran.workers.dev
+        Host: xiz20.wizard2shop.org
+  - name: "@Mohsen_Hafez_132"
+    type: vless
+    server: 89.167.0.99
+    port: 7070
+    uuid: c8e0cef7-b3fc-4f4c-c31f-15e38f5cf124
+    tls: false
+  - name: "@Mohsen_Hafez_133"
+    type: vless
+    server: zone.us.f2gate.ir
+    port: 64335
+    uuid: c31d941d-da9a-41eb-885f-b3d3aa6ff22c
+    tls: false
+  - name: "@Mohsen_Hafez_134"
+    type: vless
+    server: cdnjs.com
+    port: 8880
+    uuid: 0164a514-bf61-4206-bc81-8cd2677ebbce
+    network: http
+    tls: false
+    http-opts:
+      path: /?ed=2560
+      headers:
+        Host: http-ventr.amirconfigpaanelllll.com.
+  - name: "@Mohsen_Hafez_135"
+    type: vless
+    server: 104.17.165.123
+    port: 8443
+    uuid: f85f60b1-2b96-49e9-8bde-b656d1516df0
     network: ws
+    servername: gx8rw8fz783ncefn332y7uyfsvb59o820mryrxu1cj19jiuuur.zjde5.de5.net
+    tls: true
+    client-fingerprint: chrome
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: mohsen.mohsenhafezquran.workers.dev
-    udp: true
-  - name: "@MOHSEN_HAFEZ☆ 11"
-    server: 141.101.113.145
+        Host: gx8rw8fz783ncefn332y7uyfsvb59o820mryrxu1cj19jiuuur.zjde5.de5.net
+  - name: "@Mohsen_Hafez_136"
+    type: vless
+    server: 84.23.52.70
     port: 443
-    type: trojan
-    password: m1o3hs6e6n
-    skip-cert-verify: true
-    sni: mohsen.mohsenhafezquran.workers.dev
+    uuid: 27a5fc60-29b7-4598-9cdd-b8180a01b441
+    servername: m.vk.ru
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+      short-id: 8ba12e75110b7a9c
+  - name: "@Mohsen_Hafez_137"
+    type: vless
+    server: 104.17.162.123
+    port: 8443
+    uuid: 83f03646-fb28-44cc-9d2c-8853f6c09285
     network: ws
+    servername: r4fnviw9jl4i4rx.zjde5.de5.net
+    tls: true
+    client-fingerprint: random
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: mohsen.mohsenhafezquran.workers.dev
-    udp: true
-  - name: "@MOHSEN_HAFEZ☆ 12"
-    server: 104.22.61.251
-    port: 443
-    type: trojan
-    password: m1o3hs6e6n
-    skip-cert-verify: true
-    sni: mohsen.mohsenhafezquran.workers.dev
+        Host: r4fnviw9jl4i4rx.zjde5.de5.net
+  - name: "@Mohsen_Hafez_138"
+    type: vless
+    server: 87.239.106.153
+    port: 8443
+    uuid: 1e4649f5-f5d6-4896-9be0-4c6725d4106e
+    servername: m.vk.ru
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg
+      short-id: 48fccabc158a4c22
+  - name: "@Mohsen_Hafez_139"
+    type: vless
+    server: 104.17.162.123
+    port: 8443
+    uuid: 83f03646-fb28-44cc-9d2c-8853f6c09285
     network: ws
+    servername: r4fnviw9jl4i4rx.zjde5.de5.net
+    tls: true
+    client-fingerprint: random
+    ws-opts:
+      path: /?ed=#ABASBIJAN?ed=512
+      headers:
+        Host: r4fnviw9jl4i4rx.zjde5.de5.net
+  - name: "@Mohsen_Hafez_140"
+    type: vless
+    server: 172.64.149.99
+    port: 8443
+    uuid: 2ddeb056-17d4-421e-a318-39428733d4a2
+    network: ws
+    servername: 8p3cfl0ripm.zjde5.de5.net
+    tls: true
+    client-fingerprint: chrome
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: mohsen.mohsenhafezquran.workers.dev
-    udp: true
-  - name: "@MOHSEN_HAFEZ☆ 13"
-    server: 162.159.42.85
-    port: 443
-    type: trojan
-    password: m1o3hs6e6n
-    skip-cert-verify: true
-    sni: mohsen.mohsenhafezquran.workers.dev
+        Host: 8p3cfl0ripm.zjde5.de5.net
+  - name: "@Mohsen_Hafez_141"
+    type: vless
+    server: 172.64.145.38
+    port: 8443
+    uuid: 9e685fe3-e0f9-482d-939c-200a3f89b363
     network: ws
+    servername: vyznthvt7f5fr.zjde5.de5.net
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /?ed=2560fp=chrome
+      headers:
+        Host: vyznthvt7f5fr.zjde5.de5.net
+  - name: "@Mohsen_Hafez_142"
+    type: vless
+    server: 104.17.162.123
+    port: 8443
+    uuid: 83f03646-fb28-44cc-9d2c-8853f6c09285
+    network: ws
+    servername: r4fnviw9jl4i4rx.zjde5.de5.net
+    tls: true
+    client-fingerprint: random
+    ws-opts:
+      path: /
+      headers:
+        Host: r4fnviw9jl4i4rx.zjde5.de5.net
+  - name: "@Mohsen_Hafez_143"
+    type: vless
+    server: 104.17.165.123
+    port: 8443
+    uuid: f85f60b1-2b96-49e9-8bde-b656d1516df0
+    network: ws
+    servername: gx8rw8fz783ncefn332y7uyfsvb59o820mryrxu1cj19jiuuur.zjde5.de5.net
+    tls: true
+    client-fingerprint: chrome
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: mohsen.mohsenhafezquran.workers.dev
-    udp: true
-  - name: "@MOHSEN_HAFEZ☆ 14"
-    server: 190.93.245.218
-    port: 443
-    type: trojan
-    password: m1o3hs6e6n
-    skip-cert-verify: true
-    sni: mohsen.mohsenhafezquran.workers.dev
+        Host: gx8rw8fz783ncefn332y7uyfsvb59o820mryrxu1cj19jiuuur.zjde5.de5.net
+  - name: "@Mohsen_Hafez_144"
+    type: vless
+    server: 104.17.162.123
+    port: 8443
+    uuid: 83f03646-fb28-44cc-9d2c-8853f6c09285
     network: ws
+    servername: r4fnviw9jl4i4rx.zjde5.de5.net
+    tls: true
+    client-fingerprint: random
+    ws-opts:
+      path: /?ed=#ABASBIJAN?ed=512
+      headers:
+        Host: r4fnviw9jl4i4rx.zjde5.de5.net
+  - name: "@Mohsen_Hafez_145"
+    type: vless
+    server: 104.17.163.123
+    port: 8443
+    uuid: 5073081a-a4a6-46e6-a3f5-ff6bb0bbdfab
+    network: ws
+    servername: 4f009rpo6n.zjde5.de5.net
+    tls: true
+    client-fingerprint: chrome
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: mohsen.mohsenhafezquran.workers.dev
-    udp: true
-  - name: "@MOHSEN_HAFEZ☆ 15"
-    server: 198.41.202.210
-    port: 443
-    type: trojan
-    password: m1o3hs6e6n
-    skip-cert-verify: true
-    sni: mohsen.mohsenhafezquran.workers.dev
+        Host: 4f009rpo6n.zjde5.de5.net
+  - name: "@Mohsen_Hafez_146"
+    type: vless
+    server: 192.200.160.132
+    port: 8443
+    uuid: 4525c260-df3c-4f62-b8f1-f4f5f305694b
     network: ws
+    servername: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
+    tls: true
+    client-fingerprint: chrome
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: mohsen.mohsenhafezquran.workers.dev
-    udp: true
-  - name: "@MOHSEN_HAFEZ☆ 16"
-    server: 141.101.121.60
+        Host: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
+  - name: "@Mohsen_Hafez_147"
+    type: vless
+    server: 66.81.247.155
     port: 443
-    type: trojan
-    password: m1o3hs6e6n
-    skip-cert-verify: true
-    sni: mohsen.mohsenhafezquran.workers.dev
+    uuid: 4525c260-df3c-4f62-b8f1-f4f5f305694b
     network: ws
+    servername: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
+    tls: true
+    client-fingerprint: chrome
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: mohsen.mohsenhafezquran.workers.dev
-    udp: true
-  - name: "@MOHSEN_HAFEZ☆ 17"
-    server: 104.18.190.50
+        Host: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
+  - name: "@Mohsen_Hafez_148"
+    type: vless
+    server: 66.81.247.155
     port: 443
-    type: trojan
-    password: m1o3hs6e6n
-    skip-cert-verify: true
-    sni: mohsen.mohsenhafezquran.workers.dev
+    uuid: 4525c260-df3c-4f62-b8f1-f4f5f305694b
     network: ws
+    servername: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
+    tls: true
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: mohsen.mohsenhafezquran.workers.dev
-    udp: true
-  - name: "@MOHSEN_HAFEZ☆ 18"
-    server: 104.18.44.88
+        Host: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
+  - name: "@Mohsen_Hafez_149"
+    type: vless
+    server: gc1.routingflow.uk
     port: 443
-    type: trojan
-    password: m1o3hs6e6n
-    skip-cert-verify: true
-    sni: mohsen.mohsenhafezquran.workers.dev
+    uuid: 4dea93ab-3eec-43dc-b66e-09ae0826e15f
     network: ws
+    servername: speedtest.gcore.com
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /ws?ed=2560
+      headers:
+        Host: chvajeh.ai
+  - name: "@Mohsen_Hafez_150"
+    type: vless
+    server: 85.133.221.135
+    port: 41021
+    uuid: 15d25f95-4a54-408e-b6d8-d64347da1c63
+    tls: false
+  - name: "@Mohsen_Hafez_151"
+    type: vless
+    server: irani.vidboxco.ir
+    port: 2053
+    uuid: 79df85dd-cb40-4b32-828e-f38d918d85e3
+    network: ws
+    servername: bgp-ip-udp.wizardxray.net
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /?ed=2048
+  - name: "@Mohsen_Hafez_152"
+    type: vless
+    server: cd.reata.ir
+    port: 2053
+    uuid: 734a6ee8-3604-4d87-a188-99346fdffcb6
+    network: ws
+    servername: api1.hupcloud.com
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /upload?ed=2560
+      headers:
+        Host: api1.hupcloud.com
+  - name: "@Mohsen_Hafez_153"
+    type: vless
+    server: 212.183.88.29
+    port: 443
+    uuid: 85f9e89d-3298-4c2c-9a03-8ab71be0f986
+    network: ws
+    servername: free.aliamini.net
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /@AlaedinVPN?ed
+      headers:
+        Host: free.aliamini.net
+  - name: "@Mohsen_Hafez_154"
+    type: vless
+    server: cf.narton.ir
+    port: 443
+    uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
+    network: ws
+    servername: www.narton.ir
+    tls: true
+    client-fingerprint: firefox
+    ws-opts:
+      path: /vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl?ed=2560
+      headers:
+        Host: www.narton.ir
+  - name: "@Mohsen_Hafez_155"
+    type: vless
+    server: 192.200.160.132
+    port: 8443
+    uuid: 4525c260-df3c-4f62-b8f1-f4f5f305694b
+    network: ws
+    servername: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
+    tls: true
+    client-fingerprint: chrome
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: mohsen.mohsenhafezquran.workers.dev
-    udp: true
-  - name: "@MOHSEN_HAFEZ☆ 19"
-    server: 104.25.198.81
+        Host: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
+  - name: "@Mohsen_Hafez_156"
+    type: vless
+    server: 66.81.247.155
     port: 443
-    type: trojan
-    password: m1o3hs6e6n
-    skip-cert-verify: true
-    sni: mohsen.mohsenhafezquran.workers.dev
+    uuid: 4525c260-df3c-4f62-b8f1-f4f5f305694b
     network: ws
+    servername: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
+    tls: true
+    client-fingerprint: chrome
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: mohsen.mohsenhafezquran.workers.dev
-    udp: true
-  - name: "@MOHSEN_HAFEZ☆ 20"
-    server: 104.19.113.109
-    port: 443
-    type: trojan
-    password: m1o3hs6e6n
-    skip-cert-verify: true
-    sni: mohsen.mohsenhafezquran.workers.dev
+        Host: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
+  - name: "@Mohsen_Hafez_157"
+    type: vless
+    server: es-1.seemsflower.ru
+    port: 8443
+    uuid: df7f9ba3-ea64-4275-b2aa-d4fef07d9ab7
+    servername: samsung.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  - name: "@Mohsen_Hafez_158"
+    type: vless
+    server: 151.101.3.19
+    port: 80
+    uuid: 0b516cf6-cd76-470c-954d-9374d734f445
     network: ws
+    tls: false
+    ws-opts:
+      path: /site
+      headers:
+        Host: yalandonya.global.ssl.fastly.net
+  - name: "@Mohsen_Hafez_159"
+    type: trojan
+    server: 172.64.152.23
+    port: 443
+    password: humanity
+    sni: www.gossipglove.com
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /assignment
+      headers:
+        Host: www.gossipglove.com
+  - name: "@Mohsen_Hafez_160"
+    type: vless
+    server: 104.17.71.206
+    port: 443
+    uuid: 32c257a1-f18c-42c7-860d-9cb0ead8b07c
+    network: ws
+    servername: dragonhost9.qzz.io
+    tls: true
+    ws-opts:
+      path: /47.250.139.59=443
+      headers:
+        Host: dragonhost9.qzz.io
+  - name: "@Mohsen_Hafez_161"
+    type: vmess
+    server: 20.193.153.19
+    port: 15834
+    uuid: 39a8c374-76b1-4e90-ab85-85cd9a42ded2
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: "@Mohsen_Hafez_162"
+    type: vless
+    server: 172.64.152.23
+    port: 443
+    uuid: 0f1b6d8d-3f8c-4713-b32d-c94947083485
+    network: ws
+    servername: apexbhao1.qzz.io
+    tls: true
+    ws-opts:
+      path: /43.218.77.16=1443/?TELEGRAM--V2rayBaaz
+      headers:
+        Host: apexbhao1.qzz.io
+  - name: "@Mohsen_Hafez_163"
+    type: vless
+    server: www.mahi-yar.com
+    port: 443
+    uuid: 4c7f6084-ab3c-4515-a69d-fb6f5c0c08ae
+    network: ws
+    servername: market.chepschasb.shop
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /130.162.193.183:15401/?TELEGRAM--V2rayBaaz
+      headers:
+        Host: market.chepschasb.shop
+  - name: "@Mohsen_Hafez_164"
+    type: vless
+    server: beside.aftanone.com
+    port: 8443
+    uuid: MahsaNG-vpn-74777300
+    network: http
+    servername: h9-9.digicala.online
+    tls: true
+    client-fingerprint: chrome
+    http-opts:
+      path: /?TELEGRAM--V2rayBaaz
+      headers:
+        Host: h9-9.digicala.online
+  - name: "@Mohsen_Hafez_165"
+    type: vless
+    server: 172.64.151.87
+    port: 8443
+    uuid: MahsaNG-vpn-81744227
+    network: http
+    servername: h11-3.parskish.online
+    tls: true
+    client-fingerprint: chrome
+    http-opts:
+      path: /
+      headers:
+        Host: h11-3.parskish.online
+  - name: "@Mohsen_Hafez_166"
+    type: vless
+    server: 172.64.148.235
+    port: 8443
+    uuid: MahsaNG-vpn-81744227
+    network: http
+    servername: h11-3.parskish.online
+    tls: true
+    client-fingerprint: chrome
+    http-opts:
+      path: /?TELEGRAM--V2rayBaaz
+      headers:
+        Host: h11-3.parskish.online
+  - name: "@Mohsen_Hafez_167"
+    type: vless
+    server: 104.17.71.206
+    port: 8443
+    uuid: MahsaNG-vpn-74777300
+    network: http
+    servername: h9-7.digicala.online
+    tls: true
+    client-fingerprint: chrome
+    http-opts:
+      path: /?TELEGRAM--V2rayBaaz
+      headers:
+        Host: h9-7.digicala.online
+  - name: "@Mohsen_Hafez_168"
+    type: vless
+    server: cdn.sjdpictures.ir
+    port: 8443
+    uuid: MahsaNG-vpn-47774155
+    network: http
+    servername: h10-7.tap30.site
+    tls: true
+    client-fingerprint: chrome
+    http-opts:
+      path: /?TELEGRAM--V2rayBaaz
+      headers:
+        Host: h10-7.tap30.site
+  - name: "@Mohsen_Hafez_169"
+    type: vless
+    server: 172.64.152.23
+    port: 8443
+    uuid: MahsaNG-vpn-81744227
+    network: http
+    servername: h11-2.parskish.online
+    tls: true
+    client-fingerprint: chrome
+    http-opts:
+      path: /?TELEGRAM--V2rayBaaz
+      headers:
+        Host: h11-2.parskish.online
+  - name: "@Mohsen_Hafez_170"
+    type: vless
+    server: 172.64.152.23
+    port: 443
+    uuid: 32c257a1-f18c-42c7-860d-9cb0ead8b07c
+    network: ws
+    servername: delta090.qzz.io
+    tls: true
+    ws-opts:
+      path: /146.56.99.255=56789/?TELEGRAM--V2rayBaaz
+      headers:
+        Host: delta090.qzz.io
+  - name: "@Mohsen_Hafez_171"
+    type: vless
+    server: 172.64.152.23
+    port: 443
+    uuid: 32c257a1-f18c-42c7-860d-9cb0ead8b07c
+    network: ws
+    servername: dragonhost9.qzz.io
+    tls: true
+    ws-opts:
+      path: /47.250.139.59=443/?TELEGRAM--V2rayBaaz
+      headers:
+        Host: dragonhost9.qzz.io
+  - name: "@Mohsen_Hafez_172"
+    type: vless
+    server: 151.101.128.223
+    port: 80
+    uuid: 21d38abf-0ed8-444b-b6ab-1c432898c067
+    network: http
+    tls: false
+    http-opts:
+      path: /?ed=8080
+      headers:
+        Host: bama.ir
+  - name: "@Mohsen_Hafez_173"
+    type: vless
+    server: 151.101.25.242
+    port: 80
+    uuid: 21d38abf-0ed8-444b-b6ab-1c432898c067
+    network: http
+    tls: false
+    http-opts:
+      path: /?ed=8080
+      headers:
+        Host: bama.ir
+  - name: "@Mohsen_Hafez_174"
+    type: vless
+    server: 151.101.0.223
+    port: 80
+    uuid: 21d38abf-0ed8-444b-b6ab-1c432898c067
+    network: http
+    tls: false
+    http-opts:
+      path: /?ed=8080
+      headers:
+        Host: bama.ir
+  - name: "@Mohsen_Hafez_175"
+    type: ss
+    server: t-nl1.myatris.org
+    port: 4301
+    cipher: chacha20-ietf-poly1305
+    password: UGx6jKzKUV_6BBdoTKS0Wg
+  - name: "@Mohsen_Hafez_176"
+    type: vless
+    server: 195.15.240.204
+    port: 8880
+    uuid: fc872856-d6fb-486e-8388-1082f7cdb469
+    network: ws
+    tls: false
+    ws-opts:
+      path: /
+  - name: "@Mohsen_Hafez_177"
+    type: vless
+    server: 151.101.67.8
+    port: 80
+    uuid: 21d38abf-0ed8-444b-b6ab-1c432898c067
+    network: http
+    tls: false
+    http-opts:
+      path: /?ed=8080
+      headers:
+        Host: bama.ir
+  - name: "@Mohsen_Hafez_178"
+    type: vless
+    server: 151.101.195.8
+    port: 80
+    uuid: 21d38abf-0ed8-444b-b6ab-1c432898c067
+    network: http
+    tls: false
+    http-opts:
+      path: /?ed=8080
+      headers:
+        Host: bama.ir
+  - name: "@Mohsen_Hafez_179"
+    type: vless
+    server: 151.101.169.242
+    port: 80
+    uuid: 21d38abf-0ed8-444b-b6ab-1c432898c067
+    network: http
+    tls: false
+    http-opts:
+      path: /?ed=2560
+      headers:
+        Host: bama.ir
+  - name: "@Mohsen_Hafez_180"
+    type: vless
+    server: 151.101.3.19
+    port: 80
+    uuid: 21d38abf-0ed8-444b-b6ab-1c432898c067
+    network: http
+    tls: false
+    http-opts:
+      path: /?ed=8080
+      headers:
+        Host: bama.ir
+  - name: "@Mohsen_Hafez_181"
+    type: vless
+    server: 195.15.240.204
+    port: 8880
+    uuid: fc872856-d6fb-486e-8388-1082f7cdb469
+    network: ws
+    tls: false
+    ws-opts:
+      path: /
+  - name: "@Mohsen_Hafez_182"
+    type: vless
+    server: neth.pingxbaz.com
+    port: 443
+    uuid: b3176e0b-ffaf-4e1b-fd8a-c073bcc4272d
+    tls: false
+  - name: "@Mohsen_Hafez_183"
+    type: vless
+    server: 88.210.6.30
+    port: 14064
+    uuid: fe5612b7-be84-4b5c-bf24-edc1b736a226
+    tls: false
+  - name: "@Mohsen_Hafez_184"
+    type: vless
+    server: irandoc.info
+    port: 443
+    uuid: 8cecfc42-f81b-4754-9833-9014bd8ba0c8
+    network: ws
+    servername: cdn.irandoc.info
+    tls: true
+    client-fingerprint: random
+    ws-opts:
+      path: /18211/api/v4
+      headers:
+        Host: cdn.irandoc.info
+  - name: "@Mohsen_Hafez_185"
+    type: vless
+    server: uk.nationalldt.com
+    port: 30443
+    uuid: 2cb2d6bb-078e-42bb-84bd-ebd6b716c38a
+    servername: tgju.org
+    tls: true
+    client-fingerprint: safari
+    reality-opts:
+      public-key: W_0O5fiA1zi8nXHksSKSTLzwLPyjECWNES5-gDAbQRY
+      short-id: 197fe3f584bc15f3
+  - name: "@Mohsen_Hafez_186"
+    type: vless
+    server: 195.26.224.112
+    port: 8443
+    uuid: db444bee-8212-5ff5-be40-47e1a7509eb8
+    network: http
+    servername: vk.com
+    tls: true
+    client-fingerprint: chrome
+    http-opts:
+      path: /
+    reality-opts:
+      public-key: HE-fVd73NsTheypCLSyeNxgkg2EJOfXWGxjUOcvPZyQ
+      short-id: 938f14cf6757a249
+  - name: "@Mohsen_Hafez_187"
+    type: vless
+    server: 151.101.3.19
+    port: 80
+    uuid: 21d38abf-0ed8-444b-b6ab-1c432898c067
+    network: http
+    tls: false
+    http-opts:
+      path: /?ed=8080
+      headers:
+        Host: bama.ir
+  - name: "@Mohsen_Hafez_188"
+    type: ss
+    server: t-nl1.myatris.org
+    port: 4301
+    cipher: chacha20-ietf-poly1305
+    password: UGx6jKzKUV_6BBdoTKS0Wg
+  - name: "@Mohsen_Hafez_189"
+    type: vless
+    server: fast.mizbaniio.ir
+    port: 2096
+    uuid: b9b237b0-6d8c-4237-9745-fa071b30c1b5
+    network: http
+    servername: nl.hellservice.shop
+    tls: true
+    client-fingerprint: chrome
+    http-opts:
+      path: /HellSevice1404
+      headers:
+        Host: nl.hellservice.shop
+  - name: "@Mohsen_Hafez_190"
+    type: vless
+    server: m1.designister.com
+    port: 443
+    uuid: 5f968546-06e9-44fb-b5ee-c66773e45ac5
+    servername: www.figma.com
+    tls: true
+    client-fingerprint: random
+    reality-opts:
+      public-key: HiEn07HkK8FRuKgmNDATj9TsEh6z6QwozRADLvV8SEE
+      short-id: d439cb2b
+  - name: "@Mohsen_Hafez_191"
+    type: vless
+    server: 88.210.6.30
+    port: 14064
+    uuid: fe5612b7-be84-4b5c-bf24-edc1b736a226
+    tls: false
+  - name: "@Mohsen_Hafez_192"
+    type: vless
+    server: 195.15.240.204
+    port: 8880
+    uuid: fc872856-d6fb-486e-8388-1082f7cdb469
+    network: ws
+    tls: false
+    ws-opts:
+      path: /
+  - name: "@Mohsen_Hafez_193"
+    type: vless
+    server: api.dark-coffe.com
+    port: 8443
+    uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
+    network: ws
+    servername: OeSm02O7eJ.sMaRtTeChZaAl.InFo
+    tls: true
+    ws-opts:
+      path: /
+      headers:
+        Host: OeSm02O7eJ.sMaRtTeChZaAl.InFo
+  - name: "@Mohsen_Hafez_194"
+    type: vless
+    server: 195.15.240.204
+    port: 8880
+    uuid: fc872856-d6fb-486e-8388-1082f7cdb469
+    network: ws
+    tls: false
+    ws-opts:
+      path: /
+  - name: "@Mohsen_Hafez_195"
+    type: vless
+    server: dm.gomarts.space
+    port: 80
+    uuid: 95a9d042-8efb-4d8d-9bf3-cbd787338a2e
+    network: http
+    tls: false
+    http-opts:
+      path: /
+      headers:
+        Host: speedup.global.ssl.fastly.net
+  - name: "@Mohsen_Hafez_196"
+    type: vless
+    server: 91.201.65.220
+    port: 10004
+    uuid: 343cc844-f964-11f0-9840-00163e0951db
+    network: ws
+    tls: false
+    ws-opts:
+      path: /vpnjantit
+  - name: "@Mohsen_Hafez_197"
+    type: ss
+    server: 195.7.6.160
+    port: 18550
+    cipher: chacha20-ietf-poly1305
+    password: 75782921a8e70802
+  - name: "@Mohsen_Hafez_198"
+    type: vless
+    server: 195.26.224.112
+    port: 8443
+    uuid: db444bee-8212-5ff5-be40-47e1a7509eb8
+    network: http
+    servername: vk.com
+    tls: true
+    client-fingerprint: chrome
+    http-opts:
+      path: /
+    reality-opts:
+      public-key: HE-fVd73NsTheypCLSyeNxgkg2EJOfXWGxjUOcvPZyQ
+      short-id: 938f14cf6757a249
+  - name: "@Mohsen_Hafez_199"
+    type: vless
+    server: 45.145.41.181
+    port: 98
+    uuid: 66247b1e-053a-44bf-ae3c-06437b87b3e6
+    network: http
+    servername: www.latimes.com
+    tls: true
+    client-fingerprint: firefox
+    http-opts:
+      path: /
+    reality-opts:
+      public-key: -VZ3qK6joS4VOx3GkpDbaA9RzVUcrcivmA1RstOSHzY
+      short-id: cd59
+  - name: "@Mohsen_Hafez_200"
+    type: vless
+    server: iran.zone-server-irani.ir
+    port: 443
+    uuid: 0f1b6d8d-3f8c-4713-b32d-c94947083485
+    network: ws
+    servername: apexbhao1.qzz.io
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /43.218.77.16=1443
+      headers:
+        Host: apexbhao1.qzz.io
+  - name: "@Mohsen_Hafez_201"
+    type: vless
+    server: 195.15.240.204
+    port: 8880
+    uuid: fc872856-d6fb-486e-8388-1082f7cdb469
+    network: ws
+    tls: false
+    ws-opts:
+      path: /
+  - name: "@Mohsen_Hafez_202"
+    type: vless
+    server: 172.64.152.23
+    port: 443
+    uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
+    network: ws
+    servername: Dn3UdW4qIh.SmArTtEcHzAaL.iNfO
+    tls: true
+    ws-opts:
+      path: /
+      headers:
+        Host: Dn3UdW4qIh.SmArTtEcHzAaL.iNfO
+  - name: "@Mohsen_Hafez_203"
+    type: vless
+    server: 172.64.152.23
+    port: 443
+    uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
+    network: ws
+    servername: Dn3UdW4qIh.SmArTtEcHzAaL.iNfO
+    tls: true
+    ws-opts:
+      path: /
+      headers:
+        Host: Dn3UdW4qIh.SmArTtEcHzAaL.iNfO
+  - name: "@Mohsen_Hafez_204"
+    type: vless
+    server: 172.64.152.23
+    port: 443
+    uuid: ffcfecc9-6713-4b14-886c-d18003909e06
+    network: grpc
+    servername: HtWxZvMk0.HaTmAnBiYaInJaHa.cOm
+    tls: true
+  - name: "@Mohsen_Hafez_205"
+    type: trojan
+    server: 172.64.152.23
+    port: 443
+    password: humanity
+    sni: www.calmlunch.com
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /assignment
+      headers:
+        Host: www.calmlunch.com
+  - name: "@Mohsen_Hafez_206"
+    type: vless
+    server: 172.64.152.23
+    port: 443
+    uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
+    network: ws
+    servername: OeSm02O7eJ.sMaRtTeChZaAl.InF
+    tls: true
+    ws-opts:
+      path: /
+      headers:
+        Host: OeSm02O7eJ.sMaRtTeChZaAl.InFo
+  - name: "@Mohsen_Hafez_207"
+    type: trojan
+    server: 35.180.160.37
+    port: 22222
+    password: telegram-id-privatevpns
+    sni: trojan.burgerip.co.uk
+    alpn:
+      - http/1.1
+    skip-cert-verify: false
+    tls: true
+  - name: "@Mohsen_Hafez_208"
+    type: trojan
+    server: 35.180.160.37
+    port: 22223
+    password: telegram-id-directvpn
+    sni: trojan.burgerip.co.uk
+    alpn:
+      - http/1.1
+    skip-cert-verify: false
+    tls: true
+  - name: "@Mohsen_Hafez_209"
+    type: trojan
+    server: 3.78.51.93
+    port: 22222
+    password: telegram-id-privatevpns
+    sni: trojan.burgerip.co.uk
+    alpn:
+      - http/1.1
+    skip-cert-verify: false
+    tls: true
+  - name: "@Mohsen_Hafez_210"
+    type: vless
+    server: 151.101.66.219
+    port: 80
+    uuid: 738bc1c9-04cc-4f6b-859a-dfd8bf33b146
+    network: http
+    tls: false
+    http-opts:
+      path: /?ed=2048
+      headers:
+        Host: yashar205.global.ssl.fastly.net
+  - name: "@Mohsen_Hafez_211"
+    type: vless
+    server: ndt.fasti.win
+    port: 443
+    uuid: 3bd011c9-c5ec-4024-8aaa-6d79db4e97d3
+    servername: ndt.fasti.win
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: XBBVeMURFu7jmYJ9MZwjEWgfQlGTnRs0B5So5Fy7jWs
+      short-id: 992f3294e2336744
+  - name: "@Mohsen_Hafez_212"
+    type: vless
+    server: cdn.sjdpictures.ir
+    port: 443
+    uuid: 32c257a1-f18c-42c7-860d-9cb0ead8b07c
+    network: ws
+    servername: delta090.qzz.io
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /146.56.99.255=56789
+      headers:
+        Host: delta090.qzz.io
+  - name: "@Mohsen_Hafez_213"
+    type: vless
+    server: cdn.sjdpictures.ir
+    port: 443
+    uuid: 32c257a1-f18c-42c7-860d-9cb0ead8b07c
+    network: ws
+    servername: delta090.qzz.io
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /146.56.99.255=56789
+      headers:
+        Host: delta090.qzz.io
+  - name: "@Mohsen_Hafez_214"
+    type: vless
+    server: 172.64.152.23
+    port: 443
+    uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+    network: ws
+    servername: l.ayovo.netlib.re
+    tls: true
+    ws-opts:
+      path: /x-aniu/?ed=2560
+      headers:
+        Host: l.ayovo.netlib.re
+  - name: "@Mohsen_Hafez_215"
+    type: vless
+    server: 172.64.152.23
+    port: 443
+    uuid: 396c904b-4b62-4334-b793-ee25fc0c61cc
+    network: ws
+    servername: pages.dev
+    tls: true
+    ws-opts:
+      path: /eyJqdW5rIjoiTHczMWlhREZIb0ljUDhoaCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+      headers:
+        Host: 8vmU06cxdz59m931xnREgj8qpnoq1-06.pages.dev
+  - name: "@Mohsen_Hafez_216"
+    type: vless
+    server: 104.17.74.206
+    port: 2086
+    uuid: d6a796cc-a899-4f02-984b-e0f173daa30a
+    network: ws
+    tls: false
+    ws-opts:
+      path: /?ed=2056
+      headers:
+        Host: IIS.narkhesanj.ir
+  - name: "@Mohsen_Hafez_217"
+    type: vless
+    server: 104.17.74.206
+    port: 443
+    uuid: 0f1b6d8d-3f8c-4713-b32d-c94947083485
+    network: ws
+    servername: apexbhao1.qzz.io
+    tls: true
+    ws-opts:
+      path: /43.218.77.16=1443
+      headers:
+        Host: apexbhao1.qzz.io
+  - name: "@Mohsen_Hafez_218"
+    type: vless
+    server: 172.64.152.23
+    port: 443
+    uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+    network: ws
+    servername: l.ayovo.netlib.re
+    tls: true
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: mohsen.mohsenhafezquran.workers.dev
-    udp: true
-  - name: "@MOHSEN_HAFEZ☆ 21"
-    server: 141.101.115.61
+        Host: l.ayovo.netlib.re
+  - name: "@Mohsen_Hafez_219"
+    type: vless
+    server: ercf-ma.rainzone.site
     port: 443
-    type: trojan
-    password: m1o3hs6e6n
-    skip-cert-verify: true
-    sni: mohsen.mohsenhafezquran.workers.dev
+    uuid: 6a5d1316-c0a6-4963-8ee1-e8b9b5f98c20
     network: ws
+    servername: delta090.qzz.io
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /45.76.183.217=49292
+      headers:
+        Host: delta090.qzz.io
+  - name: "@Mohsen_Hafez_220"
+    type: vless
+    server: 172.64.152.23
+    port: 443
+    uuid: 1b9d8449-479f-40a0-a326-1a5ea3481c42
+    network: ws
+    servername: ch1.sooot.ir
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: ch1.sooot.ir
+  - name: "@Mohsen_Hafez_221"
+    type: vless
+    server: cdn.sjdpictures.ir
+    port: 8443
+    uuid: 6a5d1316-c0a6-4963-8ee1-e8b9b5f98c20
+    network: ws
+    servername: delta090.qzz.io
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /45.76.183.217=49292
+      headers:
+        Host: delta090.qzz.io
+  - name: "@Mohsen_Hafez_222"
+    type: vless
+    server: cdn.sjdpictures.ir
+    port: 443
+    uuid: 32c257a1-f18c-42c7-860d-9cb0ead8b07c
+    network: ws
+    servername: delta090.qzz.io
+    tls: true
+    ws-opts:
+      path: /146.56.99.255=56789
+      headers:
+        Host: delta090.qzz.io
+  - name: "@Mohsen_Hafez_223"
+    type: vless
+    server: 104.18.4.130
+    port: 443
+    uuid: 24c26b09-1ad6-4a11-9ec0-f251a3cc7175
+    network: ws
+    servername: conf1.newbot.xyz
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: conf1.newbot.xyz
+  - name: "@Mohsen_Hafez_224"
+    type: vless
+    server: 172.64.152.23
+    port: 443
+    uuid: 86e42553-3576-48ec-bf69-b7e7c33d0ee6
+    network: ws
+    servername: DigI.ZcOnNECtiOn.ToP
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560/eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
+      headers:
+        Host: digi.zconnection.top
+  - name: "@Mohsen_Hafez_225"
+    type: vless
+    server: nleuroaccess.amirconfigpaanelllll.com
+    port: 2126
+    uuid: 8dd118f1-b10a-4519-bc58-5902b5a4e82a
+    tls: false
+  - name: "@Mohsen_Hafez_226"
+    type: vless
+    server: spark.persiaserverco.com
+    port: 2087
+    uuid: 23aa242f-09f1-4f7e-8fcc-9d819fd95798
+    tls: false
+  - name: "@Mohsen_Hafez_227"
+    type: vless
+    server: fast1.p31download.com
+    port: 80
+    uuid: dfb10506-3ee8-414c-c2f4-9d1bb75bf363
+    network: ws
+    tls: false
+    ws-opts:
+      path: /
+      headers:
+        Host: Alliiiiiii.Global.ssl.Fastly.neT
+  - name: "@Mohsen_Hafez_228"
+    type: vless
+    server: 5.175.249.126
+    port: 450
+    uuid: 664647b0-cf64-4560-b899-b92404b1798e
+    tls: false
+  - name: "@Mohsen_Hafez_229"
+    type: vless
+    server: nl.iccgame.site
+    port: 3000
+    uuid: 1e1b9a1f-47cd-4cb2-a0dc-103a09e253ba
+    tls: false
+  - name: "@Mohsen_Hafez_230"
+    type: vless
+    server: ert-9.v-sub.site
+    port: 8880
+    uuid: 58c00f46-a2e1-41e1-a99c-77a8cb0154e5
+    network: http
+    tls: false
+    http-opts:
+      path: /?ed=2080
+      headers:
+        Host: admin.whaletm2.site
+  - name: "@Mohsen_Hafez_231"
+    type: vless
+    server: site.systemgamingirani.ir
+    port: 2053
+    uuid: 6df3cc5d-a9e5-4117-8ddc-bedbe44a6f14
+    network: ws
+    servername: host.my-iranparspack.ir
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /?ed=2048
+  - name: "@Mohsen_Hafez_232"
+    type: vless
+    server: cf.zone-server-irani.ir
+    port: 2053
+    uuid: 1a69dc19-2245-46ff-b7ee-7715520edad6
+    network: ws
+    servername: eslamis.systemgamingirani.ir
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /?ed=2048
+  - name: "@Mohsen_Hafez_233"
+    type: vless
+    server: mkh.v2plus.ovh
+    port: 443
+    uuid: 0044dfce-62ac-4734-919a-fcbf79e9ec12
+    network: ws
+    servername: siria2.mrpixanos.ir
+    tls: true
+    ws-opts:
+      path: /
+  - name: "@Mohsen_Hafez_234"
+    type: vless
+    server: 192.0.54.240
+    port: 8080
+    uuid: 98ec6d08-8ec5-46f8-9c80-13c21a9c9465
+    network: ws
+    tls: false
+    ws-opts:
+      path: /?ed=8080
+      headers:
+        Host: sjcahbjhdbfvksfhkvbhskkskhvbhfhkvbshksfbfvkhfbkhfbvkfskbv.netwrench.ir
+  - name: "@Mohsen_Hafez_235"
+    type: vless
+    server: 192.0.54.240
+    port: 8080
+    uuid: 98ec6d08-8ec5-46f8-9c80-13c21a9c9465
+    network: ws
+    tls: false
+    ws-opts:
+      path: /?ed=8080
+      headers:
+        Host: sjcahbjhdbfvksfhkvbhskkskhvbhfhkvbshksfbfvkhfbkhfbvkfskbv.netwrench.ir
+  - name: "@Mohsen_Hafez_236"
+    type: vless
+    server: 91.201.65.220
+    port: 10004
+    uuid: 343cc844-f964-11f0-9840-00163e0951db
+    network: ws
+    tls: false
+    ws-opts:
+      path: /vpnjantit
+  - name: "@Mohsen_Hafez_237"
+    type: vless
+    server: 162.250.99.21
+    port: 30654
+    uuid: 15bcfb32-933c-4068-b6af-80932294c9e1
+    tls: false
+  - name: "@Mohsen_Hafez_238"
+    type: vless
+    server: 185.21.14.98
+    port: 2095
+    uuid: 2531bba7-33b7-469a-b3a1-b0622cea43fb
+    network: ws
+    tls: false
+    ws-opts:
+      path: /vless
+  - name: "@Mohsen_Hafez_239"
+    type: vless
+    server: cloudproxycdn.healingfluence.com
+    port: 80
+    uuid: ca75eae9-db9f-4b7d-b02a-f3bb2032ee98
+    network: http
+    tls: false
+    http-opts:
+      path: /?ed=2048
+      headers:
+        Host: uk-1-direct.healingfluence.com
+  - name: "@Mohsen_Hafez_240"
+    type: vless
+    server: med.crosscenter2.ir
+    port: 2053
+    uuid: fe6d821c-dde6-4181-8748-4e545bdf310e
+    network: ws
+    servername: sni.amir467.shop
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /mh
+      headers:
+        Host: sni.amir467.shop
+  - name: "@Mohsen_Hafez_241"
+    type: vless
+    server: cdn.asreabi.ir
+    port: 80
+    uuid: bfe612f0-af7e-48e1-a529-86d76aa20dde
+    tls: false
+  - name: "@Mohsen_Hafez_242"
+    type: trojan
+    server: free1.aattaash.com
+    port: 443
+    password: humanity
+    sni: www.creationlong.org
+    alpn:
+      - h2
+      - http/1.1
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /assignment
+      headers:
+        Host: www.creationlong.org
+  - name: "@Mohsen_Hafez_243"
+    type: vless
+    server: mouse4.1lil1.de
+    port: 443
+    uuid: fd172037-5098-1245-7859-58a5c57e993c
+    servername: stackoverflow.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: LaGTRJ1CJnnYV7FnyqQnU28I0xFTPFKI8xmUFwig5ic
+      short-id: c410508e9721512b
+  - name: "@Mohsen_Hafez_244"
+    type: vless
+    server: site.systemgamingirani.ir
+    port: 2053
+    uuid: 6df3cc5d-a9e5-4117-8ddc-bedbe44a6f14
+    network: ws
+    servername: host.my-iranparspack.ir
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /?ed=2048
+  - name: "@Mohsen_Hafez_245"
+    type: vless
+    server: 95.211.46.238
+    port: 443
+    uuid: 85c3375b-441d-437b-8334-68f68b7c4138
+    servername: www.samsung.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw
+  - name: "@Mohsen_Hafez_246"
+    type: vless
+    server: ivar.ivarshop.ir
+    port: 44521
+    uuid: 7a55b2ba-f03e-4473-843a-15f9e5e097a2
+    tls: false
+  - name: "@Mohsen_Hafez_247"
+    type: vless
+    server: site.systemgamingirani.ir
+    port: 2053
+    uuid: 6df3cc5d-a9e5-4117-8ddc-bedbe44a6f14
+    network: ws
+    servername: host.my-iranparspack.ir
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /?ed=2048
+  - name: "@Mohsen_Hafez_248"
+    type: vless
+    server: cf.zone-server-irani.ir
+    port: 2053
+    uuid: 1a69dc19-2245-46ff-b7ee-7715520edad6
+    network: ws
+    servername: eslamis.systemgamingirani.ir
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /?ed=2048
+  - name: "@Mohsen_Hafez_249"
+    type: vless
+    server: site.systemgamingirani.ir
+    port: 2053
+    uuid: 6df3cc5d-a9e5-4117-8ddc-bedbe44a6f14
+    network: ws
+    servername: host.my-iranparspack.ir
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /?ed=2048
+  - name: "@Mohsen_Hafez_250"
+    type: vless
+    server: bestpingshop1.godconfig.monster
+    port: 80
+    uuid: b7df742e-1cb2-44db-b838-6d3d619782ad
+    tls: false
+  - name: "@Mohsen_Hafez_251"
+    type: vless
+    server: api1.uploadsho.com
+    port: 443
+    uuid: 91d906df-9e60-4186-945e-4ad1ac331e3a
+    network: ws
+    servername: nl.uploadsho.com
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /upload/?ed=2560
+      headers:
+        Host: nl.uploadsho.com
+  - name: "@Mohsen_Hafez_252"
+    type: vless
+    server: cf.zone-server-irani.ir
+    port: 2053
+    uuid: 1a69dc19-2245-46ff-b7ee-7715520edad6
+    network: ws
+    servername: eslamis.systemgamingirani.ir
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /?ed=2048
+  - name: "@Mohsen_Hafez_253"
+    type: vless
+    server: mi.pxzoone.com
+    port: 2096
+    uuid: 2c2f14c9-b7c4-4e5a-87a3-53edfe6b8853
+    network: ws
+    servername: delt.ryteseo.com
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /eyJqdW5rIjoidDZLaDRBMWhpIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ
+      headers:
+        Host: filest.ryteseo.com
+  - name: "@Mohsen_Hafez_254"
+    type: vless
+    server: fair.iranis.art
+    port: 8088
+    uuid: fbe0d38f-5d9c-4d4e-9dbd-8f96584989e0
+    network: ws
+    tls: false
+    ws-opts:
+      path: /
+  - name: "@Mohsen_Hafez_255"
+    type: vless
+    server: 144.31.212.41
+    port: 443
+    uuid: 406fd0aa-d08a-4099-a7d1-1549359461de
+    servername: cdnjs.com
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
+      short-id: 4c02bbbfa833b3b6
+  - name: "@Mohsen_Hafez_256"
+    type: vless
+    server: 85.133.204.146
+    port: 8080
+    uuid: c20d3ad4-e8b8-4429-a9e2-9875eb053997
+    network: ws
+    tls: false
+    ws-opts:
+      path: /abc?ed=2048
+      headers:
+        Host: film-doni.com
+  - name: "@Mohsen_Hafez_257"
+    type: vless
+    server: niimb.aparat-movies-download.ir
+    port: 42555
+    uuid: 9b7ff7a4-7437-4688-9063-3d73ca4f8498
+    tls: false
+  - name: "@Mohsen_Hafez_258"
+    type: vless
+    server: 84.200.73.227
+    port: 443
+    uuid: 406fd0aa-d08a-4099-a7d1-1549359461de
+    servername: cdnjs.com
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
+      short-id: 4c02bbbfa833b3b6
+  - name: "@Mohsen_Hafez_259"
+    type: vless
+    server: cd.xb.lifiline.info
+    port: 443
+    uuid: 9cba726a-f732-4e64-ac03-d5f3960b3eda
+    network: http
+    servername: dl.land4k.com
+    tls: true
+    client-fingerprint: chrome
+    http-opts:
+      headers:
+        Host: dl.land4k.com
+  - name: "@Mohsen_Hafez_260"
+    type: vless
+    server: site.systemgamingirani.ir
+    port: 2053
+    uuid: 6df3cc5d-a9e5-4117-8ddc-bedbe44a6f14
+    network: ws
+    servername: host.my-iranparspack.ir
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /?ed=2048
+  - name: "@Mohsen_Hafez_261"
+    type: vless
+    server: 85.133.204.146
+    port: 8080
+    uuid: c20d3ad4-e8b8-4429-a9e2-9875eb053997
+    network: ws
+    tls: false
+    ws-opts:
+      path: /abc?ed=2048
+      headers:
+        Host: film-doni.com
+  - name: "@Mohsen_Hafez_262"
+    type: vless
+    server: cdn.asreabi.ir
+    port: 80
+    uuid: bfe612f0-af7e-48e1-a529-86d76aa20dde
+    tls: false
+  - name: "@Mohsen_Hafez_263"
+    type: vless
+    server: site.systemgamingirani.ir
+    port: 2053
+    uuid: 6df3cc5d-a9e5-4117-8ddc-bedbe44a6f14
+    network: ws
+    servername: host.my-iranparspack.ir
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /?ed=2048
+  - name: "@Mohsen_Hafez_264"
+    type: vless
+    server: fair.iranis.art
+    port: 8088
+    uuid: fbe0d38f-5d9c-4d4e-9dbd-8f96584989e0
+    network: ws
+    tls: false
+    ws-opts:
+      path: /
+  - name: "@Mohsen_Hafez_265"
+    type: vmess
+    server: jsv-ir.jservice.shop
+    port: 8000
+    uuid: 04606530-1c12-11ef-9702-af2b24629606
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: "@Mohsen_Hafez_266"
+    type: vless
+    server: sw2.zeroraz.top
+    port: 11001
+    uuid: 56a15e3e-0147-45d0-935c-50ba6533f7e9
+    network: ws
+    tls: false
+  - name: "@Mohsen_Hafez_267"
+    type: vless
+    server: 85.133.204.89
+    port: 1919
+    uuid: 2ebc8374-8e30-49c9-be13-c11533387a06
+    tls: false
+  - name: "@Mohsen_Hafez_268"
+    type: vless
+    server: ivar.ivarshop.ir
+    port: 44521
+    uuid: 7a55b2ba-f03e-4473-843a-15f9e5e097a2
+    tls: false
+  - name: "@Mohsen_Hafez_269"
+    type: vless
+    server: chatgpt.com
+    port: 443
+    uuid: 0fb80493-c5e6-4ce1-ad46-b715521bc8d3
+    network: ws
+    servername: afsbconfessout.qzz.io
+    tls: true
+    ws-opts:
+      path: /213.35.100.31=47112
+      headers:
+        Host: afsbconfessout.qzz.io
+  - name: "@Mohsen_Hafez_270"
+    type: vless
+    server: chatgpt.com
+    port: 443
+    uuid: 5148a842-2a62-4aa7-8b8f-ff79ccbc82c0
+    network: ws
+    servername: apexbhao1.qzz.io
+    tls: true
+    ws-opts:
+      path: /164.52.2.100=443
+      headers:
+        Host: apexbhao1.qzz.io
+  - name: "@Mohsen_Hafez_271"
+    type: vless
+    server: 181.214.231.180
+    port: 443
+    uuid: 7c63f43f-f526-49bb-b5c8-2be26e11ef00
+    network: http
+    servername: statue.lnmarketplace.net
+    tls: true
+    client-fingerprint: firefox
+    http-opts:
+      path: /statue
+  - name: "@Mohsen_Hafez_272"
+    type: vless
+    server: 47.57.190.228
+    port: 8388
+    uuid: e258977b-e413-4718-a3af-02d75492c349
+    network: ws
+    servername: sg.aniua.qzz.io
+    tls: true
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: mohsen.mohsenhafezquran.workers.dev
-    udp: true
-  - name: "@MOHSEN_HAFEZ☆ 22"
-    server: 190.93.244.61
-    port: 443
+        Host: sg.aniua.qzz.io
+  - name: "@Mohsen_Hafez_273"
+    type: vless
+    server: mza2.lizardshop.org
+    port: 4545
+    uuid: a1c459eb-888c-46f1-815f-a88330167418
+    tls: false
+  - name: "@Mohsen_Hafez_274"
     type: trojan
-    password: m1o3hs6e6n
-    skip-cert-verify: true
-    sni: mohsen.mohsenhafezquran.workers.dev
+    server: 104.18.32.47
+    port: 443
+    password: humanity
+    sni: www.gossipglove.com
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /assignment
+      headers:
+        Host: www.gossipglove.com
+  - name: "@Mohsen_Hafez_275"
+    type: vless
+    server: 85.133.204.146
+    port: 8080
+    uuid: c20d3ad4-e8b8-4429-a9e2-9875eb053997
     network: ws
+    tls: false
+    ws-opts:
+      path: /abc?ed=2048
+      headers:
+        Host: film-doni.com
+  - name: "@Mohsen_Hafez_276"
+    type: vless
+    server: 47.57.190.228
+    port: 8388
+    uuid: e258977b-e413-4718-a3af-02d75492c349
+    network: ws
+    servername: sg.aniua.qzz.io
+    tls: true
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: mohsen.mohsenhafezquran.workers.dev
-    udp: true
-  - name: "@MOHSEN_HAFEZ☆ 23"
-    server: 104.19.76.219
+        Host: sg.aniua.qzz.io
+  - name: "@Mohsen_Hafez_277"
+    type: vless
+    server: roll.dargahco.xyz
     port: 443
-    type: trojan
-    password: m1o3hs6e6n
-    skip-cert-verify: true
-    sni: mohsen.mohsenhafezquran.workers.dev
+    uuid: ef3a9b1e-75fb-4ff9-9b69-c1932102257f
+    network: http
+    servername: e5293bd2a46b4d98e5293bd2a46b4d98e5293bd2a46b4d98e5293bd2a46b4d98.bargozydegan.ir
+    tls: true
+    client-fingerprint: random
+    http-opts:
+      path: /
+      headers:
+        Host: e5293bd2a46b4d98e5293bd2a46b4d98e5293bd2a46b4d98e5293bd2a46b4d98.bargozydegan.ir
+  - name: "@Mohsen_Hafez_278"
+    type: vless
+    server: u1.mizulina.top
+    port: 22231
+    uuid: 2ad04efa-d18a-442b-875f-48d12e11d822
+    servername: u1.mizulina.top
+    tls: true
+    flow: xtls-rprx-vision
+  - name: "@Mohsen_Hafez_279"
+    type: vless
+    server: 85.90.209.202
+    port: 20997
+    uuid: e00dfbaf-65c3-456b-8cdc-bdf89ccb8553
+    tls: false
+  - name: "@Mohsen_Hafez_280"
+    type: vless
+    server: cf.zone-server-irani.ir
+    port: 2053
+    uuid: 6df3cc5d-a9e5-4117-8ddc-bedbe44a6f14
     network: ws
+    servername: sepah.systemgamingirani.ir
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /?ed=2048
+  - name: "@Mohsen_Hafez_281"
+    type: vless
+    server: 45.67.215.233
+    port: 443
+    uuid: 1305886a-1725-4abc-9be1-f11bf6cbaf4f
+    network: ws
+    servername: p1.ygmania.site
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /ed=2048
+      headers:
+        Host: p1.ygmania.site
+  - name: "@Mohsen_Hafez_282"
+    type: vless
+    server: 162.159.152.4
+    port: 443
+    uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+    network: ws
+    servername: l.ayovo.netlib.re
+    tls: true
+    client-fingerprint: chrome
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: mohsen.mohsenhafezquran.workers.dev
-    udp: true
-  - name: "@MOHSEN_HAFEZ☆ 24"
-    server: 172.64.156.96
-    port: 443
-    type: trojan
-    password: m1o3hs6e6n
-    skip-cert-verify: true
-    sni: mohsen.mohsenhafezquran.workers.dev
+        Host: l.ayovo.netlib.re
+  - name: "@Mohsen_Hafez_283"
+    type: vmess
+    server: 91.206.171.169
+    port: 8081
+    uuid: 0431e928-8745-4211-862d-8308277d2aae
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: "@Mohsen_Hafez_284"
+    type: vless
+    server: u1.mizulina.top
+    port: 22231
+    uuid: 2ad04efa-d18a-442b-875f-48d12e11d822
+    servername: u1.mizulina.top
+    tls: true
+    flow: xtls-rprx-vision
+  - name: "@Mohsen_Hafez_285"
+    type: vless
+    server: u1.mizulina.top
+    port: 22231
+    uuid: 2ad04efa-d18a-442b-875f-48d12e11d822
+    servername: u1.mizulina.top
+    tls: true
+    flow: xtls-rprx-vision
+  - name: "@Mohsen_Hafez_286"
+    type: vless
+    server: 85.90.209.202
+    port: 20997
+    uuid: e00dfbaf-65c3-456b-8cdc-bdf89ccb8553
+    tls: false
+  - name: "@Mohsen_Hafez_287"
+    type: vless
+    server: cf.zone-server-irani.ir
+    port: 2053
+    uuid: 6df3cc5d-a9e5-4117-8ddc-bedbe44a6f14
     network: ws
+    servername: sepah.systemgamingirani.ir
+    tls: true
+    client-fingerprint: chrome
     ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: mohsen.mohsenhafezquran.workers.dev
-    udp: true
-  - name: "@MOHSEN_HAFEZ☆ 25"
-    server: 104.16.6.13
-    port: 443
-    type: trojan
-    password: m1o3hs6e6n
-    skip-cert-verify: true
-    sni: mohsen.mohsenhafezquran.workers.dev
+      path: /?ed=2048
+  - name: "@Mohsen_Hafez_288"
+    type: vless
+    server: site.systemgamingirani.ir
+    port: 2053
+    uuid: 6df3cc5d-a9e5-4117-8ddc-bedbe44a6f14
     network: ws
+    servername: host.my-iranparspack.ir
+    tls: true
+    client-fingerprint: chrome
     ws-opts:
-      path: /?ed=2560
+      path: /?ed=2048
+  - name: "@Mohsen_Hafez_289"
+    type: vless
+    server: v2rayfree1-hamrah.freedynamicdns.net
+    port: 2053
+    uuid: 817cb863-b168-42c4-eabb-e1bfc8a0b0eb
+    network: http
+    servername: v2rayfree1-vpn.v2rayfree1vpnnewservice.shop
+    tls: true
+    client-fingerprint: chrome
+    http-opts:
+      path: /v2rayfree1-v2rayfree1
       headers:
-        Host: mohsen.mohsenhafezquran.workers.dev
-    udp: true
-  - name: "@MOHSEN_HAFEZ☆ 26"
-    server: 188.114.96.101
-    port: 443
+        Host: v2rayfree1-vpn.v2rayfree1vpnnewservice.shop
+  - name: "@Mohsen_Hafez_290"
     type: trojan
-    password: m1o3hs6e6n
-    skip-cert-verify: true
-    sni: mohsen.mohsenhafezquran.workers.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: mohsen.mohsenhafezquran.workers.dev
-    udp: true
-  - name: "@MOHSEN_HAFEZ☆ 27"
-    server: 173.245.58.99
+    server: cf.hos.xtondi.com
     port: 443
-    type: trojan
-    password: m1o3hs6e6n
-    skip-cert-verify: true
-    sni: mohsen.mohsenhafezquran.workers.dev
-    network: ws
+    password: 4uMc5143olfx0kUo7g5ngQ
+    sni: www.badesabairan.ir
+    alpn:
+      - h2
+      - http/1.1
+    skip-cert-verify: false
+    tls: true
     ws-opts:
-      path: /?ed=2560
+      path: /assignment
       headers:
-        Host: mohsen.mohsenhafezquran.workers.dev
-    udp: true
-  - name: "@MOHSEN_HAFEZ☆ 28"
-    server: 188.114.98.44
+        Host: www.badesabairan.ir
+  - name: "@Mohsen_Hafez_291"
+    type: vless
+    server: 104.18.32.47
     port: 443
-    type: trojan
-    password: m1o3hs6e6n
-    skip-cert-verify: true
-    sni: mohsen.mohsenhafezquran.workers.dev
+    uuid: c94f3cf9-7aa5-4b6d-b153-baea45280c64
     network: ws
+    servername: x1MKkQTEJX0hRuPvUN3tUIAmtffMutnLGgNRIjSXOW7JZV4K.sangar.net
+    tls: true
+    client-fingerprint: chrome
     ws-opts:
-      path: /?ed=2560
+      path: /test
+  - name: "@Mohsen_Hafez_292"
+    type: vless
+    server: 185.226.92.188
+    port: 443
+    uuid: 04d03542-5d95-49de-a2f5-0f65a6b79e46
+    network: ws
+    tls: false
+    ws-opts:
+      path: /
+  - name: "@Mohsen_Hafez_293"
+    type: vless
+    server: uae.torprospeed.ir
+    port: 587
+    uuid: 65a1e22c-d37e-4b92-b6ca-1d09dcd1d441
+    servername: excoino.com
+    tls: true
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: HnPEhCDTcZnDejsAiidoOSx2-h0EvJMILj4bv3X1mBc
+      short-id: 916e8258c4a01b02
+  - name: "@Mohsen_Hafez_294"
+    type: vless
+    server: s31200.asancall.cloud
+    port: 8443
+    uuid: 0c1f69a0-3636-4fb3-ac0f-d211f9973955
+    network: ws
+    tls: false
+    ws-opts:
+      path: /ws/apps/zoomit
+  - name: "@Mohsen_Hafez_295"
+    type: trojan
+    server: free1.aattaash.com
+    port: 443
+    password: humanity
+    sni: www.creationlong.org
+    alpn:
+      - h2
+      - http/1.1
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /assignment
       headers:
-        Host: mohsen.mohsenhafezquran.workers.dev
-    udp: true
+        Host: www.creationlong.org
+  - name: "@Mohsen_Hafez_296"
+    type: ss
+    server: 104.192.227.162
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: VZXoldkZsLLpAGDqwOAYI6
+  - name: "@Mohsen_Hafez_297"
+    type: ss
+    server: 216.105.168.18
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: FuNvYaDDgLRsFRa6ZLtJUV
+  - name: "@Mohsen_Hafez_298"
+    type: vmess
+    server: 82.29.40.100
+    port: 8443
+    uuid: 61cf3fed-f7d5-96ea-678b-6b39b9bd1032
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: "@Mohsen_Hafez_299"
+    type: vless
+    server: site.systemgamingirani.ir
+    port: 2053
+    uuid: 6df3cc5d-a9e5-4117-8ddc-bedbe44a6f14
+    network: ws
+    servername: host.my-iranparspack.ir
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /?ed=2048
+  - name: "@Mohsen_Hafez_300"
+    type: vless
+    server: CF.zone-server-irani.ir
+    port: 2053
+    uuid: 6df3cc5d-a9e5-4117-8ddc-bedbe44a6f14
+    network: ws
+    servername: sepah.systemgamingirani.ir
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /?ed=2048
+  - name: "@Mohsen_Hafez_301"
+    type: vless
+    server: iran.zone-server-irani.ir
+    port: 443
+    uuid: 0f1b6d8d-3f8c-4713-b32d-c94947083485
+    network: ws
+    servername: apexbhao1.qzz.io
+    tls: true
+    ws-opts:
+      path: /43.218.77.16=1443
+      headers:
+        Host: apexbhao1.qzz.io
+  - name: "@Mohsen_Hafez_302"
+    type: vless
+    server: 170.39.216.61
+    port: 50511
+    uuid: 3bc9c90e-dd6c-400d-bfb0-1d06b13fe46c
+    servername: refersion.com
+    tls: true
+    client-fingerprint: random
+    reality-opts:
+      public-key: Mz0OqGiU1O1s9cYbJ94zcpdmUskGBAt-r1DKKKEDwFA
+      short-id: 732c5236630892f8
+  - name: "@Mohsen_Hafez_303"
+    type: trojan
+    server: chatgpt.com
+    port: 443
+    password: humanity
+    sni: www.gossipglove.com
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /assignment
+      headers:
+        Host: www.gossipglove.com
+  - name: "@Mohsen_Hafez_304"
+    type: vless
+    server: iran.zone-server-irani.ir
+    port: 2053
+    uuid: 6df3cc5d-a9e5-4117-8ddc-bedbe44a6f14
+    network: ws
+    servername: wizwiz.vidboxco.ir
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /?ed=2048
+  - name: "@Mohsen_Hafez_305"
+    type: vless
+    server: 104.18.32.47
+    port: 443
+    uuid: 1864a6c0-2f6e-4481-8fdb-8e54db6d0aa2
+    network: ws
+    servername: main.3586325.xyz
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /halfway
+      headers:
+        Host: main.3586325.xyz
+  - name: "@Mohsen_Hafez_306"
+    type: vless
+    server: uae.torprospeed.ir
+    port: 587
+    uuid: 65a1e22c-d37e-4b92-b6ca-1d09dcd1d441
+    servername: excoino.com
+    tls: true
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: HnPEhCDTcZnDejsAiidoOSx2-h0EvJMILj4bv3X1mBc
+      short-id: 916e8258c4a01b02
+  - name: "@Mohsen_Hafez_307"
+    type: vless
+    server: 188.137.183.116
+    port: 57004
+    uuid: 61c5b397-64cb-40d0-8b6f-546c1c7bf692
+    tls: false
+  - name: "@Mohsen_Hafez_308"
+    type: vless
+    server: fast.mohamadtx.ir
+    port: 3445
+    uuid: d658f6b3-717c-4d29-ba28-5a68666bd6ec
+    servername: speedtest1.irancell.ir.prod.hosts.ooklaserver.net
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: 7ur6xyf6x_433ooiu2muTIX_TbTtNa5zY2xvRpsPiBs
+  - name: "@Mohsen_Hafez_309"
+    type: vless
+    server: 85.133.204.132
+    port: 80
+    uuid: d9738de2-1b25-407f-9096-fcb6ddc0aa86
+    network: ws
+    tls: false
+    ws-opts:
+      path: /
+      headers:
+        Host: test.sigmagames.shop
+  - name: "@Mohsen_Hafez_310"
+    type: vless
+    server: free1.aattaash.com
+    port: 2087
+    uuid: eaf287ce-1bd5-4dd5-af88-379f5d31b6db
+    network: ws
+    servername: germany.aattaash.com
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+  - name: "@Mohsen_Hafez_311"
+    type: vless
+    server: ss.02020.sbs
+    port: 8443
+    uuid: c19fb567-74a9-454f-9757-e612fc4be371
+    servername: dropbox.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: safari
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  - name: "@Mohsen_Hafez_312"
+    type: vless
+    server: 5germ.solonettochka.ru
+    port: 443
+    uuid: 8a56d7cc-e76b-48b0-a706-398f1019e3c9
+    servername: google.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: HtqwPm99XZ72h6guDkP8Xjbfd-j4btmYYAWIK2553wE
+      short-id: "403e3391"
+  - name: "@Mohsen_Hafez_313"
+    type: vless
+    server: ss.02020.sbs
+    port: 8443
+    uuid: c19fb567-74a9-454f-9757-e612fc4be371
+    servername: dropbox.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: safari
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  - name: "@Mohsen_Hafez_314"
+    type: vless
+    server: ss.02020.sbs
+    port: 8443
+    uuid: c19fb567-74a9-454f-9757-e612fc4be371
+    servername: dropbox.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: safari
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  - name: "@Mohsen_Hafez_315"
+    type: vless
+    server: 84.32.231.133
+    port: 80
+    uuid: e820d8f6-1bb6-4f23-aead-11544349fa6a
+    tls: false
+  - name: "@Mohsen_Hafez_316"
+    type: vless
+    server: 84.32.231.133
+    port: 80
+    uuid: e820d8f6-1bb6-4f23-aead-11544349fa6a
+    tls: false
+  - name: "@Mohsen_Hafez_317"
+    type: vless
+    server: 104.18.32.47
+    port: 443
+    uuid: 2426cb8b-9476-419f-b279-b36e2d572ee1
+    network: ws
+    servername: panel.redmak1.online
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: panel.redmak1.online
+  - name: "@Mohsen_Hafez_318"
+    type: vless
+    server: ss.02020.sbs
+    port: 8443
+    uuid: c19fb567-74a9-454f-9757-e612fc4be371
+    servername: dropbox.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: safari
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  - name: "@Mohsen_Hafez_319"
+    type: vless
+    server: free1.aattaash.com
+    port: 2087
+    uuid: eaf287ce-1bd5-4dd5-af88-379f5d31b6db
+    network: ws
+    servername: germany.aattaash.com
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+  - name: "@Mohsen_Hafez_320"
+    type: vless
+    server: ss.02020.sbs
+    port: 8443
+    uuid: c19fb567-74a9-454f-9757-e612fc4be371
+    servername: dropbox.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: safari
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  - name: "@Mohsen_Hafez_321"
+    type: vless
+    server: 104.18.32.47
+    port: 443
+    uuid: 6e326578-6f13-40fe-818c-505b34612f58
+    network: ws
+    servername: 043.ElecTRocElLCO-cF-043-a27.WOrkeRS.DeV
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /eyJqdW5rIjoicVI3VFFQNm5RR3JkIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560
+      headers:
+        Host: 043.electrocellco-cf-043-a27.workers.dev
+  - name: "@Mohsen_Hafez_322"
+    type: vless
+    server: 152.53.33.43
+    port: 443
+    uuid: 057b649c-54b1-4f68-86b1-90381637a2cf
+    tls: false
+  - name: "@Mohsen_Hafez_323"
+    type: vless
+    server: chatgpt.com
+    port: 443
+    uuid: d0df54c5-9243-4860-88c6-a0ec3bb33326
+    network: http
+    servername: api5.broadcasp.top
+    tls: true
+    client-fingerprint: chrome
+    http-opts:
+      path: /cloudapi
+      headers:
+        Host: api5.broadcasp.top
+  - name: "@Mohsen_Hafez_324"
+    type: vless
+    server: 43.250.54.175
+    port: 443
+    uuid: 036cd7ae-68c2-4532-8b3c-5b2f0864b6c6
+    servername: fonts.gstatic.com
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: DbZWMfQTZQQrOJDgnWetu1ChTlXISZWKt4Kn_G0YyUI
+  - name: "@Mohsen_Hafez_325"
+    type: vless
+    server: alpha-core.megaconfig.com
+    port: 1198
+    uuid: cf27effc-c23e-4880-9586-5252902effe1
+    servername: refersion.com
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: J4od8RrAV4Us8mO38jkKdaW6yb-8TqISgE0ttrtPoV4
+      short-id: 908833730613ddfb
+  - name: "@Mohsen_Hafez_326"
+    type: vless
+    server: free2.aattaash.com
+    port: 2087
+    uuid: 977ae33e-7eca-4ea8-a6cc-a652fa687d36
+    network: ws
+    servername: free.aattaash.com
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+  - name: "@Mohsen_Hafez_327"
+    type: vless
+    server: ip3-fast.tyryqyserver.ir
+    port: 80
+    uuid: 58c4d669-2e96-419b-b85a-df2938e535d5
+    network: ws
+    tls: false
+    ws-opts:
+      path: /?ed=2052
+      headers:
+        Host: norbertde1.global.ssl.fastly.net
+  - name: "@Mohsen_Hafez_328"
+    type: vless
+    server: 5.22.219.57
+    port: 30704
+    uuid: 8658dc4f-2b4e-46d7-831d-17a3def93c00
+    tls: false
+  - name: "@Mohsen_Hafez_329"
+    type: vless
+    server: steps1.ingsport.ir
+    port: 8443
+    uuid: ba5e6b7a-0791-4d0e-8a24-cd293a4d0c15
+    network: http
+    servername: its.ingsport.ir
+    tls: true
+    client-fingerprint: chrome
+    http-opts:
+      path: /CWNeRzWFjgWHWZFw?ed=2560
+  - name: "@Mohsen_Hafez_330"
+    type: vless
+    server: club.cocomelon.org
+    port: 443
+    uuid: 15fc2169-d6f4-4d2c-9933-a2c7305c4c84
+    network: http
+    servername: blog.rubygems.org
+    tls: true
+    client-fingerprint: random
+    reality-opts:
+      public-key: xnsyJz7SeZKAEmgHz69xLdOrBLjR4ZhOJBWXeZT6JUI
+      short-id: d6fbe7cfb35245a9
+  - name: "@Mohsen_Hafez_331"
+    type: vless
+    server: 84.21.189.63
+    port: 8080
+    uuid: 0b12f5e0-b23e-4555-96d0-ced10fe6e4f3
+    servername: www.latimes.com
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: KzxTSXu6qhbthLT4RtoFFeNa0vvG6ehwHGNPahg0en0
+      short-id: be7084
+  - name: "@Mohsen_Hafez_332"
+    type: vless
+    server: am2.speeditest.ir
+    port: 81
+    uuid: 5a76fdef-97a2-43cd-93b9-e9646a7d6a6c
+    tls: false
+  - name: "@Mohsen_Hafez_333"
+    type: vless
+    server: 192.0.54.158
+    port: 2096
+    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+    network: ws
+    servername: sni.111000.de5.net
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳 @WangCai2
+      headers:
+        Host: sni.111000.de5.net
+  - name: "@Mohsen_Hafez_334"
+    type: vless
+    server: 84.201.167.199
+    port: 443
+    uuid: fa-8031206539-1766312475386029
+    servername: ads.x5.ru
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: random
+    reality-opts:
+      public-key: 2rjzbqQ49m-jpfzhiuBNb8Izwwjw0dIg5JAKdv-B2kE
+      short-id: d1d42381ba35
+  - name: "@Mohsen_Hafez_335"
+    type: vless
+    server: iran.zone-server-irani.ir
+    port: 443
+    uuid: bbbddf3f-a747-47a9-b37f-30a2dd2dcf2f
+    network: ws
+    servername: poronyhf.sadafspace.com
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /ed=2560
+      headers:
+        Host: poronyhf.sadafspace.com
+  - name: "@Mohsen_Hafez_336"
+    type: vless
+    server: 63.141.128.17
+    port: 443
+    uuid: 924cd0c0-7fd0-4d0f-a23d-6b66808c23af
+    network: http
+    servername: chatgptcom.RangsarDi13.iR.
+    tls: true
+    client-fingerprint: edge
+    http-opts:
+      path: dl?ed=2560
+      headers:
+        Host: dl.rangsardi13.ir
+  - name: "@Mohsen_Hafez_337"
+    type: vless
+    server: 63.141.128.1
+    port: 443
+    uuid: 8fdadf9e-33e2-40fc-a924-2de1b854c55f
+    network: ws
+    servername: asdasdasdasdasdasasdasddqqweqweasdasd.20tick.ir
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: asdasdasdasdasdasasdasddqqweqweasdasd.20tick.ir
+  - name: "@Mohsen_Hafez_338"
+    type: vless
+    server: 45.67.215.1
+    port: 443
+    uuid: 8fdadf9e-33e2-40fc-a924-2de1b854c55f
+    network: ws
+    servername: asdasdasdasdasdasasdasddqqweqweasdasd.20tick.ir
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: asdasdasdasdasdasasdasddqqweqweasdasd.20tick.ir
+  - name: "@Mohsen_Hafez_339"
+    type: vless
+    server: 45.67.215.1
+    port: 443
+    uuid: 8fdadf9e-33e2-40fc-a924-2de1b854c55f
+    network: ws
+    servername: asdasdasdasdasdasasdasddqqweqweasdasd.20tick.ir
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: asdasdasdasdasdasasdasddqqweqweasdasd.20tick.ir
+  - name: "@Mohsen_Hafez_340"
+    type: vless
+    server: t.ariyanln.com
+    port: 5448
+    uuid: 0c06cea4-5d42-4697-9be0-b92d45be3c3f
+    tls: false
+  - name: "@Mohsen_Hafez_341"
+    type: vless
+    server: tr.nicren.com
+    port: 5448
+    uuid: 0c06cea4-5d42-4697-9be0-b92d45be3c3f
+    tls: false
+  - name: "@Mohsen_Hafez_342"
+    type: vless
+    server: tr.nicren.com
+    port: 5678
+    uuid: 0c06cea4-5d42-4697-9be0-b92d45be3c3f
+    tls: false
+  - name: "@Mohsen_Hafez_343"
+    type: vless
+    server: de23.ariyanln.com
+    port: 8216
+    uuid: 0c06cea4-5d42-4697-9be0-b92d45be3c3f
+    tls: false
+  - name: "@Mohsen_Hafez_344"
+    type: vless
+    server: ee1vip.vnet215.xyz
+    port: 24005
+    uuid: bc69b973-5920-43f1-99ea-b72c378aed04
+    tls: false
+  - name: "@Mohsen_Hafez_345"
+    type: vless
+    server: ee1vip.vnet215.xyz
+    port: 24005
+    uuid: bc69b973-5920-43f1-99ea-b72c378aed04
+    tls: false
+  - name: "@Mohsen_Hafez_346"
+    type: vless
+    server: chatgpt.com
+    port: 443
+    uuid: 0eb7bd8a-dc6e-4042-968f-70bcffc976c6
+    network: ws
+    servername: best1.api-tel.xyz
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: best1.api-tel.xyz
+  - name: "@Mohsen_Hafez_347"
+    type: vless
+    server: chatgpt.com
+    port: 443
+    uuid: turboo-server
+    network: ws
+    servername: server.aftabz.com
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /turbooserver
+      headers:
+        Host: server.aftabz.com
+  - name: "@Mohsen_Hafez_348"
+    type: vless
+    server: Chatgpt.com
+    port: 443
+    uuid: 7fcbc02d-6f61-4cdf-a322-b14779cc8b47
+    network: ws
+    servername: pa.ar-marz.fun
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /man?ed=2560
+      headers:
+        Host: pa.ar-marz.fun
 
 proxy-groups:
   - name: ☰ MENU
@@ -384,66 +3658,708 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - "@MOHSEN_HAFEZ☆"
-      - "@MOHSEN_HAFEZ☆ 2"
-      - "@MOHSEN_HAFEZ☆ 3"
-      - "@MOHSEN_HAFEZ☆ 4"
-      - "@MOHSEN_HAFEZ☆ 5"
-      - "@MOHSEN_HAFEZ☆ 6"
-      - "@MOHSEN_HAFEZ☆ 7"
-      - "@MOHSEN_HAFEZ☆ 8"
-      - "@MOHSEN_HAFEZ☆ 9"
-      - "@MOHSEN_HAFEZ☆ 10"
-      - "@MOHSEN_HAFEZ☆ 11"
-      - "@MOHSEN_HAFEZ☆ 12"
-      - "@MOHSEN_HAFEZ☆ 13"
-      - "@MOHSEN_HAFEZ☆ 14"
-      - "@MOHSEN_HAFEZ☆ 15"
-      - "@MOHSEN_HAFEZ☆ 16"
-      - "@MOHSEN_HAFEZ☆ 17"
-      - "@MOHSEN_HAFEZ☆ 18"
-      - "@MOHSEN_HAFEZ☆ 19"
-      - "@MOHSEN_HAFEZ☆ 20"
-      - "@MOHSEN_HAFEZ☆ 21"
-      - "@MOHSEN_HAFEZ☆ 22"
-      - "@MOHSEN_HAFEZ☆ 23"
-      - "@MOHSEN_HAFEZ☆ 24"
-      - "@MOHSEN_HAFEZ☆ 25"
-      - "@MOHSEN_HAFEZ☆ 26"
-      - "@MOHSEN_HAFEZ☆ 27"
-      - "@MOHSEN_HAFEZ☆ 28"
+      - "@Mohsen_Hafez"
+      - "@Mohsen_Hafez_1"
+      - "@Mohsen_Hafez_2"
+      - "@Mohsen_Hafez_3"
+      - "@Mohsen_Hafez_4"
+      - "@Mohsen_Hafez_5"
+      - "@Mohsen_Hafez_6"
+      - "@Mohsen_Hafez_7"
+      - "@Mohsen_Hafez_8"
+      - "@Mohsen_Hafez_9"
+      - "@Mohsen_Hafez_10"
+      - "@Mohsen_Hafez_11"
+      - "@Mohsen_Hafez_12"
+      - "@Mohsen_Hafez_13"
+      - "@Mohsen_Hafez_14"
+      - "@Mohsen_Hafez_15"
+      - "@Mohsen_Hafez_16"
+      - "@Mohsen_Hafez_17"
+      - "@Mohsen_Hafez_18"
+      - "@Mohsen_Hafez_19"
+      - "@Mohsen_Hafez_20"
+      - "@Mohsen_Hafez_21"
+      - "@Mohsen_Hafez_22"
+      - "@Mohsen_Hafez_23"
+      - "@Mohsen_Hafez_24"
+      - "@Mohsen_Hafez_25"
+      - "@Mohsen_Hafez_26"
+      - "@Mohsen_Hafez_27"
+      - "@Mohsen_Hafez_28"
+      - "@Mohsen_Hafez_29"
+      - "@Mohsen_Hafez_30"
+      - "@Mohsen_Hafez_31"
+      - "@Mohsen_Hafez_32"
+      - "@Mohsen_Hafez_33"
+      - "@Mohsen_Hafez_34"
+      - "@Mohsen_Hafez_35"
+      - "@Mohsen_Hafez_36"
+      - "@Mohsen_Hafez_37"
+      - "@Mohsen_Hafez_38"
+      - "@Mohsen_Hafez_39"
+      - "@Mohsen_Hafez_40"
+      - "@Mohsen_Hafez_41"
+      - "@Mohsen_Hafez_42"
+      - "@Mohsen_Hafez_43"
+      - "@Mohsen_Hafez_44"
+      - "@Mohsen_Hafez_45"
+      - "@Mohsen_Hafez_46"
+      - "@Mohsen_Hafez_47"
+      - "@Mohsen_Hafez_48"
+      - "@Mohsen_Hafez_49"
+      - "@Mohsen_Hafez_50"
+      - "@Mohsen_Hafez_51"
+      - "@Mohsen_Hafez_52"
+      - "@Mohsen_Hafez_53"
+      - "@Mohsen_Hafez_54"
+      - "@Mohsen_Hafez_55"
+      - "@Mohsen_Hafez_56"
+      - "@Mohsen_Hafez_57"
+      - "@Mohsen_Hafez_58"
+      - "@Mohsen_Hafez_59"
+      - "@Mohsen_Hafez_60"
+      - "@Mohsen_Hafez_61"
+      - "@Mohsen_Hafez_62"
+      - "@Mohsen_Hafez_63"
+      - "@Mohsen_Hafez_64"
+      - "@Mohsen_Hafez_65"
+      - "@Mohsen_Hafez_66"
+      - "@Mohsen_Hafez_67"
+      - "@Mohsen_Hafez_68"
+      - "@Mohsen_Hafez_69"
+      - "@Mohsen_Hafez_70"
+      - "@Mohsen_Hafez_71"
+      - "@Mohsen_Hafez_72"
+      - "@Mohsen_Hafez_73"
+      - "@Mohsen_Hafez_74"
+      - "@Mohsen_Hafez_75"
+      - "@Mohsen_Hafez_76"
+      - "@Mohsen_Hafez_77"
+      - "@Mohsen_Hafez_78"
+      - "@Mohsen_Hafez_79"
+      - "@Mohsen_Hafez_80"
+      - "@Mohsen_Hafez_81"
+      - "@Mohsen_Hafez_82"
+      - "@Mohsen_Hafez_83"
+      - "@Mohsen_Hafez_84"
+      - "@Mohsen_Hafez_85"
+      - "@Mohsen_Hafez_86"
+      - "@Mohsen_Hafez_87"
+      - "@Mohsen_Hafez_88"
+      - "@Mohsen_Hafez_89"
+      - "@Mohsen_Hafez_90"
+      - "@Mohsen_Hafez_91"
+      - "@Mohsen_Hafez_92"
+      - "@Mohsen_Hafez_93"
+      - "@Mohsen_Hafez_94"
+      - "@Mohsen_Hafez_95"
+      - "@Mohsen_Hafez_96"
+      - "@Mohsen_Hafez_97"
+      - "@Mohsen_Hafez_98"
+      - "@Mohsen_Hafez_99"
+      - "@Mohsen_Hafez_100"
+      - "@Mohsen_Hafez_101"
+      - "@Mohsen_Hafez_102"
+      - "@Mohsen_Hafez_103"
+      - "@Mohsen_Hafez_104"
+      - "@Mohsen_Hafez_105"
+      - "@Mohsen_Hafez_106"
+      - "@Mohsen_Hafez_107"
+      - "@Mohsen_Hafez_108"
+      - "@Mohsen_Hafez_109"
+      - "@Mohsen_Hafez_110"
+      - "@Mohsen_Hafez_111"
+      - "@Mohsen_Hafez_112"
+      - "@Mohsen_Hafez_113"
+      - "@Mohsen_Hafez_114"
+      - "@Mohsen_Hafez_115"
+      - "@Mohsen_Hafez_116"
+      - "@Mohsen_Hafez_117"
+      - "@Mohsen_Hafez_118"
+      - "@Mohsen_Hafez_119"
+      - "@Mohsen_Hafez_120"
+      - "@Mohsen_Hafez_121"
+      - "@Mohsen_Hafez_122"
+      - "@Mohsen_Hafez_123"
+      - "@Mohsen_Hafez_124"
+      - "@Mohsen_Hafez_125"
+      - "@Mohsen_Hafez_126"
+      - "@Mohsen_Hafez_127"
+      - "@Mohsen_Hafez_128"
+      - "@Mohsen_Hafez_129"
+      - "@Mohsen_Hafez_130"
+      - "@Mohsen_Hafez_131"
+      - "@Mohsen_Hafez_132"
+      - "@Mohsen_Hafez_133"
+      - "@Mohsen_Hafez_134"
+      - "@Mohsen_Hafez_135"
+      - "@Mohsen_Hafez_136"
+      - "@Mohsen_Hafez_137"
+      - "@Mohsen_Hafez_138"
+      - "@Mohsen_Hafez_139"
+      - "@Mohsen_Hafez_140"
+      - "@Mohsen_Hafez_141"
+      - "@Mohsen_Hafez_142"
+      - "@Mohsen_Hafez_143"
+      - "@Mohsen_Hafez_144"
+      - "@Mohsen_Hafez_145"
+      - "@Mohsen_Hafez_146"
+      - "@Mohsen_Hafez_147"
+      - "@Mohsen_Hafez_148"
+      - "@Mohsen_Hafez_149"
+      - "@Mohsen_Hafez_150"
+      - "@Mohsen_Hafez_151"
+      - "@Mohsen_Hafez_152"
+      - "@Mohsen_Hafez_153"
+      - "@Mohsen_Hafez_154"
+      - "@Mohsen_Hafez_155"
+      - "@Mohsen_Hafez_156"
+      - "@Mohsen_Hafez_157"
+      - "@Mohsen_Hafez_158"
+      - "@Mohsen_Hafez_159"
+      - "@Mohsen_Hafez_160"
+      - "@Mohsen_Hafez_161"
+      - "@Mohsen_Hafez_162"
+      - "@Mohsen_Hafez_163"
+      - "@Mohsen_Hafez_164"
+      - "@Mohsen_Hafez_165"
+      - "@Mohsen_Hafez_166"
+      - "@Mohsen_Hafez_167"
+      - "@Mohsen_Hafez_168"
+      - "@Mohsen_Hafez_169"
+      - "@Mohsen_Hafez_170"
+      - "@Mohsen_Hafez_171"
+      - "@Mohsen_Hafez_172"
+      - "@Mohsen_Hafez_173"
+      - "@Mohsen_Hafez_174"
+      - "@Mohsen_Hafez_175"
+      - "@Mohsen_Hafez_176"
+      - "@Mohsen_Hafez_177"
+      - "@Mohsen_Hafez_178"
+      - "@Mohsen_Hafez_179"
+      - "@Mohsen_Hafez_180"
+      - "@Mohsen_Hafez_181"
+      - "@Mohsen_Hafez_182"
+      - "@Mohsen_Hafez_183"
+      - "@Mohsen_Hafez_184"
+      - "@Mohsen_Hafez_185"
+      - "@Mohsen_Hafez_186"
+      - "@Mohsen_Hafez_187"
+      - "@Mohsen_Hafez_188"
+      - "@Mohsen_Hafez_189"
+      - "@Mohsen_Hafez_190"
+      - "@Mohsen_Hafez_191"
+      - "@Mohsen_Hafez_192"
+      - "@Mohsen_Hafez_193"
+      - "@Mohsen_Hafez_194"
+      - "@Mohsen_Hafez_195"
+      - "@Mohsen_Hafez_196"
+      - "@Mohsen_Hafez_197"
+      - "@Mohsen_Hafez_198"
+      - "@Mohsen_Hafez_199"
+      - "@Mohsen_Hafez_200"
+      - "@Mohsen_Hafez_201"
+      - "@Mohsen_Hafez_202"
+      - "@Mohsen_Hafez_203"
+      - "@Mohsen_Hafez_204"
+      - "@Mohsen_Hafez_205"
+      - "@Mohsen_Hafez_206"
+      - "@Mohsen_Hafez_207"
+      - "@Mohsen_Hafez_208"
+      - "@Mohsen_Hafez_209"
+      - "@Mohsen_Hafez_210"
+      - "@Mohsen_Hafez_211"
+      - "@Mohsen_Hafez_212"
+      - "@Mohsen_Hafez_213"
+      - "@Mohsen_Hafez_214"
+      - "@Mohsen_Hafez_215"
+      - "@Mohsen_Hafez_216"
+      - "@Mohsen_Hafez_217"
+      - "@Mohsen_Hafez_218"
+      - "@Mohsen_Hafez_219"
+      - "@Mohsen_Hafez_220"
+      - "@Mohsen_Hafez_221"
+      - "@Mohsen_Hafez_222"
+      - "@Mohsen_Hafez_223"
+      - "@Mohsen_Hafez_224"
+      - "@Mohsen_Hafez_225"
+      - "@Mohsen_Hafez_226"
+      - "@Mohsen_Hafez_227"
+      - "@Mohsen_Hafez_228"
+      - "@Mohsen_Hafez_229"
+      - "@Mohsen_Hafez_230"
+      - "@Mohsen_Hafez_231"
+      - "@Mohsen_Hafez_232"
+      - "@Mohsen_Hafez_233"
+      - "@Mohsen_Hafez_234"
+      - "@Mohsen_Hafez_235"
+      - "@Mohsen_Hafez_236"
+      - "@Mohsen_Hafez_237"
+      - "@Mohsen_Hafez_238"
+      - "@Mohsen_Hafez_239"
+      - "@Mohsen_Hafez_240"
+      - "@Mohsen_Hafez_241"
+      - "@Mohsen_Hafez_242"
+      - "@Mohsen_Hafez_243"
+      - "@Mohsen_Hafez_244"
+      - "@Mohsen_Hafez_245"
+      - "@Mohsen_Hafez_246"
+      - "@Mohsen_Hafez_247"
+      - "@Mohsen_Hafez_248"
+      - "@Mohsen_Hafez_249"
+      - "@Mohsen_Hafez_250"
+      - "@Mohsen_Hafez_251"
+      - "@Mohsen_Hafez_252"
+      - "@Mohsen_Hafez_253"
+      - "@Mohsen_Hafez_254"
+      - "@Mohsen_Hafez_255"
+      - "@Mohsen_Hafez_256"
+      - "@Mohsen_Hafez_257"
+      - "@Mohsen_Hafez_258"
+      - "@Mohsen_Hafez_259"
+      - "@Mohsen_Hafez_260"
+      - "@Mohsen_Hafez_261"
+      - "@Mohsen_Hafez_262"
+      - "@Mohsen_Hafez_263"
+      - "@Mohsen_Hafez_264"
+      - "@Mohsen_Hafez_265"
+      - "@Mohsen_Hafez_266"
+      - "@Mohsen_Hafez_267"
+      - "@Mohsen_Hafez_268"
+      - "@Mohsen_Hafez_269"
+      - "@Mohsen_Hafez_270"
+      - "@Mohsen_Hafez_271"
+      - "@Mohsen_Hafez_272"
+      - "@Mohsen_Hafez_273"
+      - "@Mohsen_Hafez_274"
+      - "@Mohsen_Hafez_275"
+      - "@Mohsen_Hafez_276"
+      - "@Mohsen_Hafez_277"
+      - "@Mohsen_Hafez_278"
+      - "@Mohsen_Hafez_279"
+      - "@Mohsen_Hafez_280"
+      - "@Mohsen_Hafez_281"
+      - "@Mohsen_Hafez_282"
+      - "@Mohsen_Hafez_283"
+      - "@Mohsen_Hafez_284"
+      - "@Mohsen_Hafez_285"
+      - "@Mohsen_Hafez_286"
+      - "@Mohsen_Hafez_287"
+      - "@Mohsen_Hafez_288"
+      - "@Mohsen_Hafez_289"
+      - "@Mohsen_Hafez_290"
+      - "@Mohsen_Hafez_291"
+      - "@Mohsen_Hafez_292"
+      - "@Mohsen_Hafez_293"
+      - "@Mohsen_Hafez_294"
+      - "@Mohsen_Hafez_295"
+      - "@Mohsen_Hafez_296"
+      - "@Mohsen_Hafez_297"
+      - "@Mohsen_Hafez_298"
+      - "@Mohsen_Hafez_299"
+      - "@Mohsen_Hafez_300"
+      - "@Mohsen_Hafez_301"
+      - "@Mohsen_Hafez_302"
+      - "@Mohsen_Hafez_303"
+      - "@Mohsen_Hafez_304"
+      - "@Mohsen_Hafez_305"
+      - "@Mohsen_Hafez_306"
+      - "@Mohsen_Hafez_307"
+      - "@Mohsen_Hafez_308"
+      - "@Mohsen_Hafez_309"
+      - "@Mohsen_Hafez_310"
+      - "@Mohsen_Hafez_311"
+      - "@Mohsen_Hafez_312"
+      - "@Mohsen_Hafez_313"
+      - "@Mohsen_Hafez_314"
+      - "@Mohsen_Hafez_315"
+      - "@Mohsen_Hafez_316"
+      - "@Mohsen_Hafez_317"
+      - "@Mohsen_Hafez_318"
+      - "@Mohsen_Hafez_319"
+      - "@Mohsen_Hafez_320"
+      - "@Mohsen_Hafez_321"
+      - "@Mohsen_Hafez_322"
+      - "@Mohsen_Hafez_323"
+      - "@Mohsen_Hafez_324"
+      - "@Mohsen_Hafez_325"
+      - "@Mohsen_Hafez_326"
+      - "@Mohsen_Hafez_327"
+      - "@Mohsen_Hafez_328"
+      - "@Mohsen_Hafez_329"
+      - "@Mohsen_Hafez_330"
+      - "@Mohsen_Hafez_331"
+      - "@Mohsen_Hafez_332"
+      - "@Mohsen_Hafez_333"
+      - "@Mohsen_Hafez_334"
+      - "@Mohsen_Hafez_335"
+      - "@Mohsen_Hafez_336"
+      - "@Mohsen_Hafez_337"
+      - "@Mohsen_Hafez_338"
+      - "@Mohsen_Hafez_339"
+      - "@Mohsen_Hafez_340"
+      - "@Mohsen_Hafez_341"
+      - "@Mohsen_Hafez_342"
+      - "@Mohsen_Hafez_343"
+      - "@Mohsen_Hafez_344"
+      - "@Mohsen_Hafez_345"
+      - "@Mohsen_Hafez_346"
+      - "@Mohsen_Hafez_347"
+      - "@Mohsen_Hafez_348"
 
   - name: 🗺 Location
     type: select
     proxies:
-      - "@MOHSEN_HAFEZ☆"
-      - "@MOHSEN_HAFEZ☆ 2"
-      - "@MOHSEN_HAFEZ☆ 3"
-      - "@MOHSEN_HAFEZ☆ 4"
-      - "@MOHSEN_HAFEZ☆ 5"
-      - "@MOHSEN_HAFEZ☆ 6"
-      - "@MOHSEN_HAFEZ☆ 7"
-      - "@MOHSEN_HAFEZ☆ 8"
-      - "@MOHSEN_HAFEZ☆ 9"
-      - "@MOHSEN_HAFEZ☆ 10"
-      - "@MOHSEN_HAFEZ☆ 11"
-      - "@MOHSEN_HAFEZ☆ 12"
-      - "@MOHSEN_HAFEZ☆ 13"
-      - "@MOHSEN_HAFEZ☆ 14"
-      - "@MOHSEN_HAFEZ☆ 15"
-      - "@MOHSEN_HAFEZ☆ 16"
-      - "@MOHSEN_HAFEZ☆ 17"
-      - "@MOHSEN_HAFEZ☆ 18"
-      - "@MOHSEN_HAFEZ☆ 19"
-      - "@MOHSEN_HAFEZ☆ 20"
-      - "@MOHSEN_HAFEZ☆ 21"
-      - "@MOHSEN_HAFEZ☆ 22"
-      - "@MOHSEN_HAFEZ☆ 23"
-      - "@MOHSEN_HAFEZ☆ 24"
-      - "@MOHSEN_HAFEZ☆ 25"
-      - "@MOHSEN_HAFEZ☆ 26"
-      - "@MOHSEN_HAFEZ☆ 27"
-      - "@MOHSEN_HAFEZ☆ 28"
+      - "@Mohsen_Hafez"
+      - "@Mohsen_Hafez_1"
+      - "@Mohsen_Hafez_2"
+      - "@Mohsen_Hafez_3"
+      - "@Mohsen_Hafez_4"
+      - "@Mohsen_Hafez_5"
+      - "@Mohsen_Hafez_6"
+      - "@Mohsen_Hafez_7"
+      - "@Mohsen_Hafez_8"
+      - "@Mohsen_Hafez_9"
+      - "@Mohsen_Hafez_10"
+      - "@Mohsen_Hafez_11"
+      - "@Mohsen_Hafez_12"
+      - "@Mohsen_Hafez_13"
+      - "@Mohsen_Hafez_14"
+      - "@Mohsen_Hafez_15"
+      - "@Mohsen_Hafez_16"
+      - "@Mohsen_Hafez_17"
+      - "@Mohsen_Hafez_18"
+      - "@Mohsen_Hafez_19"
+      - "@Mohsen_Hafez_20"
+      - "@Mohsen_Hafez_21"
+      - "@Mohsen_Hafez_22"
+      - "@Mohsen_Hafez_23"
+      - "@Mohsen_Hafez_24"
+      - "@Mohsen_Hafez_25"
+      - "@Mohsen_Hafez_26"
+      - "@Mohsen_Hafez_27"
+      - "@Mohsen_Hafez_28"
+      - "@Mohsen_Hafez_29"
+      - "@Mohsen_Hafez_30"
+      - "@Mohsen_Hafez_31"
+      - "@Mohsen_Hafez_32"
+      - "@Mohsen_Hafez_33"
+      - "@Mohsen_Hafez_34"
+      - "@Mohsen_Hafez_35"
+      - "@Mohsen_Hafez_36"
+      - "@Mohsen_Hafez_37"
+      - "@Mohsen_Hafez_38"
+      - "@Mohsen_Hafez_39"
+      - "@Mohsen_Hafez_40"
+      - "@Mohsen_Hafez_41"
+      - "@Mohsen_Hafez_42"
+      - "@Mohsen_Hafez_43"
+      - "@Mohsen_Hafez_44"
+      - "@Mohsen_Hafez_45"
+      - "@Mohsen_Hafez_46"
+      - "@Mohsen_Hafez_47"
+      - "@Mohsen_Hafez_48"
+      - "@Mohsen_Hafez_49"
+      - "@Mohsen_Hafez_50"
+      - "@Mohsen_Hafez_51"
+      - "@Mohsen_Hafez_52"
+      - "@Mohsen_Hafez_53"
+      - "@Mohsen_Hafez_54"
+      - "@Mohsen_Hafez_55"
+      - "@Mohsen_Hafez_56"
+      - "@Mohsen_Hafez_57"
+      - "@Mohsen_Hafez_58"
+      - "@Mohsen_Hafez_59"
+      - "@Mohsen_Hafez_60"
+      - "@Mohsen_Hafez_61"
+      - "@Mohsen_Hafez_62"
+      - "@Mohsen_Hafez_63"
+      - "@Mohsen_Hafez_64"
+      - "@Mohsen_Hafez_65"
+      - "@Mohsen_Hafez_66"
+      - "@Mohsen_Hafez_67"
+      - "@Mohsen_Hafez_68"
+      - "@Mohsen_Hafez_69"
+      - "@Mohsen_Hafez_70"
+      - "@Mohsen_Hafez_71"
+      - "@Mohsen_Hafez_72"
+      - "@Mohsen_Hafez_73"
+      - "@Mohsen_Hafez_74"
+      - "@Mohsen_Hafez_75"
+      - "@Mohsen_Hafez_76"
+      - "@Mohsen_Hafez_77"
+      - "@Mohsen_Hafez_78"
+      - "@Mohsen_Hafez_79"
+      - "@Mohsen_Hafez_80"
+      - "@Mohsen_Hafez_81"
+      - "@Mohsen_Hafez_82"
+      - "@Mohsen_Hafez_83"
+      - "@Mohsen_Hafez_84"
+      - "@Mohsen_Hafez_85"
+      - "@Mohsen_Hafez_86"
+      - "@Mohsen_Hafez_87"
+      - "@Mohsen_Hafez_88"
+      - "@Mohsen_Hafez_89"
+      - "@Mohsen_Hafez_90"
+      - "@Mohsen_Hafez_91"
+      - "@Mohsen_Hafez_92"
+      - "@Mohsen_Hafez_93"
+      - "@Mohsen_Hafez_94"
+      - "@Mohsen_Hafez_95"
+      - "@Mohsen_Hafez_96"
+      - "@Mohsen_Hafez_97"
+      - "@Mohsen_Hafez_98"
+      - "@Mohsen_Hafez_99"
+      - "@Mohsen_Hafez_100"
+      - "@Mohsen_Hafez_101"
+      - "@Mohsen_Hafez_102"
+      - "@Mohsen_Hafez_103"
+      - "@Mohsen_Hafez_104"
+      - "@Mohsen_Hafez_105"
+      - "@Mohsen_Hafez_106"
+      - "@Mohsen_Hafez_107"
+      - "@Mohsen_Hafez_108"
+      - "@Mohsen_Hafez_109"
+      - "@Mohsen_Hafez_110"
+      - "@Mohsen_Hafez_111"
+      - "@Mohsen_Hafez_112"
+      - "@Mohsen_Hafez_113"
+      - "@Mohsen_Hafez_114"
+      - "@Mohsen_Hafez_115"
+      - "@Mohsen_Hafez_116"
+      - "@Mohsen_Hafez_117"
+      - "@Mohsen_Hafez_118"
+      - "@Mohsen_Hafez_119"
+      - "@Mohsen_Hafez_120"
+      - "@Mohsen_Hafez_121"
+      - "@Mohsen_Hafez_122"
+      - "@Mohsen_Hafez_123"
+      - "@Mohsen_Hafez_124"
+      - "@Mohsen_Hafez_125"
+      - "@Mohsen_Hafez_126"
+      - "@Mohsen_Hafez_127"
+      - "@Mohsen_Hafez_128"
+      - "@Mohsen_Hafez_129"
+      - "@Mohsen_Hafez_130"
+      - "@Mohsen_Hafez_131"
+      - "@Mohsen_Hafez_132"
+      - "@Mohsen_Hafez_133"
+      - "@Mohsen_Hafez_134"
+      - "@Mohsen_Hafez_135"
+      - "@Mohsen_Hafez_136"
+      - "@Mohsen_Hafez_137"
+      - "@Mohsen_Hafez_138"
+      - "@Mohsen_Hafez_139"
+      - "@Mohsen_Hafez_140"
+      - "@Mohsen_Hafez_141"
+      - "@Mohsen_Hafez_142"
+      - "@Mohsen_Hafez_143"
+      - "@Mohsen_Hafez_144"
+      - "@Mohsen_Hafez_145"
+      - "@Mohsen_Hafez_146"
+      - "@Mohsen_Hafez_147"
+      - "@Mohsen_Hafez_148"
+      - "@Mohsen_Hafez_149"
+      - "@Mohsen_Hafez_150"
+      - "@Mohsen_Hafez_151"
+      - "@Mohsen_Hafez_152"
+      - "@Mohsen_Hafez_153"
+      - "@Mohsen_Hafez_154"
+      - "@Mohsen_Hafez_155"
+      - "@Mohsen_Hafez_156"
+      - "@Mohsen_Hafez_157"
+      - "@Mohsen_Hafez_158"
+      - "@Mohsen_Hafez_159"
+      - "@Mohsen_Hafez_160"
+      - "@Mohsen_Hafez_161"
+      - "@Mohsen_Hafez_162"
+      - "@Mohsen_Hafez_163"
+      - "@Mohsen_Hafez_164"
+      - "@Mohsen_Hafez_165"
+      - "@Mohsen_Hafez_166"
+      - "@Mohsen_Hafez_167"
+      - "@Mohsen_Hafez_168"
+      - "@Mohsen_Hafez_169"
+      - "@Mohsen_Hafez_170"
+      - "@Mohsen_Hafez_171"
+      - "@Mohsen_Hafez_172"
+      - "@Mohsen_Hafez_173"
+      - "@Mohsen_Hafez_174"
+      - "@Mohsen_Hafez_175"
+      - "@Mohsen_Hafez_176"
+      - "@Mohsen_Hafez_177"
+      - "@Mohsen_Hafez_178"
+      - "@Mohsen_Hafez_179"
+      - "@Mohsen_Hafez_180"
+      - "@Mohsen_Hafez_181"
+      - "@Mohsen_Hafez_182"
+      - "@Mohsen_Hafez_183"
+      - "@Mohsen_Hafez_184"
+      - "@Mohsen_Hafez_185"
+      - "@Mohsen_Hafez_186"
+      - "@Mohsen_Hafez_187"
+      - "@Mohsen_Hafez_188"
+      - "@Mohsen_Hafez_189"
+      - "@Mohsen_Hafez_190"
+      - "@Mohsen_Hafez_191"
+      - "@Mohsen_Hafez_192"
+      - "@Mohsen_Hafez_193"
+      - "@Mohsen_Hafez_194"
+      - "@Mohsen_Hafez_195"
+      - "@Mohsen_Hafez_196"
+      - "@Mohsen_Hafez_197"
+      - "@Mohsen_Hafez_198"
+      - "@Mohsen_Hafez_199"
+      - "@Mohsen_Hafez_200"
+      - "@Mohsen_Hafez_201"
+      - "@Mohsen_Hafez_202"
+      - "@Mohsen_Hafez_203"
+      - "@Mohsen_Hafez_204"
+      - "@Mohsen_Hafez_205"
+      - "@Mohsen_Hafez_206"
+      - "@Mohsen_Hafez_207"
+      - "@Mohsen_Hafez_208"
+      - "@Mohsen_Hafez_209"
+      - "@Mohsen_Hafez_210"
+      - "@Mohsen_Hafez_211"
+      - "@Mohsen_Hafez_212"
+      - "@Mohsen_Hafez_213"
+      - "@Mohsen_Hafez_214"
+      - "@Mohsen_Hafez_215"
+      - "@Mohsen_Hafez_216"
+      - "@Mohsen_Hafez_217"
+      - "@Mohsen_Hafez_218"
+      - "@Mohsen_Hafez_219"
+      - "@Mohsen_Hafez_220"
+      - "@Mohsen_Hafez_221"
+      - "@Mohsen_Hafez_222"
+      - "@Mohsen_Hafez_223"
+      - "@Mohsen_Hafez_224"
+      - "@Mohsen_Hafez_225"
+      - "@Mohsen_Hafez_226"
+      - "@Mohsen_Hafez_227"
+      - "@Mohsen_Hafez_228"
+      - "@Mohsen_Hafez_229"
+      - "@Mohsen_Hafez_230"
+      - "@Mohsen_Hafez_231"
+      - "@Mohsen_Hafez_232"
+      - "@Mohsen_Hafez_233"
+      - "@Mohsen_Hafez_234"
+      - "@Mohsen_Hafez_235"
+      - "@Mohsen_Hafez_236"
+      - "@Mohsen_Hafez_237"
+      - "@Mohsen_Hafez_238"
+      - "@Mohsen_Hafez_239"
+      - "@Mohsen_Hafez_240"
+      - "@Mohsen_Hafez_241"
+      - "@Mohsen_Hafez_242"
+      - "@Mohsen_Hafez_243"
+      - "@Mohsen_Hafez_244"
+      - "@Mohsen_Hafez_245"
+      - "@Mohsen_Hafez_246"
+      - "@Mohsen_Hafez_247"
+      - "@Mohsen_Hafez_248"
+      - "@Mohsen_Hafez_249"
+      - "@Mohsen_Hafez_250"
+      - "@Mohsen_Hafez_251"
+      - "@Mohsen_Hafez_252"
+      - "@Mohsen_Hafez_253"
+      - "@Mohsen_Hafez_254"
+      - "@Mohsen_Hafez_255"
+      - "@Mohsen_Hafez_256"
+      - "@Mohsen_Hafez_257"
+      - "@Mohsen_Hafez_258"
+      - "@Mohsen_Hafez_259"
+      - "@Mohsen_Hafez_260"
+      - "@Mohsen_Hafez_261"
+      - "@Mohsen_Hafez_262"
+      - "@Mohsen_Hafez_263"
+      - "@Mohsen_Hafez_264"
+      - "@Mohsen_Hafez_265"
+      - "@Mohsen_Hafez_266"
+      - "@Mohsen_Hafez_267"
+      - "@Mohsen_Hafez_268"
+      - "@Mohsen_Hafez_269"
+      - "@Mohsen_Hafez_270"
+      - "@Mohsen_Hafez_271"
+      - "@Mohsen_Hafez_272"
+      - "@Mohsen_Hafez_273"
+      - "@Mohsen_Hafez_274"
+      - "@Mohsen_Hafez_275"
+      - "@Mohsen_Hafez_276"
+      - "@Mohsen_Hafez_277"
+      - "@Mohsen_Hafez_278"
+      - "@Mohsen_Hafez_279"
+      - "@Mohsen_Hafez_280"
+      - "@Mohsen_Hafez_281"
+      - "@Mohsen_Hafez_282"
+      - "@Mohsen_Hafez_283"
+      - "@Mohsen_Hafez_284"
+      - "@Mohsen_Hafez_285"
+      - "@Mohsen_Hafez_286"
+      - "@Mohsen_Hafez_287"
+      - "@Mohsen_Hafez_288"
+      - "@Mohsen_Hafez_289"
+      - "@Mohsen_Hafez_290"
+      - "@Mohsen_Hafez_291"
+      - "@Mohsen_Hafez_292"
+      - "@Mohsen_Hafez_293"
+      - "@Mohsen_Hafez_294"
+      - "@Mohsen_Hafez_295"
+      - "@Mohsen_Hafez_296"
+      - "@Mohsen_Hafez_297"
+      - "@Mohsen_Hafez_298"
+      - "@Mohsen_Hafez_299"
+      - "@Mohsen_Hafez_300"
+      - "@Mohsen_Hafez_301"
+      - "@Mohsen_Hafez_302"
+      - "@Mohsen_Hafez_303"
+      - "@Mohsen_Hafez_304"
+      - "@Mohsen_Hafez_305"
+      - "@Mohsen_Hafez_306"
+      - "@Mohsen_Hafez_307"
+      - "@Mohsen_Hafez_308"
+      - "@Mohsen_Hafez_309"
+      - "@Mohsen_Hafez_310"
+      - "@Mohsen_Hafez_311"
+      - "@Mohsen_Hafez_312"
+      - "@Mohsen_Hafez_313"
+      - "@Mohsen_Hafez_314"
+      - "@Mohsen_Hafez_315"
+      - "@Mohsen_Hafez_316"
+      - "@Mohsen_Hafez_317"
+      - "@Mohsen_Hafez_318"
+      - "@Mohsen_Hafez_319"
+      - "@Mohsen_Hafez_320"
+      - "@Mohsen_Hafez_321"
+      - "@Mohsen_Hafez_322"
+      - "@Mohsen_Hafez_323"
+      - "@Mohsen_Hafez_324"
+      - "@Mohsen_Hafez_325"
+      - "@Mohsen_Hafez_326"
+      - "@Mohsen_Hafez_327"
+      - "@Mohsen_Hafez_328"
+      - "@Mohsen_Hafez_329"
+      - "@Mohsen_Hafez_330"
+      - "@Mohsen_Hafez_331"
+      - "@Mohsen_Hafez_332"
+      - "@Mohsen_Hafez_333"
+      - "@Mohsen_Hafez_334"
+      - "@Mohsen_Hafez_335"
+      - "@Mohsen_Hafez_336"
+      - "@Mohsen_Hafez_337"
+      - "@Mohsen_Hafez_338"
+      - "@Mohsen_Hafez_339"
+      - "@Mohsen_Hafez_340"
+      - "@Mohsen_Hafez_341"
+      - "@Mohsen_Hafez_342"
+      - "@Mohsen_Hafez_343"
+      - "@Mohsen_Hafez_344"
+      - "@Mohsen_Hafez_345"
+      - "@Mohsen_Hafez_346"
+      - "@Mohsen_Hafez_347"
+      - "@Mohsen_Hafez_348"
 
 rules:
   - MATCH,☰ MENU
